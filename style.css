@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4A90E2, #007AFF);
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav .btn {
+    padding: 10px 20px;
+    background: white;
+    color: #007AFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav .btn:hover {
+    background: #005BBB;
+    color: white;
+}
+
+.hero {
+    margin: 50px 0;
+    font-size: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+/* PDF & Notes Page */
+.pdf-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-section h2 {
+    color: navy;
+}
+
+.pdf-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pdf-section li {
+    margin: 10px 0;
+}
+
+.pdf-section a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.pdf-section a:hover {
+    text-decoration: underline;
+}
+
+/* Back Button */
+.btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Blue Background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the Login Box */
+.auth-container {
+    width: 350px;
+    margin: 80px auto; /* Centers the login form */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+.auth-container h2 {
+    color: navy;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.auth-container .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container .btn:hover {
+    background-color: #0033a0;
+}
+
+/* Signup Link */
+.auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-container a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+/* Style for logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo image */
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Optional: If you want to reduce header height */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3; /* Adjust to match your theme */
+    color: white;
+}
+#quiz-container {
+    margin: 30px auto;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: black;  /* ✅ Ensures text is visible */
+}
+
+.option {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background: #eeeeee;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black; /* ✅ Makes option text visible */
+}
+
+.option:hover {
+    background: #cfd8dc;
+}
+
+.correct {
+    background: #4caf50 !important;
+    color: white;  /* ✅ Ensures text remains readable */
+}
+
+.wrong {
+    background: #d32f2f !important;
+    color: white; /* ✅ Ensures text remains readable */
+}
+
+#question {
+    color: black; /* ✅ Ensures question is visible */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#feedback {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black; /* ✅ Ensures feedback text is readable */
+}
