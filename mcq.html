@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCQ Practice Test - MentorsPoint</title>
+    <title>MCQ Practice Test</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="mcq.js"></script>
 </head>
@@ -11,16 +11,25 @@
 
     <header>
         <h1>MCQ Practice Test</h1>
-        <a href="index.html" class="btn">🏠 Home</a>
     </header>
 
     <main>
-        <div id="quiz-container">
-            <h2 id="question">Loading...</h2>
+        <!-- Subject Selection -->
+        <section id="subject-selection">
+            <h2>Select a Subject</h2>
+            <button onclick="startTest('math')">Mathematics</button>
+            <button onclick="startTest('science')">Science</button>
+            <button onclick="startTest('history')">History</button>
+        </section>
+
+        <!-- MCQ Test Section (Initially Hidden) -->
+        <section id="mcq-test" style="display: none;">
+            <h2 id="subject-title"></h2>
+            <p id="question"></p>
             <div id="options"></div>
-            <button id="next-btn" onclick="nextQuestion()">Next</button>
-            <p id="feedback"></p>
-        </div>
+            <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+            <p id="explanation"></p>
+        </section>
     </main>
 
 </body>
