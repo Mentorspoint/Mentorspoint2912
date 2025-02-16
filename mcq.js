@@ -1368,7 +1368,7 @@ const mcqData = {
 
     ],
     "Income Tax": [
-        {
+  {
     id: 1,
     question:
       "Choose the form to be filled in for allotment of PAN card by Mr. Jatayu who is a resident Indian citizen of 65 years.",
@@ -2545,8 +2545,8 @@ const mcqData = {
     },
     answer: "A",
   },
+],
 
-    ]
 };
 
 // Function to Start the Test
