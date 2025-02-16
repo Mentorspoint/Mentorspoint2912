@@ -826,28 +826,306 @@ const mcqData = {
         }
     ],
     "ESBM": [
-        {
-            question: "What does ESBM stand for?",
-            options: [
-                "Enterprise Systems and Business Management",
-                "European Society for Business Mathematics",
-                "E-commerce Solutions and Business Models",
-                "Economic Strategies and Business Metrics"
-            ],
-            correct: 0,
-            explanation: "ESBM stands for Enterprise Systems and Business Management."
-        },
-        {
-            question: "Which one of these is a key principle of ESBM?",
-            options: [
-                "Customer Focus",
-                "Innovative Design",
-                "Social Media Marketing",
-                "Economic Forecasting"
-            ],
-            correct: 0,
-            explanation: "ESBM emphasizes customer focus."
-        }
+
+  {
+    "question": "1. A segment of a business plan provides investors with a timetable for various activities to be accomplished.",
+    "options": [
+      "Appendix",
+      "Mile stone schedule segment",
+      "Marketing segment",
+      "Financial segment"
+    ],
+    "correct": 1,
+    "explanation": "The milestone schedule segment outlines the timetable for activities."
+  },
+  {
+    "question": "2. ______ has identified the barriers to entrepreneurship.",
+    "options": [
+      "Gifford Pinchot",
+      "Kilby",
+      "Karl H. Vesper",
+      "Peter Drucker"
+    ],
+    "correct": 2,
+    "explanation": "Karl H. Vesper is credited with identifying barriers to entrepreneurship."
+  },
+  {
+    "question": "3. Which of the following is NOT true for an Intrapreneur?",
+    "options": [
+      "He/she operates within the organizational environment",
+      "He/she re-energizes entrepreneurship within large organizations",
+      "He/she sees a business opportunity, obtains the necessary inputs and starts a business operation",
+      "He/she transforms an idea into reality by focusing on innovation and creativity in the internal organizational environment"
+    ],
+    "correct": 2,
+    "explanation": "Intrapreneurs work inside organizations; starting a business operation from scratch is typical of an entrepreneur."
+  },
+  {
+    "question": "4. Which of the following is a false statement?",
+    "options": [
+      "Entrepreneurs do not seek feedback",
+      "Entrepreneurship aims at developing entrepreneurial traits",
+      "Entrepreneurs avoid taking unnecessary risks",
+      "An entrepreneur aims at profit potential"
+    ],
+    "correct": 0,
+    "explanation": "Entrepreneurs generally do seek feedback to improve their ventures."
+  },
+  {
+    "question": "5. In which stage of the creativity process do people use their intellectual capacity to collect information or conduct experiments?",
+    "options": [
+      "Idea germination",
+      "Illumination",
+      "Incubation",
+      "Preparation"
+    ],
+    "correct": 3,
+    "explanation": "The preparation stage involves gathering information and problem analysis."
+  },
+  {
+    "question": "6. According to a method of generating new ideas, a moderator leads an open, in-depth discussion rather than simply asking questions. This method is known as:",
+    "options": [
+      "Brainstorming",
+      "Incubation",
+      "Problem Inventory Analysis",
+      "Focus Groups"
+    ],
+    "correct": 3,
+    "explanation": "Focus groups use guided discussion to generate ideas."
+  },
+  {
+    "question": "7. Statement I: Distribution channels are excellent sources for new ideas because they are familiar with market needs. \nStatement II: The federal government cannot be a source of new product ideas.\nChoose the correct evaluation:",
+    "options": [
+      "Statement II is true and I is false",
+      "Statement I is true and II is false",
+      "Both the statements are true",
+      "Both the statements are false"
+    ],
+    "correct": 1,
+    "explanation": "Distribution channels do provide insights, and the federal government can sometimes be a source of ideas."
+  },
+  {
+    "question": "8. An entrepreneur is an economic agent who unites all means of production and derives his income from the value added. This definition is attributed to:",
+    "options": [
+      "J.B. Say",
+      "Richard Cantillon",
+      "Joseph Schumpeter",
+      "Harbinson"
+    ],
+    "correct": 0,
+    "explanation": "J.B. Say defined the entrepreneur in this manner."
+  },
+  {
+    "question": "9. Which one of the following consists of skills of an entrepreneur?",
+    "options": [
+      "Technical, Business Management and Personal Entrepreneurial",
+      "Communication, Personality and Intelligence",
+      "Conceptual, Human Relation and Technical",
+      "Marketing, Financial, and Operational"
+    ],
+    "correct": 0,
+    "explanation": "Entrepreneurial skills are often grouped as technical, management, and personal."
+  },
+  {
+    "question": "10. Which one among the following is NOT included in barriers to entrepreneurship?",
+    "options": [
+      "Complacency, Monopoly, Legal Constraints",
+      "Commitment, Determination and Perseverance",
+      "Lack of viable concept, technical skills and seed capital",
+      "Time pressures and distractions, Inhibitions due to patents, Protectionism"
+    ],
+    "correct": 1,
+    "explanation": "Commitment, determination, and perseverance are traits, not barriers."
+  },
+  {
+    "question": "11. Statement I: The competitive, economic, and financial analyses in a business plan subject an entrepreneur to close scrutiny of assumptions. \nStatement II: A registered trademark cannot be protected indefinitely.\nChoose the correct evaluation:",
+    "options": [
+      "Both the statements are true",
+      "Statement II is true and I is false",
+      "Statement I is true and II is false",
+      "Both the statements are false"
+    ],
+    "correct": 0,
+    "explanation": "Both statements are correct. Detailed analyses and the finite nature of trademark protection are true."
+  },
+  {
+    "question": "12. In which step of the creative process is there a subconscious assimilation of information?",
+    "options": [
+      "Verification",
+      "Preparation",
+      "Illumination",
+      "Incubation"
+    ],
+    "correct": 3,
+    "explanation": "The incubation stage involves subconscious processing of information."
+  },
+  {
+    "question": "13. Which of the following was created by Bernd Rohrbach under the name Method 635?",
+    "options": [
+      "Reverse Brainstorming",
+      "Brain writing",
+      "Brainstorming",
+      "Checklist"
+    ],
+    "correct": 1,
+    "explanation": "Method 635 is a form of brain writing."
+  },
+  {
+    "question": "14. Sociologists consider the entrepreneur as having the role expected by society. This role is best described as:",
+    "options": [
+      "Role Performer",
+      "Role Definer",
+      "Role Visualizer",
+      "Role-coordinator"
+    ],
+    "correct": 0,
+    "explanation": "Entrepreneurs are often seen as role performers in society."
+  },
+  {
+    "question": "15. Which characteristic defines an entrepreneur as someone who believes that accomplishments and setbacks are within their own control?",
+    "options": [
+      "Internal Locus of Control",
+      "Drive to achieve",
+      "Risk taking",
+      "Seeking feedback"
+    ],
+    "correct": 0,
+    "explanation": "An internal locus of control reflects the belief that outcomes are due to one's own actions."
+  },
+  {
+    "question": "16. According to Joseph Schumpeter, in an advanced economy an entrepreneur is an individual who:",
+    "options": [
+      "Utilizes all means of production",
+      "Introduces something new in the economy",
+      "Bears the risk of operating a business in an uncertain environment",
+      "Performs his role corresponding to the role expected by society"
+    ],
+    "correct": 1,
+    "explanation": "Schumpeter emphasized the role of innovation – introducing new products, processes or markets."
+  },
+  {
+    "question": "17. Pick the odd one out:",
+    "options": [
+      "Exchange Relationship – Purchasing Inputs",
+      "Technology – Upgrading Process and Product Quality",
+      "Management Control – Production Management",
+      "Practical Administration – Gaining Command over Scarce Resources"
+    ],
+    "correct": 3,
+    "explanation": "While the first three relate to specific management functions, practical administration in this context stands apart."
+  },
+  {
+    "question": "18. Who gave a three-fold division of the entrepreneur’s function as capitalist, managerial, and decision making?",
+    "options": [
+      "Frank Young",
+      "JS Mill",
+      "Redick",
+      "Flavia Derossi"
+    ],
+    "correct": 0,
+    "explanation": "Frank Young is known for this three-fold division."
+  },
+  {
+    "question": "19. 'Management of customer and supplier relations' comes under which category of functions given by Kilby?",
+    "options": [
+      "Exchange relationship function",
+      "Technology related functions",
+      "Management control function",
+      "Practical administration function"
+    ],
+    "correct": 0,
+    "explanation": "This function is classified under exchange relationship functions."
+  },
+  {
+    "question": "20. What is the practice of innovating by developing new products, processes, or services while one is part of an organization?",
+    "options": [
+      "Management",
+      "Entrepreneurship",
+      "Administration",
+      "Intrapreneurship"
+    ],
+    "correct": 3,
+    "explanation": "Innovating within an organization is known as intrapreneurship."
+  },
+  {
+    "question": "21. Statement I: Entrepreneurs are persons who work in existing organizations. \nStatement II: Entrepreneurs operate outside the organizational environment.\nChoose the correct evaluation:",
+    "options": [
+      "Both the statements are true",
+      "Statement II is true and I is false",
+      "Both the statements are false",
+      "Statement I is true and II is false"
+    ],
+    "correct": 2,
+    "explanation": "Both statements are false since true entrepreneurs usually start ventures outside existing organizations (those inside are intrapreneurs)."
+  },
+  {
+    "question": "22. Statement I: Successful entrepreneurs do not believe that success or failure is governed by fate or luck. \nStatement II: Entrepreneurs do not get intimidated by difficult situations.\nChoose the correct evaluation:",
+    "options": [
+      "Statement I is true and II is false",
+      "Both the statements are false",
+      "Both the statements are true",
+      "Statement II is true and I is false"
+    ],
+    "correct": 1,
+    "explanation": "Both statements are false because entrepreneurs believe in personal control and are not easily intimidated."
+  },
+  {
+    "question": "23. Reaching which stage of the creative process separates daydreamers from creative people who can transmute value?",
+    "options": [
+      "Illumination",
+      "Incubation",
+      "Verification",
+      "Idea germination"
+    ],
+    "correct": 0,
+    "explanation": "The illumination stage is when the ‘aha’ moment occurs."
+  },
+  {
+    "question": "24. Match the following segments with their corresponding functions:\n1. Critical-Risks Segment\n2. Financial Segment\n3. Operations Segment\n4. Marketing Segment\n5. Harvest Strategy Segment\n\n(i) Competitive analysis\n(ii) Unfavorable trends in the industry\n(iii) Location of the new venture\n(iv) Break-even analysis\n(v) Investor exit strategies",
+    "options": [
+      "1-ii, 2-iv, 3-i, 4-v, 5-iii",
+      "1-, 2-iv, 3-iii, 4-v, 5-i",
+      "1-ii, 2-iv, 3-iii, 4-i, 5-v",
+      "1-iv, 2-ii, 3-iii, 4-15, 5-v"
+    ],
+    "correct": 2,
+    "explanation": "The correct matching is: Critical-Risks (ii), Financial (iv), Operations (iii), Marketing (i), Harvest Strategy (v)."
+  },
+  {
+    "question": "25. In the method of generating new ideas where no criticism is allowed by anyone in the group, which technique is being used?",
+    "options": [
+      "Problem Inventory Analysis",
+      "–––",
+      "Brainstorming",
+      "–––"
+    ],
+    "correct": 2,
+    "explanation": "A key rule in brainstorming is that criticism is not allowed during idea generation."
+  },
+  {
+    "question": "26. In which method are consumers provided with a list of problems in a general product category to generate new product ideas?",
+    "options": [
+      "Problem Inventory Analysis",
+      "Brainstorming",
+      "Focus Groups",
+      "Incubation"
+    ],
+    "correct": 0,
+    "explanation": "This describes the Problem Inventory Analysis method."
+  },
+  {
+    "question": "27. Which one of the following is the correct sequence of the creative process?",
+    "options": [
+      "Idea Germination – Preparation – Incubation – Illumination – Verification",
+      "Idea Germination – Incubation – Illumination – Preparation – Verification",
+      "Idea Germination – Illumination – Incubation – Verification – Preparation",
+      "Idea Germination – Verification – Preparation – Incubation – Illumination"
+    ],
+    "correct": 0,
+    "explanation": "The standard sequence (including idea germination) is: Preparation, Incubation, Illumination, and Verification."
+  }
+
+
     ],
     "Income Tax": [
         {
