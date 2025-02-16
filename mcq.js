@@ -16,16 +16,70 @@ const mcqData = {
     ],
     "Marketing Management": [
         {
-            question: "What is the chemical symbol for water?",
-            options: ["O2", "H2O", "CO2", "NaCl"],
-            correct: 1,
-            explanation: "Water is represented as H2O."
+            question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
+            options: [
+                "Mass Targeting",
+                "Market Targeting",
+                "Target Marketing",
+                "Segment Marketing"
+            ],
+            correct: 2,
+            explanation: "The process is known as Target Marketing."
         },
         {
-            question: "Which planet is known as the Red Planet?",
-            options: ["Earth", "Mars", "Jupiter", "Venus"],
+            question: "2. In segmentation the market is divided into groups on the basis of age or other variables.",
+            options: [
+                "Psychographic",
+                "Geographic",
+                "Demographic",
+                "Behavioural"
+            ],
+            correct: 2,
+            explanation: "Dividing the market based on age or similar variables is Demographic segmentation."
+        },
+        {
+            question: "3. ___ consist of all of the groups that have a direct or indirect influence on a person's attitude or behavior.",
+            options: [
+                "Reference groups",
+                "Opinion leader",
+                "Dissociative group",
+                "None of the above"
+            ],
+            correct: 0,
+            explanation: "Reference groups influence a person's attitudes or behaviors."
+        },
+        {
+            question: "4. Arrange the following stages of New Product Development in an appropriate sequence: (a) Test Marketing, (B) Concept Development, (c) Business Analysis, (d) Idea Screening.",
+            options: [
+                "b-d-a-b",
+                "a-b-c-d",
+                "d-a-b-c",
+                "d-b-c-a"
+            ],
+            correct: 3,
+            explanation: "The correct sequence is: Idea Screening, Concept Development, Business Analysis, Test Marketing (d-b-c-a)."
+        },
+        {
+            question: "5. Under which step does a company evaluate a new product's business attractiveness by preparing sales, cost and profit projections in accordance with company objectives?",
+            options: [
+                "Business Analysis",
+                "Buyer Analysis",
+                "Business Forecasting",
+                "Buyer Behaviour"
+            ],
+            correct: 0,
+            explanation: "This step is known as Business Analysis."
+        },
+        {
+            question: "6. ___ refers to the distinguishing psychological traits that lead to relatively consistent and enduring responses to environmental stimuli.",
+            options: [
+                "Psychology",
+                "Personality",
+                "Perception",
+                "Attitude"
+            ],
             correct: 1,
-            explanation: "Mars is called the Red Planet due to its reddish color."
+            explanation: "Personality refers to those distinguishing psychological traits."
         }
     ],
     "ESBM": [
@@ -187,4 +241,3 @@ function shuffleArray(array) {
     }
     return array;
 }
-
