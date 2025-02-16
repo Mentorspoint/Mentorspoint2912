@@ -4098,7 +4098,7 @@ const mcqData = {
     correct: 0,
     explanation: "Say's Law posits that production (supply) inherently generates an equivalent demand."
   }
-]
+],
  
       
 };
