@@ -1123,7 +1123,251 @@ const mcqData = {
     ],
     "correct": 0,
     "explanation": "The standard sequence (including idea germination) is: Preparation, Incubation, Illumination, and Verification."
+  }  
+        
+  {
+    "question": "1. Sociologists consider entrepreneurs as corresponding to the role expected by society. This role is best described as:",
+    "options": [
+      "Role Visualize",
+      "Role Definer",
+      "Role Coordinator",
+      "Role Performer"
+    ],
+    "correct": 3,
+    "explanation": "Entrepreneurs are often seen as role performers."
+  },
+  {
+    "question": "2. The origin of the word 'entrepreneur' is from the verb 'entreprendre', which comes from:",
+    "options": [
+      "Egypt",
+      "German",
+      "French",
+      "Latin"
+    ],
+    "correct": 3,
+    "explanation": "The word has its roots in Latin, though it came into modern usage via French."
+  },
+  {
+    "question": "3. Joseph Schumpeter believed that an entrepreneur in an advanced economy is an individual who:",
+    "options": [
+      "Bears the risk of operating a business in an uncertain environment",
+      "Introduces something new in the economy",
+      "Utilizes all means of production",
+      "Performs his role corresponding to the role expected by society"
+    ],
+    "correct": 1,
+    "explanation": "Schumpeter emphasized innovation as the key entrepreneurial function."
+  },
+  {
+    "question": "4. Which of the following is NOT an important feature of the brainstorming method?",
+    "options": [
+      "Criticism is encouraged",
+      "Freewheeling is encouraged",
+      "Combination and improvement of ideas",
+      "Quantity of ideas"
+    ],
+    "correct": 0,
+    "explanation": "A core rule of brainstorming is that criticism is not allowed."
+  },
+  {
+    "question": "5. Which method of generating new ideas encourages freewheeling and is characterized by unfiltered idea generation?",
+    "options": [
+      "–––",
+      "Brainstorming",
+      "Gordon Method",
+      "Focus Group"
+    ],
+    "correct": 1,
+    "explanation": "Brainstorming encourages freewheeling, non-judgmental idea generation."
+  },
+  {
+    "question": "6. Which of the following is NOT a characteristic of an entrepreneur?",
+    "options": [
+      "Seeking feedback",
+      "Opportunity orientation",
+      "External Locus of Control",
+      "Tolerance for ambiguity"
+    ],
+    "correct": 2,
+    "explanation": "Entrepreneurs typically have an internal locus of control, not an external one."
+  },
+  {
+    "question": "7. Which one of the following statements is NOT appropriate for the term 'entrepreneur'?",
+    "options": [
+      "Brings organization into existence",
+      "Reenergizes stagnated business",
+      "Operates within the organizational environment",
+      "Changes the existing state of equilibrium"
+    ],
+    "correct": 2,
+    "explanation": "Operating within an organization describes an intrapreneur, not an entrepreneur."
+  },
+  {
+    "question": "8. The definition 'an economic agent who unites all means of production and derives income from their employment' is attributed to:",
+    "options": [
+      "Peter Drucker",
+      "Joseph A. Schumpeter",
+      "J. S. Mill",
+      "J. B. Say"
+    ],
+    "correct": 3,
+    "explanation": "This classic definition is attributed to J. B. Say."
+  },
+  {
+    "question": "9. The term 'intrapreneur' was coined by:",
+    "options": [
+      "Kilby",
+      "Gifford Pinchot",
+      "Peter Drucker"
+    ],
+    "correct": 1,
+    "explanation": "Gifford Pinchot is credited with coining the term 'intrapreneur.'"
+  },
+  {
+    "question": "10. Entrepreneurs who do not wish to create anything new but rather copy innovations are known as:",
+    "options": [
+      "Drone",
+      "Fabian",
+      "Imitators",
+      "Active partner"
+    ],
+    "correct": 2,
+    "explanation": "Such entrepreneurs are typically referred to as imitators."
+  },
+  {
+    "question": "11. Most creative ideas can be traced to an individual's interest in or ______ about a specific problem or area of study.",
+    "options": [
+      "Knowledge",
+      "Curiosity",
+      "Research",
+      "Skill"
+    ],
+    "correct": 1,
+    "explanation": "Curiosity is a key driver of creative ideas."
+  },
+  {
+    "question": "12. Which segment of a business plan provides investors with a timetable for various activities to be accomplished?",
+    "options": [
+      "Marketing",
+      "Appendix",
+      "Financial",
+      "Milestone"
+    ],
+    "correct": 3,
+    "explanation": "The milestone segment details the schedule for achieving objectives."
+  },
+  {
+    "question": "13. In the general product category method of generating ideas, consumers are provided with a list of problems in order to:",
+    "options": [
+      "Use a Checklist",
+      "Conduct Problem Inventory Analysis",
+      "Engage in Brainstorming",
+      "Participate in a Focus Group"
+    ],
+    "correct": 1,
+    "explanation": "This method is known as Problem Inventory Analysis."
+  },
+  {
+    "question": "14. Under which method are a group of individuals provided with information in a structured format?",
+    "options": [
+      "Brainstorming",
+      "Brain writing",
+      "Problem Inventory Analysis",
+      "Focus Group"
+    ],
+    "correct": 1,
+    "explanation": "Brain writing involves a structured method of recording ideas."
+  },
+  {
+    "question": "15. Which characteristic defines an entrepreneur as someone who believes that both accomplishments and setbacks are within their control?",
+    "options": [
+      "Drive to achieve",
+      "Internal Locus of Control",
+      "Risk taking",
+      "Seeking feedback"
+    ],
+    "correct": 1,
+    "explanation": "An internal locus of control reflects the belief that outcomes depend on one’s actions."
+  },
+  {
+    "question": "16. What is the method for developing new ideas when individuals are unaware of the problem?",
+    "options": [
+      "Brainstorming",
+      "Force Relationship",
+      "Gordon Method",
+      "Reverse Brainstorming"
+    ],
+    "correct": 1,
+    "explanation": "The Force Relationship method encourages linking unrelated concepts to generate ideas."
+  },
+  {
+    "question": "17. The decision-making, human relations, and negotiation skills possessed by an entrepreneur are best classified as:",
+    "options": [
+      "Conceptual Skills",
+      "Technical Skills",
+      "Business Management Skills",
+      "Personal Entrepreneurial Skills"
+    ],
+    "correct": 3,
+    "explanation": "These skills are considered part of an entrepreneur’s personal skill set."
+  },
+  {
+    "question": "18. An idea once illuminated in the mind of an individual still has little meaning until it is:",
+    "options": [
+      "Verified",
+      "Prepared",
+      "Incubated",
+      "Germinated"
+    ],
+    "correct": 0,
+    "explanation": "Verification is needed to test and give practical meaning to an idea."
+  },
+  {
+    "question": "19. An entrepreneur who recognizes a social problem and uses entrepreneurial principles to create change is known as a:",
+    "options": [
+      "Problem Solver",
+      "Social Entrepreneur",
+      "Financial Entrepreneur",
+      "Economical Entrepreneur"
+    ],
+    "correct": 1,
+    "explanation": "Such an individual is known as a social entrepreneur."
+  },
+  {
+    "question": "20. According to Robert D. Hisrich, which one of the following is most closely related to the technical skills required by an entrepreneur?",
+    "options": [
+      "Goal Setting",
+      "Oral Communication",
+      "Human Relations",
+      "Decision Making"
+    ],
+    "correct": 0,
+    "explanation": "Goal setting is linked to planning and technical proficiency in running a venture."
+  },
+  {
+    "question": "21. Who among the following contributed to the study of barriers to entrepreneurship?",
+    "options": [
+      "Peter Drucker",
+      "Karl H. Vesper",
+      "Kilby",
+      "Gifford Pinchot"
+    ],
+    "correct": 1,
+    "explanation": "Karl H. Vesper is recognized for his work on barriers to entrepreneurship."
+  },
+  {
+    "question": "22. Which one of the following is the correct sequence of the creativity process?",
+    "options": [
+      "Idea Germination – Illumination – Incubation – Verification – Preparation",
+      "Idea Germination – Preparation – Incubation – Illumination – Verification",
+      "Idea Germination – Verification – Preparation – Incubation – Illumination",
+      "Idea Germination – Incubation – Illumination – Preparation – Verification"
+    ],
+    "correct": 1,
+    "explanation": "The standard creative process follows: Preparation, Incubation, Illumination, and Verification (preceded here by idea germination)."
   }
+
+
 
 
     ],
