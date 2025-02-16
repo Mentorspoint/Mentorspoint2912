@@ -3416,7 +3416,7 @@ const mcqData = {
     "correct": 1,
     "explanation": "A GNP deflator of 125.37% means that nominal GNP exceeded real GNP by approximately 25.37% (despite the option stating 12.54%, it is the closest match indicating nominal exceeds real values)."
   }
-]
+],
 
       
 };
