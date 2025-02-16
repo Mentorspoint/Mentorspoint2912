@@ -80,6 +80,50 @@ const mcqData = {
             ],
             correct: 1,
             explanation: "Personality refers to those distinguishing psychological traits."
+        },
+        {
+            question: "7. The total number of items that the company carries within its product lines refers to:",
+            options: [
+                "Width",
+                "Length",
+                "Depth",
+                "Height"
+            ],
+            correct: 1,
+            explanation: "The total number of items in a product mix is referred to as its length."
+        },
+        {
+            question: "8. In pricing, the firm determines the price that would yield its target rate of return on investment.",
+            options: [
+                "Target returns pricing",
+                "Target base Pricing",
+                "Going rate pricing",
+                "Target line Pricing"
+            ],
+            correct: 0,
+            explanation: "Pricing set to yield a target return is known as Target returns pricing."
+        },
+        {
+            question: "9. ___ testing involves presenting the product concept to appropriate target consumers and getting their reactions.",
+            options: [
+                "Brain storming",
+                "Conjoint analysis",
+                "Idea screening",
+                "Concept testing"
+            ],
+            correct: 3,
+            explanation: "Concept testing involves presenting a product concept to target consumers."
+        },
+        {
+            question: "10. The term EDLP means:",
+            options: [
+                "Early delivery life pricing",
+                "Even day low pricing",
+                "Explosive day life pricing",
+                "Everyday low pricing"
+            ],
+            correct: 3,
+            explanation: "EDLP stands for Everyday low pricing."
         }
     ],
     "ESBM": [
