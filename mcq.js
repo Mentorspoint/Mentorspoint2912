@@ -3417,7 +3417,689 @@ const mcqData = {
     "explanation": "A GNP deflator of 125.37% means that nominal GNP exceeded real GNP by approximately 25.37% (despite the option stating 12.54%, it is the closest match indicating nominal exceeds real values)."
   }
 ],
- "Fundamentals of Economics": 
+ "Fundamentals of Economics": [
+  {
+    question: "Who is considered the 'Father of Economics'?",
+    options: [
+      "John Maynard Keynes",
+      "Karl Marx",
+      "Adam Smith",
+      "Milton Friedman"
+    ],
+    correct: 2,
+    explanation: "Adam Smith is known as the 'Father of Economics' for his influential work 'The Wealth of Nations'."
+  },
+  {
+    question: "What was the primary focus of economics before the 1930s?",
+    options: [
+      "Microeconomics",
+      "Macroeconomics",
+      "Political economy",
+      "Development economics"
+    ],
+    correct: 2,
+    explanation: "Before the 1930s, economics was largely known as political economy."
+  },
+  {
+    question: "In which year did John Maynard Keynes publish 'The General Theory of Employment, Interest and Money'?",
+    options: [
+      "1776",
+      "1936",
+      "1950",
+      "1965"
+    ],
+    correct: 1,
+    explanation: "Keynes published 'The General Theory' in 1936."
+  },
+  {
+    question: "Which of the following is NOT a macroeconomic variable in the goods market?",
+    options: [
+      "Gross Domestic Product (GDP)",
+      "Total government expenditure",
+      "Exchange rate",
+      "Employment"
+    ],
+    correct: 2,
+    explanation: "Exchange rate is related to the foreign exchange market, not the goods market."
+  },
+  {
+    question: "What does the IS-LM model describe in macroeconomics?",
+    options: [
+      "The equilibrium of product and money markets",
+      "The relationship between supply and demand",
+      "The determination of interest rates",
+      "The growth of national income"
+    ],
+    correct: 0,
+    explanation: "The IS-LM model shows the equilibrium in both the goods (IS) and money (LM) markets."
+  },
+  {
+    question: "Which macroeconomic variable is classified as a 'stock' variable?",
+    options: [
+      "Aggregate consumption",
+      "Gross National Product (GNP)",
+      "Supply of Money",
+      "Exports"
+    ],
+    correct: 2,
+    explanation: "The money supply is measured at a specific point in time, making it a stock variable."
+  },
+  {
+    question: "What is the primary objective of macroeconomics as a policy science?",
+    options: [
+      "To develop theories for national income",
+      "To understand the interaction between different sectors of the economy",
+      "To formulate economic policies to manage business cycles",
+      "To explain individual consumer behavior"
+    ],
+    correct: 2,
+    explanation: "Macroeconomics aims to formulate policies to manage economic fluctuations and business cycles."
+  },
+  {
+    question: "Which of the following is true about flow variables in macroeconomics?",
+    options: [
+      "They are measured at a specific point in time",
+      "They remain constant over time",
+      "They are expressed per unit of time",
+      "They refer to accumulated wealth"
+    ],
+    correct: 2,
+    explanation: "Flow variables measure economic activity over a period of time."
+  },
+  {
+    question: "What is the primary difference between static and dynamic analysis in macroeconomics?",
+    options: [
+      "Static analysis involves changing variables over time, while dynamic analysis assumes constant variables",
+      "Static analysis assumes no change in variables, while dynamic analysis studies changes over time",
+      "Static analysis only looks at money market variables, while dynamic analysis covers both goods and money markets",
+      "Static analysis focuses on microeconomics, while dynamic analysis is applied to macroeconomics"
+    ],
+    correct: 1,
+    explanation: "Static analysis examines a single equilibrium at a point in time, whereas dynamic analysis studies how variables evolve over time."
+  },
+  {
+    question: "Which concept refers to the condition where aggregate demand equals aggregate supply in an economy?",
+    options: [
+      "Disequilibrium",
+      "Partial equilibrium",
+      "General equilibrium",
+      "Equilibrium"
+    ],
+    correct: 3,
+    explanation: "When aggregate demand equals aggregate supply, the economy is in equilibrium."
+  },
+  {
+    question: "What is the prime objective of constructing a static economic model?",
+    options: [
+      "To study the future course of the economy",
+      "To make a generalization or theoretical proposition regarding related variables",
+      "To observe the dynamic movements in the economy",
+      "To analyse changes in the financial market"
+    ],
+    correct: 1,
+    explanation: "A static model simplifies the analysis by focusing on a snapshot of the economy to derive theoretical relationships."
+  },
+  {
+    question: "What is the major focus of dynamic analysis in economics?",
+    options: [
+      "To study the evolution of economic variables over time",
+      "To make theoretical generalizations",
+      "To analyze static equilibria",
+      "To compare different time periods"
+    ],
+    correct: 0,
+    explanation: "Dynamic analysis focuses on the evolution and changes in economic variables over time."
+  },
+  {
+    question: "In comparative static analysis, what is being compared?",
+    options: [
+      "The predictions of future economic trends",
+      "Equilibrium values of the system at two different points in time",
+      "Changes in household income",
+      "Government expenditure patterns"
+    ],
+    correct: 1,
+    explanation: "Comparative static analysis compares the equilibrium outcomes before and after a change."
+  },
+  {
+    question: "Which flow is responsible for the circular flow of income in a two‐sector model?",
+    options: [
+      "Only factor flows",
+      "Only money flows",
+      "Both product and money flows",
+      "Government fiscal flows"
+    ],
+    correct: 2,
+    explanation: "In a two-sector model, both product and money flows circulate income."
+  },
+  {
+    question: "Which sectors are included in the two‐sector circular flow model?",
+    options: [
+      "Households and government",
+      "Households and foreign sector",
+      "Households and business firms",
+      "Business firms and foreign sector"
+    ],
+    correct: 2,
+    explanation: "A two‐sector model typically includes households and business firms."
+  },
+  {
+    question: "In the two‐sector model, what is the role of households?",
+    options: [
+      "To produce goods and services",
+      "To supply factors of production and consume goods",
+      "To provide government services",
+      "To collect taxes and redistribute income"
+    ],
+    correct: 1,
+    explanation: "Households supply factors of production and consume goods in a two‐sector model."
+  },
+  {
+    question: "What is an example of an injection into the circular flow of income in the two‐sector model?",
+    options: [
+      "Savings by households",
+      "Taxation by the government",
+      "Investments by business firms",
+      "Imports of goods and services"
+    ],
+    correct: 2,
+    explanation: "Investment is considered an injection as it adds to the circular flow of income."
+  },
+  {
+    question: "What happens when the government adopts a deficit budget policy in the three‐sector model?",
+    options: [
+      "It reduces the overall circular flow of income",
+      "It increases injections into the economy",
+      "It reduces taxes on households",
+      "It increases the level of foreign trade"
+    ],
+    correct: 1,
+    explanation: "A deficit budget increases injections into the economy by adding more government spending relative to taxes collected."
+  },
+  {
+    question: "In a four‐sector model, what is an example of a withdrawal from the circular flow?",
+    options: [
+      "Export of goods and services",
+      "Household savings deposited in banks",
+      "Government expenditure on subsidies",
+      "Households spending on consumer goods"
+    ],
+    correct: 1,
+    explanation: "Household savings are considered leakages, thus a withdrawal from the circular flow."
+  },
+  {
+    question: "In the context of foreign trade in the four‐sector model, what happens if exports (X) are greater than imports (M)?",
+    options: [
+      "There is no change in the circular flow",
+      "The circular flow decreases",
+      "The circular flow increases due to net income inflows",
+      "The economy faces a recession"
+    ],
+    correct: 2,
+    explanation: "When exports exceed imports, the net injection increases the circular flow of income."
+  },
+  {
+    question: "What does national income refer to?",
+    options: [
+      "The total income of a country's citizens abroad",
+      "The aggregate money value of all final goods and services produced within a country over a year",
+      "The total amount of money in circulation",
+      "The money value of imports and exports of a country"
+    ],
+    correct: 1,
+    explanation: "National income is the aggregate value of all final goods and services produced within a country in a year."
+  },
+  {
+    question: "Which of the following is NOT considered economic production?",
+    options: [
+      "Goods produced by farmers for sale",
+      "Goods produced by social service clubs for free",
+      "Services provided by a medical practitioner for a fee",
+      "Goods produced by government agencies"
+    ],
+    correct: 1,
+    explanation: "Economic production excludes activities that do not involve a market transaction, such as goods produced for free by social service clubs."
+  },
+  {
+    question: "What is the difference between intermediate goods and final goods?",
+    options: [
+      "Final goods are consumed immediately, while intermediate goods are used in the production of final goods",
+      "Intermediate goods have a market value, while final goods do not",
+      "Intermediate goods are only produced by the government",
+      "Final goods are always physical goods, and intermediate goods are always services"
+    ],
+    correct: 0,
+    explanation: "Intermediate goods are inputs used in the production of final goods, which are ultimately consumed."
+  },
+  {
+    question: "Which of the following is an example of a non‐economic production activity?",
+    options: [
+      "A tailor producing clothes for sale",
+      "A housewife preparing dinner for her family",
+      "A factory producing shoes for export",
+      "A company manufacturing automobiles"
+    ],
+    correct: 1,
+    explanation: "Household work such as preparing dinner is typically not counted as economic production."
+  },
+  {
+    question: "Which of the following is included in the measurement of national income?",
+    options: [
+      "Transfer payments like pensions and social security benefits",
+      "Only marketable goods and services",
+      "Services rendered by family members to each other",
+      "Both marketable and non‐marketable goods produced by the government"
+    ],
+    correct: 3,
+    explanation: "National income accounts include the value of both marketable and non‐marketable goods produced by the government."
+  },
+  {
+    question: "In national income accounting, what is the problem caused by double counting?",
+    options: [
+      "Underestimation of national income",
+      "Overestimation of national income",
+      "Incorrect classification of goods and services",
+      "Inclusion of illegal activities in the GDP"
+    ],
+    correct: 1,
+    explanation: "Double counting leads to an overestimation of national income by counting the same output more than once."
+  },
+  {
+    question: "What is the main distinction between GDP and GNP?",
+    options: [
+      "GDP includes income earned abroad by residents, while GNP excludes it",
+      "GNP includes income earned by residents abroad, while GDP excludes it",
+      "GDP includes income earned by non‐residents in the country, while GNP excludes it",
+      "GNP measures production at constant prices, while GDP uses current prices"
+    ],
+    correct: 1,
+    explanation: "GNP accounts for income earned by residents abroad, whereas GDP measures production within the country's borders."
+  },
+  {
+    question: "What is Net National Product (NNP)?",
+    options: [
+      "The market value of all goods and services produced in a country",
+      "The value of all final goods and services, including depreciation",
+      "GNP minus depreciation",
+      "The sum of personal incomes in a country"
+    ],
+    correct: 2,
+    explanation: "NNP is calculated by subtracting depreciation from GNP."
+  },
+  {
+    question: "Why is GDP measured at constant prices?",
+    options: [
+      "To exclude the impact of inflation on economic growth",
+      "To account for changes in population",
+      "To measure the total value of goods and services at current market prices",
+      "To ensure accurate reflection of international trade"
+    ],
+    correct: 0,
+    explanation: "Measuring GDP at constant prices removes the effects of inflation, providing a clearer picture of real growth."
+  },
+  {
+    question: "What is the GNP deflator used for?",
+    options: [
+      "To calculate nominal GNP",
+      "To adjust nominal GNP for inflation",
+      "To calculate the price index",
+      "To estimate total national expenditure"
+    ],
+    correct: 1,
+    explanation: "The GNP deflator is used to convert nominal GNP into real GNP by accounting for inflation."
+  },
+  {
+    question: "How is real GNP calculated?",
+    options: [
+      "Nominal GNP divided by the GNP deflator",
+      "Nominal GNP multiplied by the GNP deflator",
+      "Nominal GNP divided by the price index number",
+      "Nominal GNP multiplied by the price index number"
+    ],
+    correct: 0,
+    explanation: "Real GNP is calculated by dividing nominal GNP by the GNP deflator (and multiplying by 100 if necessary)."
+  },
+  {
+    question: "Which of the following is NOT part of the GNP implicit deflator?",
+    options: [
+      "Nominal GNP",
+      "Real GNP",
+      "Price Index Number (PIN)",
+      "Exchange rates"
+    ],
+    correct: 3,
+    explanation: "Exchange rates are not included in the calculation of the GNP implicit deflator."
+  },
+  {
+    question: "The GNP implicit deflator can be used to measure:",
+    options: [
+      "National savings",
+      "National debt",
+      "The rate of inflation or deflation",
+      "The exchange rate"
+    ],
+    correct: 2,
+    explanation: "The GNP implicit deflator reflects the overall price level change, indicating inflation or deflation."
+  },
+  {
+    question: "Which method is used to avoid double counting in national income estimation?",
+    options: [
+      "Net product method",
+      "Factor income method",
+      "Expenditure method",
+      "Value‐added method"
+    ],
+    correct: 3,
+    explanation: "The value‐added method counts only the additional value at each stage of production, avoiding double counting."
+  },
+  {
+    question: "The net product method consists of which of the following stages?",
+    options: [
+      "Estimating gross value, determining costs, and adjusting for taxes",
+      "Estimating gross value, determining material costs, and deducting depreciation",
+      "Estimating final demand, calculating imports, and adjusting for inflation",
+      "Estimating gross income, calculating investments, and adjusting for savings"
+    ],
+    correct: 1,
+    explanation: "The net product method involves deducting material costs and depreciation from the gross value."
+  },
+  {
+    question: "Which of the following is an example of mixed income?",
+    options: [
+      "Rent from land",
+      "Dividends from a corporation"
+    ],
+    correct: null,
+    explanation: "The options provided are incomplete; typically, mixed income refers to earnings of self‐employed individuals, which is not clearly represented here."
+  },
+  {
+    question: "Under the factor income method, which of the following is included in national income?",
+    options: [
+      "Only wages",
+      "Only profits from corporations",
+      "Rent, wages, interest, and profit",
+      "Only dividends"
+    ],
+    correct: 2,
+    explanation: "The factor income method sums wages, rents, interests, and profits to determine national income."
+  },
+  {
+    question: "Which of the following is the correct formula for calculating the GNP deflator?",
+    options: [
+      "(Nominal GNP / Real GNP) * 100",
+      "(Real GNP / Nominal GNP) * 100",
+      "(PIN of the chosen year / 100)",
+      "(GNP of the base year / GNP of the current year)"
+    ],
+    correct: 0,
+    explanation: "The GNP deflator is calculated as (Nominal GNP / Real GNP) * 100."
+  },
+  {
+    question: "What is the main reason for the persistent budgetary deficit in India, as discussed in the text?",
+    options: [
+      "Slow economic growth",
+      "Government expenditure rising faster than revenue",
+      "Reduction in government tax collection",
+      "Decline in foreign direct investment"
+    ],
+    correct: 1,
+    explanation: "The persistent budgetary deficit is primarily due to government spending outpacing revenue collection."
+  },
+  {
+    question: "What is the consequence of persistent unemployment in both developing and developed countries?",
+    options: [
+      "Economic prosperity",
+      "Increased wages for all workers",
+      "Poverty for the unemployed population",
+      "Significant decrease in government spending"
+    ],
+    correct: 2,
+    explanation: "Persistent unemployment generally leads to increased poverty among the unemployed."
+  },
+  {
+    question: "Which of the following macroeconomic issues is especially problematic in fast growing economies?",
+    options: [
+      "Budget surpluses",
+      "Overheating of the economy",
+      "Slow industrial development",
+      "Excessive unemployment"
+    ],
+    correct: 1,
+    explanation: "Fast growing economies often face overheating, which can lead to inflationary pressures."
+  },
+  {
+    question: "Which economist is associated with the introduction of Rational Expectations Theory?",
+    options: [
+      "John Maynard Keynes",
+      "Milton Friedman",
+      "Robert Lucas",
+      "Gregory Mankiw"
+    ],
+    correct: 2,
+    explanation: "Robert Lucas is renowned for his contributions to Rational Expectations Theory."
+  },
+  {
+    question: "What is the central belief of monetarism?",
+    options: [
+      "Government spending stimulates economic growth",
+      "Money supply is the key determinant of national output and prices",
+      "Aggregate demand is the main driver of economic output",
+      "Fiscal policy should be the central tool for economic management"
+    ],
+    correct: 1,
+    explanation: "Monetarism emphasizes that the money supply is the primary factor influencing economic activity."
+  },
+  {
+    question: "According to classical economics, what is considered the normal state of the economy?",
+    options: [
+      "Unemployment",
+      "Inflation",
+      "Full employment",
+      "Recession"
+    ],
+    correct: 2,
+    explanation: "Classical economics assumes that the economy naturally tends toward full employment."
+  },
+  {
+    question: "In classical economics, what causes unemployment?",
+    options: [
+      "Lack of savings",
+      "Government intervention",
+      "Rigidity in the wage structure",
+      "Insufficient capital"
+    ],
+    correct: 2,
+    explanation: "Classical theory attributes unemployment to rigidities in wages that prevent market adjustments."
+  },
+  {
+    question: "Who is the economist associated with the proposition 'supply creates its own demand'?",
+    options: [
+      "J.S. Mill",
+      "Alfred Marshall",
+      "John Maynard Keynes",
+      "J.B. Say"
+    ],
+    correct: 3,
+    explanation: "J.B. Say is known for Say's Law, which states that supply creates its own demand."
+  },
+  {
+    question: "Which of the following is NOT an assumption of classical economics?",
+    options: [
+      "The demand for labor exceeds the supply",
+      "There will be no unemployment",
+      "There will be involuntary unemployment",
+      "The economy will reach full employment automatically"
+    ],
+    correct: 2,
+    explanation: "Classical economics assumes that any unemployment is voluntary, so involuntary unemployment is not expected."
+  },
+  {
+    question: "What is the core concept of the classical theory of employment?",
+    options: [
+      "The Keynesian multiplier",
+      "Say's Law of Markets",
+      "The Law of Diminishing Returns",
+      "The Phillips Curve"
+    ],
+    correct: 1,
+    explanation: "The core concept in classical employment theory is Say's Law, which suggests that supply creates its own demand."
+  },
+  {
+    question: "According to the classical theory, the equilibrium in the goods market occurs when:",
+    options: [
+      "Saving equals investment",
+      "The government intervenes",
+      "The price level is constant",
+      "There is no inflation"
+    ],
+    correct: 0,
+    explanation: "Classical theory posits that goods market equilibrium is achieved when saving equals investment."
+  },
+  {
+    question: "In classical economics, what determines the demand for labor in the labor market?",
+    options: [
+      "The quantity of money",
+      "The real wage rate",
+      "The level of investment",
+      "Government regulation"
+    ],
+    correct: 1,
+    explanation: "The demand for labor in classical economics is determined by the real wage rate."
+  },
+  {
+    question: "According to classical economics, the relationship between money wages and real wages is:",
+    options: [
+      "Inversely proportional",
+      "Unrelated",
+      "Directly proportional",
+      "Complex and unpredictable"
+    ],
+    correct: 0,
+    explanation: "An increase in money wages, if not accompanied by a proportional rise in prices, results in lower real wages."
+  },
+  {
+    question: "In the classical model, what causes an increase in the price level in the money market equilibrium?",
+    options: [
+      "A decrease in the supply of money",
+      "A decrease in the velocity of money",
+      "An increase in the quantity of money",
+      "An increase in total output"
+    ],
+    correct: 2,
+    explanation: "An increase in the money supply, ceteris paribus, leads to a higher price level."
+  },
+  {
+    question: "In the classical theory of employment, the goods market is in equilibrium when:",
+    options: [
+      "Investment equals saving (I = S)",
+      "Saving exceeds investment",
+      "Investment exceeds saving",
+      "Government spending equals taxation"
+    ],
+    correct: 0,
+    explanation: "Equilibrium in the goods market occurs when investment equals saving."
+  },
+  {
+    question: "According to the classical theory, money does not play a role in determining output and employment because:",
+    options: [
+      "It only facilitates transactions",
+      "It causes inflation",
+      "It is used as a store of value",
+      "It is neutral in the economy"
+    ],
+    correct: 3,
+    explanation: "Classical economists consider money to be neutral in affecting real output and employment."
+  },
+  {
+    question: "Keynes criticized the classical theory mainly because:",
+    options: [
+      "It underestimated the role of money in the economy",
+      "It assumes that the economy is always in a state of full employment",
+      "It overemphasizes state intervention",
+      "It neglects the importance of saving and investment"
+    ],
+    correct: 1,
+    explanation: "Keynes argued that the classical assumption of full employment does not hold in reality."
+  },
+  {
+    question: "Keynes rejected Say's law, which states that:",
+    options: [
+      "Demand creates supply",
+      "Supply creates its own demand",
+      "Investment is equal to saving",
+      "Money supply is determined by government policy"
+    ],
+    correct: 1,
+    explanation: "Keynes rejected Say's Law, arguing that supply does not automatically create its own demand."
+  },
+  {
+    question: "Which of the following was a main criticism of Keynes against the classical view on the adjustment mechanism?",
+    options: [
+      "The belief that price and wage flexibility leads to full employment",
+      "The failure to account for speculative demand for money",
+      "The emphasis on fiscal policy",
+      "The assumption that investment is based solely on interest rates"
+    ],
+    correct: 0,
+    explanation: "Keynes criticized the classical view that flexible wages and prices would automatically ensure full employment."
+  },
+  {
+    question: "According to Keynes, saving and investment are equal at the full employment level of output, but only:",
+    options: [
+      "Due to changes in government spending",
+      "Through adjustments in the income level",
+      "Because the interest rate adjusts to balance them",
+      "By the automatic functioning of the market"
+    ],
+    correct: 1,
+    explanation: "Keynes argued that equilibrium is achieved through changes in income rather than automatic interest rate adjustments."
+  },
+  {
+    question: "Keynes' theory of money emphasizes:",
+    options: [
+      "The neutrality of money in the long run",
+      "The speculative demand for money at low interest rates",
+      "The importance of balancing the budget",
+      "The link between money supply and inflation"
+    ],
+    correct: 1,
+    explanation: "Keynes highlighted the role of speculative demand for money, especially at low interest rates."
+  },
+  {
+    question: "Which of the following is one of Keynes' criticisms of the classical view regarding wages?",
+    options: [
+      "A reduction in wages automatically increases employment",
+      "The real wage is inversely related to the money wage",
+      "A reduction in wages increases output directly",
+      "Full employment can only be achieved by cutting wages"
+    ],
+    correct: 0,
+    explanation: "Keynes argued that simply reducing wages does not necessarily lead to increased employment."
+  },
+  {
+    question: "According to classical economics, full employment in an economy occurs because:",
+    options: [
+      "Government intervention corrects any imbalances",
+      "The wage rate automatically adjusts to ensure all workers are employed",
+      "Supply creates its own demand, ensuring all output is sold",
+      "There is constant government spending"
+    ],
+    correct: 1,
+    explanation: "Classical theory holds that wage flexibility ensures that any unemployment is temporary, leading to full employment."
+  },
+  {
+    question: "Say's Law of Market is founded on the principle that:",
+    options: [
+      "The supply of goods creates a corresponding demand for those goods",
+      "Government regulation is necessary for equilibrium",
+      "Demand always exceeds supply",
+      "Saving is equal to investment"
+    ],
+    correct: 0,
+    explanation: "Say's Law posits that production (supply) inherently generates an equivalent demand."
+  }
+],
+ 
       
 };
 
