@@ -1366,10 +1366,6 @@ const mcqData = {
     "correct": 1,
     "explanation": "The standard creative process follows: Preparation, Incubation, Illumination, and Verification (preceded here by idea germination)."
   }
-
-
-
-
     ],
     "Income Tax": [
         {
