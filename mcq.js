@@ -15,148 +15,7 @@ const mcqData = {
     }
   ],
   "Marketing Management": [
-    // Previously existing 50 questions
-    {
-      question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
-      options: [
-        "Mass Targeting",
-        "Market Targeting",
-        "Target Marketing",
-        "Segment Marketing"
-      ],
-      correct: 2,
-      explanation: "The process is known as Target Marketing."
-    },
-    {
-      question: "2. In segmentation the market is divided into groups on the basis of age or other variables.",
-      options: [
-        "Psychographic",
-        "Geographic",
-        "Demographic",
-        "Behavioural"
-      ],
-      correct: 2,
-      explanation: "Dividing the market based on age or similar variables is Demographic segmentation."
-    },
-    {
-      question: "3. ___ consist of all of the groups that have a direct or indirect influence on a person's attitude or behavior.",
-      options: [
-        "Reference groups",
-        "Opinion leader",
-        "Dissociative group",
-        "None of the above"
-      ],
-      correct: 0,
-      explanation: "Reference groups influence a person's attitudes or behaviors."
-    },
-    {
-      question: "4. Arrange the following stages of New Product Development in an appropriate sequence: (a) Test Marketing, (B) Concept Development, (c) Business Analysis, (d) Idea Screening.",
-      options: [
-        "b-d-a-b",
-        "a-b-c-d",
-        "d-a-b-c",
-        "d-b-c-a"
-      ],
-      correct: 3,
-      explanation: "The correct sequence is: Idea Screening, Concept Development, Business Analysis, Test Marketing (d-b-c-a)."
-    },
-    {
-      question: "5. Under which step does a company evaluate a new product's business attractiveness by preparing sales, cost and profit projections in accordance with company objectives?",
-      options: [
-        "Business Analysis",
-        "Buyer Analysis",
-        "Business Forecasting",
-        "Buyer Behaviour"
-      ],
-      correct: 0,
-      explanation: "This step is known as Business Analysis."
-    },
-    {
-      question: "6. ___ refers to the distinguishing psychological traits that lead to relatively consistent and enduring responses to environmental stimuli.",
-      options: [
-        "Psychology",
-        "Personality",
-        "Perception",
-        "Attitude"
-      ],
-      correct: 1,
-      explanation: "Personality refers to those distinguishing psychological traits."
-    },
-    {
-      question: "7. The total number of items that the company carries within its product lines refers to:",
-      options: [
-        "Width",
-        "Length",
-        "Depth",
-        "Height"
-      ],
-      correct: 1,
-      explanation: "The total number of items in a product mix is referred to as its length."
-    },
-    {
-      question: "8. In pricing, the firm determines the price that would yield its target rate of return on investment.",
-      options: [
-        "Target returns pricing",
-        "Target base Pricing",
-        "Going rate pricing",
-        "Target line Pricing"
-      ],
-      correct: 0,
-      explanation: "Pricing set to yield a target return is known as Target returns pricing."
-    },
-    {
-      question: "9. ___ testing involves presenting the product concept to appropriate target consumers and getting their reactions.",
-      options: [
-        "Brain storming",
-        "Conjoint analysis",
-        "Idea screening",
-        "Concept testing"
-      ],
-      correct: 3,
-      explanation: "Concept testing involves presenting a product concept to target consumers."
-    },
-    {
-      question: "10. The term EDLP means:",
-      options: [
-        "Early delivery life pricing",
-        "Even day low pricing",
-        "Explosive day life pricing",
-        "Everyday low pricing"
-      ],
-      correct: 3,
-      explanation: "EDLP stands for Everyday low pricing."
-    },
-    // New questions added:
-    {
-      question: "1. ______ is the most fundamental determinant of a person's wants and behaviour.",
-      options: [
-        "Culture",
-        "Opinion leader",
-        "Age and stage in life cycle",
-        "None of the above"
-      ],
-      correct: 0,
-      explanation: "Culture is considered the most fundamental determinant of a person's wants and behaviour."
-    },
-    {
-      question: "2. An organization develops ______ statements to share with managers, employees and, in many cases, the customers too.",// MCQ Questions for Different Subjects
-const mcqData = {
-  "Cost Accounting": [
-    {
-      question: "What is 5 + 3?",
-      options: ["5", "8", "10", "15"],
-      correct: 1,
-      explanation: "5 + 3 equals 8."
-    },
-    {
-      question: "What is the square root of 16?",
-      options: ["2", "4", "8", "16"],
-      correct: 1,
-      explanation: "The square root of 16 is 4."
-    }
-  ],
-  "Marketing Management": [
-    // Previously existing 18 questions:
+    // Existing questions (1-20) from previous updates:
     {
       question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
       options: [
@@ -353,28 +212,116 @@ const mcqData = {
       correct: 0,
       explanation: "In the Introduction stage, sales grow slowly and profits are minimal due to high launch costs."
     },
-    // New Questions Added:
+    // New Questions (21-30):
     {
-      question: "19. In which stage of new product development does a company evaluate the proposed product's business attractiveness by preparing sales, costs, and profit projections to determine whether these factors satisfy the company's objectives?",
+      question: "21. A ______ is a single business or collection of related businesses that can be separately planned from the rest of the company.",
       options: [
-        "Concept development and testing",
-        "Commercialization",
-        "Business analysis",
-        "Marketing strategy development"
+        "Strategic business unit",
+        "Product unit",
+        "Corporate unit",
+        "Divisional unit"
       ],
-      correct: 2,
-      explanation: "In the Business analysis stage, the company evaluates the proposed product's attractiveness by preparing sales, cost, and profit projections."
+      correct: 0,
+      explanation: "A Strategic Business Unit (SBU) is a single business or a collection of related businesses that can be planned separately."
     },
     {
-      question: "20. When a firm's product and a competitor's product are launched in the market at the same time, this event is known as:",
+      question: "22. ______ is defined as the shared experiences, stories, beliefs and norms that characterize an organization.",
       options: [
-        "First entry",
-        "Late Entry",
-        "Parallel Entry",
-        "No Entry"
+        "Strategic planning",
+        "Organizational culture",
+        "Corporate culture",
+        "Organizational climate"
+      ],
+      correct: 1,
+      explanation: "Organizational culture refers to the shared values and norms that shape an organization."
+    },
+    {
+      question: "23. Those groups that have a direct influence on a person's behavior are called ______.",
+      options: [
+        "Dissociative Groups",
+        "Aspirational Groups",
+        "Secondary Groups",
+        "Reference Groups"
+      ],
+      correct: 3,
+      explanation: "Reference groups are those groups that have a direct influence on a person's behavior."
+    },
+    {
+      question: "24. A ______ is an elaborated version of the idea expressed in consumer terms.",
+      options: [
+        "Product concept",
+        "Product idea",
+        "Brand concept",
+        "Product positioning"
+      ],
+      correct: 0,
+      explanation: "A Product Concept is an elaborated version of a product idea expressed in terms that resonate with consumers."
+    },
+    {
+      question: "25. ______ is the science of using psychology & demographics to better understand consumer behavior.",
+      options: [
+        "Psychographics",
+        "Demographics",
+        "Personality",
+        "Consumer insights"
+      ],
+      correct: 0,
+      explanation: "Psychographics uses psychological and demographic data to understand consumer behavior."
+    },
+    {
+      question: "26. A ______ is unpredictable, short lived & without social, economic & political significance.",
+      options: [
+        "Trend",
+        "Fad",
+        "Cycle",
+        "Pattern"
+      ],
+      correct: 1,
+      explanation: "A Fad is typically short-lived and does not have lasting significance."
+    },
+    {
+      question: "27. The total number of items in the company's product mix is known as ______.",
+      options: [
+        "Width",
+        "Length",
+        "Depth",
+        "Consistency"
+      ],
+      correct: 1,
+      explanation: "Length refers to the total number of items in a product mix."
+    },
+    {
+      question: "28. The items with lower sales volume, no promotion and with somewhat higher margin are known as ______.",
+      options: [
+        "Core products",
+        "Staples",
+        "Specialties",
+        "Convenience items"
       ],
       correct: 2,
-      explanation: "When both products are launched simultaneously, it is known as Parallel Entry."
+      explanation: "Specialties are products with lower sales volume but higher margins and limited promotion."
+    },
+    {
+      question: "29. Product assortment is also known as the ______.",
+      options: [
+        "Product Mix",
+        "Product System",
+        "Product Concept",
+        "Promotion Mix"
+      ],
+      correct: 0,
+      explanation: "Product assortment is another term for the product mix."
+    },
+    {
+      question: "30. Which is not one of the major considerations in setting price?",
+      options: [
+        "Customers' Demand Schedule",
+        "Cost Function",
+        "Competitors' Prices",
+        "Customers' Tastes and Preferences"
+      ],
+      correct: 3,
+      explanation: "Customers' tastes and preferences are not typically a direct factor in pricing decisions compared to demand, costs, and competitors' prices."
     }
   ],
   "ESBM": [
@@ -540,4 +487,5 @@ function shuffleArray(array) {
   }
   return array;
 }
+
 
