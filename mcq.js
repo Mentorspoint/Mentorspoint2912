@@ -15,7 +15,7 @@ const mcqData = {
     }
   ],
   "Marketing Management": [
-    // Previously existing 10 questions
+    // Previously existing 50 questions
     {
       question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
       options: [
