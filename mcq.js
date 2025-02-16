@@ -2545,7 +2545,7 @@ const mcqData = {
     },
     answer: "A",
   },
-],
+]
   "Banking": [
   {
     "question": "Which of the following was a significant problem with the barter system?",
