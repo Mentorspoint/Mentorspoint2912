@@ -1,6 +1,6 @@
 // MCQ Questions for Different Subjects
 const mcqData = {
-    math: [
+    Cost Accounting: [
         {
             question: "What is 5 + 3?",
             options: ["5", "8", "10", "15"],
@@ -14,7 +14,7 @@ const mcqData = {
             explanation: "The square root of 16 is 4."
         }
     ],
-    science: [
+    Marketing Management: [
         {
             question: "What is the chemical symbol for water?",
             options: ["O2", "H2O", "CO2", "NaCl"],
