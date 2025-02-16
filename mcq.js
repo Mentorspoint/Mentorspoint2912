@@ -2,18 +2,6 @@
 const mcqData = {
     "Cost Accounting": [
         {
-            question: "What is 5 + 3?",
-            options: ["5", "8", "10", "15"],
-            correct: 1,
-            explanation: "5 + 3 equals 8."
-        },
-        {
-            question: "What is the square root of 16?",
-            options: ["2", "4", "8", "16"],
-            correct: 1,
-            explanation: "The square root of 16 is 4."
-        },
-        {
             question: "Under Emerson's efficiency bonus plan, no bonus is payable when efficiency is less than:",
             options: ["83%", "67%", "100%", "None of the above"],
             correct: 2,
