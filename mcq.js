@@ -1,6 +1,6 @@
 // MCQ Questions for Different Subjects
 const mcqData = {
-    Cost Accounting: [
+    "Cost Accounting": [
         {
             question: "What is 5 + 3?",
             options: ["5", "8", "10", "15"],
@@ -14,7 +14,7 @@ const mcqData = {
             explanation: "The square root of 16 is 4."
         }
     ],
-    Marketing Management: [
+    "Marketing Management": [
         {
             question: "What is the chemical symbol for water?",
             options: ["O2", "H2O", "CO2", "NaCl"],
@@ -28,18 +28,52 @@ const mcqData = {
             explanation: "Mars is called the Red Planet due to its reddish color."
         }
     ],
-    history: [
+    "ESBM": [
         {
-            question: "Who was the first President of the United States?",
-            options: ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
-            correct: 1,
-            explanation: "George Washington was the first President of the U.S."
+            question: "What does ESBM stand for?",
+            options: [
+                "Enterprise Systems and Business Management",
+                "European Society for Business Mathematics",
+                "E-commerce Solutions and Business Models",
+                "Economic Strategies and Business Metrics"
+            ],
+            correct: 0,
+            explanation: "ESBM stands for Enterprise Systems and Business Management."
         },
         {
-            question: "Which year did World War II end?",
-            options: ["1939", "1942", "1945", "1950"],
-            correct: 2,
-            explanation: "World War II ended in 1945."
+            question: "Which one of these is a key principle of ESBM?",
+            options: [
+                "Customer Focus",
+                "Innovative Design",
+                "Social Media Marketing",
+                "Economic Forecasting"
+            ],
+            correct: 0,
+            explanation: "ESBM emphasizes customer focus."
+        }
+    ],
+    "Income Tax": [
+        {
+            question: "What is the primary purpose of income tax?",
+            options: [
+                "Fund government programs",
+                "Increase personal wealth",
+                "Promote business competition",
+                "Regulate stock markets"
+            ],
+            correct: 0,
+            explanation: "Income tax funds government programs."
+        },
+        {
+            question: "Who is typically required to pay income tax?",
+            options: [
+                "Only corporations",
+                "Individuals earning above a threshold",
+                "Only government employees",
+                "All residents regardless of income"
+            ],
+            correct: 1,
+            explanation: "Individuals earning above a threshold are required to pay income tax."
         }
     ]
 };
@@ -72,8 +106,6 @@ function startTest(subject) {
     loadQuestion();
 }
 
-
-
 // Function to Load a Question
 function loadQuestion() {
     let questionData = mcqData[currentSubject][currentQuestionIndex];
@@ -99,7 +131,6 @@ function loadQuestion() {
     document.getElementById("next-btn").style.display = "none"; // Hide Next button initially
 }
 
-
 // Function to Check the Answer
 function checkAnswer(selectedIndex, correctIndex, btn) {
     let allButtons = document.querySelectorAll(".option-btn");
@@ -119,7 +150,6 @@ function checkAnswer(selectedIndex, correctIndex, btn) {
     // Show the Next button
     document.getElementById("next-btn").style.display = "block";
 }
-
 
 // Function to Move to Next Question
 function nextQuestion() {
@@ -149,6 +179,7 @@ function retryTest() {
     document.getElementById("subject-selection").style.display = "block";
 }
 
+// Function to shuffle an array (Fisher-Yates algorithm)
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -156,3 +187,4 @@ function shuffleArray(array) {
     }
     return array;
 }
+
