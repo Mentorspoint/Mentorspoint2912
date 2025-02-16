@@ -15,7 +15,7 @@ const mcqData = {
     }
   ],
   "Marketing Management": [
-    // Existing Questions 1–30 (from previous updates)
+    // Existing questions (1–40)
     {
       question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
       options: [
@@ -234,116 +234,61 @@ const mcqData = {
       correct: 2,
       explanation: "When both products are launched simultaneously, it is known as Parallel Entry."
     },
-    // New Questions 31–40:
+    // New Questions (41–45)
     {
-      question: "31. Durability improvement aims at increasing a product's functional performance – its ______.",
+      question: "41. For higher sale and profit a company's growth option includes:",
       options: [
-        "Quality",
-        "Efficiency",
-        "Style",
-        "Reliability"
-      ],
-      correct: 0,
-      explanation: "Increasing durability improves the product's quality and functional performance."
-    },
-    {
-      question: "32. A ______ is unpredictable, short-lived, and without social, economic, and political significance.",
-      options: [
-        "Trend",
-        "Fad",
-        "Amusement",
-        "Fantasy"
-      ],
-      correct: 1,
-      explanation: "A fad is short-lived and typically lacks long-term significance."
-    },
-    {
-      question: "33. ______ is the study of how individuals, groups, and organizations select, buy, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and desires.",
-      options: [
-        "Consumer Behavior",
-        "Advertising Management",
-        "Public Relations",
-        "None of the above"
-      ],
-      correct: 0,
-      explanation: "Consumer Behavior is the study of the processes involved in consumers’ decision-making."
-    },
-    {
-      question: "34. Advertising and websites fall into the categories of ______ information sources.",
-      options: [
-        "Personal",
-        "Commercial",
-        "Experimental",
+        "Intensive Growth",
+        "Integrative Growth",
+        "Diversification Growth",
         "All of the above"
       ],
-      correct: 1,
-      explanation: "Advertising and websites are considered commercial sources of information."
+      correct: 3,
+      explanation: "All of the above options are growth strategies a company might pursue."
     },
     {
-      question: "35. Income Distribution, Saving, Debt, and Credit Availability are parts of the ______ environment.",
+      question: "42. ______ strategy involves gaining market share with its current products in current markets.",
       options: [
-        "Demographic",
-        "Economic",
-        "Social-Cultural",
-        "Natural"
+        "Market Development",
+        "Market Penetration",
+        "Product Development",
+        "Diversification"
       ],
       correct: 1,
-      explanation: "These factors are elements of the economic environment."
+      explanation: "Market Penetration focuses on increasing market share using current products in current markets."
     },
     {
-      question: "36. A ______ is a descriptive thought that a person holds about something.",
+      question: "43. ______ is a direction or sequence of events that has some momentum and durability.",
       options: [
-        "Belief",
-        "Attitude",
-        "Judgment",
-        "Opinion"
-      ],
-      correct: 0,
-      explanation: "A belief is a descriptive thought or conviction about something."
-    },
-    {
-      question: "37. ______ testing means testing the product within the firm to check its performance in different applications.",
-      options: [
-        "Beta",
-        "Alta",
-        "Virtual Reality",
-        "Risk Analysis"
-      ],
-      correct: 0,
-      explanation: "Beta testing (even though typically external) is used here to indicate internal testing."
-    },
-    {
-      question: "38. A ______ is a possible product the company might offer to the market.",
-      options: [
-        "Product Concept",
-        "Product Idea",
-        "Brand Concept",
-        "None of the above"
-      ],
-      correct: 1,
-      explanation: "A product idea is a potential product offering that the company might bring to market."
-    },
-    {
-      question: "39. ______ of product mix refers to the total number of items in the mix.",
-      options: [
-        "Depth",
-        "Length",
-        "Width",
-        "Consistency"
-      ],
-      correct: 1,
-      explanation: "Length refers to the total number of individual items in the product mix."
-    },
-    {
-      question: "40. ______ of product mix refers to how many different product lines the company carries.",
-      options: [
-        "Depth",
-        "Length",
-        "Width",
-        "Consistency"
+        "Fad",
+        "Fashion",
+        "Trend",
+        "Style"
       ],
       correct: 2,
-      explanation: "Width refers to the number of different product lines in the company's product mix."
+      explanation: "A trend indicates a direction or sequence of events that is durable over time."
+    },
+    {
+      question: "44. ______ is a single business or collection of related businesses that can be planned separately from the rest of the company.",
+      options: [
+        "Strategic Business Unit",
+        "Corporate Business Unit",
+        "Divisional Business Unit",
+        "None of the above"
+      ],
+      correct: 0,
+      explanation: "A Strategic Business Unit (SBU) is a segment of a company that can be planned and managed separately."
+    },
+    {
+      question: "45. In which pricing method does the company charge a fairly low price for a high quality offering?",
+      options: [
+        "Going Rate pricing",
+        "Auction Type pricing",
+        "Value Pricing",
+        "Mark-up Pricing"
+      ],
+      correct: 2,
+      explanation: "Value Pricing involves setting a price based on the perceived value of a high-quality offering."
     }
   ],
   "ESBM": [
@@ -496,7 +441,6 @@ function goHome() {
 }
 
 // Function to retry test (reload subject selection)
-
 function retryTest() {
   document.getElementById("mcq-test").style.display = "none";
   document.getElementById("subject-selection").style.display = "block";
@@ -510,4 +454,3 @@ function shuffleArray(array) {
   }
   return array;
 }
-
