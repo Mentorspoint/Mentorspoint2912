@@ -496,6 +496,7 @@ function goHome() {
 }
 
 // Function to retry test (reload subject selection)
+
 function retryTest() {
   document.getElementById("mcq-test").style.display = "none";
   document.getElementById("subject-selection").style.display = "block";
