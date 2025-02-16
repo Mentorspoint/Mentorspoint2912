@@ -12,6 +12,89 @@ const mcqData = {
             options: ["2", "4", "8", "16"],
             correct: 1,
             explanation: "The square root of 16 is 4."
+        },
+        {
+            question: "Under Emerson's efficiency bonus plan, no bonus is payable when efficiency is less than:",
+            options: ["83%", "67%", "100%", "None of the above"],
+            correct: 2,
+            explanation: "Under Emerson's efficiency bonus plan, bonus is only payable when efficiency reaches 100% or above."
+        },
+        {
+            question: "Comparing Rowan and Halsey plan, it is seen that up to 50% of time saved,",
+            options: [
+                "Rowan plan pays higher bonus to a worker than Halsey bonus plan",
+                "Rowan plan pays less bonus to a worker than Halsey bonus plan",
+                "Rowan and Halsey plan both pay equal bonus to a worker",
+                "None of the above"
+            ],
+            correct: 0,
+            explanation: "Under the given conditions, the Rowan plan pays a higher bonus than the Halsey plan when time saved is up to 50%."
+        },
+        {
+            question: "When the amount of overhead absorbed is less than actual amount of overheads, it is known as ______ of overheads.",
+            options: [
+                "Under absorption",
+                "Over absorption",
+                "Allocation",
+                "Apportionment"
+            ],
+            correct: 0,
+            explanation: "When the absorbed overhead is less than the actual overhead incurred, it is termed under absorption."
+        },
+        {
+            question: "Which of the following is not a normal cause leading to idle time?",
+            options: [
+                "Time spent to meet workers' personal needs like taking lunch, tea, etc.",
+                "Waiting time for jobs due to defective, initial processing of material, etc.",
+                "Time required to setup machinery, initial processing of material, etc.",
+                "Travelling time from on job or department to another."
+            ],
+            correct: 0,
+            explanation: "Time spent for personal needs (like taking lunch or tea) is generally not considered a normal cause of idle time."
+        },
+        {
+            question: "______ is a measurement, in monetary terms, of the amount of resources used for the purpose of production of goods or rendering of services.",
+            options: [
+                "Cost Unit",
+                "Cost",
+                "Cost Centre",
+                "All of these"
+            ],
+            correct: 1,
+            explanation: "Cost is the measurement, in monetary terms, of the amount of resources used in production or service delivery."
+        },
+        {
+            question: "______ of overheads is distribution of overheads to more than one cost centre on some equitable basis.",
+            options: [
+                "Allocation",
+                "Apportionment",
+                "Absorption",
+                "Collection"
+            ],
+            correct: 1,
+            explanation: "Apportionment refers to the distribution of overheads to more than one cost centre on an equitable basis."
+        },
+        {
+            question: "The storekeeper should initiate a purchase requisition when stock reaches:",
+            options: [
+                "Minimum Level",
+                "Maximum Level",
+                "Re-Order Level",
+                "Average level"
+            ],
+            correct: 2,
+            explanation: "A purchase requisition is initiated when the stock reaches the Re-Order Level."
+        },
+        {
+            question: "Standard output is 100 units per day of 8 hours and the piece rate is 20 per unit. Under Merrick differential piece rate system, what will be the amount of wages of a worker who produces 95 units in a day?",
+            options: [
+                "₹1,900",
+                "₹2,000",
+                "₹2,090",
+                "₹2,280"
+            ],
+            correct: 1,
+            explanation: "Under the Merrick differential piece rate system, if the worker produces below the standard output, he is paid his time wage, which is based on the standard output (100 units × 20 = ₹2,000)."
         }
     ],
     "Marketing Management": [
@@ -703,3 +786,4 @@ function shuffleArray(array) {
     }
     return array;
 }
+
