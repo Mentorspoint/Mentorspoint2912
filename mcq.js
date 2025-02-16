@@ -15,165 +15,280 @@ const mcqData = {
     }
   ],
   "Marketing Management": [
-    // (Questions 1–45 are assumed to be already here)
-    // ...
-    // New Questions 46–59:
+    // Existing questions (1–40)
     {
-      // Q46
-      question: "46. A type of value pricing EDLP is known as:",
+      question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
       options: [
-        "Every time low pricing",
-        "Everyday low pricing",
-        "Everyday least price",
-        "None"
+        "Mass Targeting",
+        "Market Targeting",
+        "Target Marketing",
+        "Segment Marketing"
+      ],
+      correct: 2,
+      explanation: "The process is known as Target Marketing."
+    },
+    {
+      question: "2. In segmentation the market is divided into groups on the basis of age or other variables.",
+      options: [
+        "Psychographic",
+        "Geographic",
+        "Demographic",
+        "Behavioural"
+      ],
+      correct: 2,
+      explanation: "Dividing the market based on age or similar variables is Demographic segmentation."
+    },
+    {
+      question: "3. ___ consist of all of the groups that have a direct or indirect influence on a person's attitude or behavior.",
+      options: [
+        "Reference groups",
+        "Opinion leader",
+        "Dissociative group",
+        "None of the above"
+      ],
+      correct: 0,
+      explanation: "Reference groups influence a person's attitudes or behaviors."
+    },
+    {
+      question: "4. Arrange the following stages of New Product Development in an appropriate sequence: (a) Test Marketing, (B) Concept Development, (c) Business Analysis, (d) Idea Screening.",
+      options: [
+        "b-d-a-b",
+        "a-b-c-d",
+        "d-a-b-c",
+        "d-b-c-a"
+      ],
+      correct: 3,
+      explanation: "The correct sequence is: Idea Screening, Concept Development, Business Analysis, Test Marketing (d-b-c-a)."
+    },
+    {
+      question: "5. Under which step does a company evaluate a new product's business attractiveness by preparing sales, cost and profit projections in accordance with company objectives?",
+      options: [
+        "Business Analysis",
+        "Buyer Analysis",
+        "Business Forecasting",
+        "Buyer Behaviour"
+      ],
+      correct: 0,
+      explanation: "This step is known as Business Analysis."
+    },
+    {
+      question: "6. ___ refers to the distinguishing psychological traits that lead to relatively consistent and enduring responses to environmental stimuli.",
+      options: [
+        "Psychology",
+        "Personality",
+        "Perception",
+        "Attitude"
       ],
       correct: 1,
+      explanation: "Personality refers to those distinguishing psychological traits."
+    },
+    {
+      question: "7. The total number of items that the company carries within its product lines refers to:",
+      options: [
+        "Width",
+        "Length",
+        "Depth",
+        "Height"
+      ],
+      correct: 1,
+      explanation: "The total number of items in a product mix is referred to as its length."
+    },
+    {
+      question: "8. In pricing, the firm determines the price that would yield its target rate of return on investment.",
+      options: [
+        "Target returns pricing",
+        "Target base Pricing",
+        "Going rate pricing",
+        "Target line Pricing"
+      ],
+      correct: 0,
+      explanation: "Pricing set to yield a target return is known as Target returns pricing."
+    },
+    {
+      question: "9. ___ testing involves presenting the product concept to appropriate target consumers and getting their reactions.",
+      options: [
+        "Brain storming",
+        "Conjoint analysis",
+        "Idea screening",
+        "Concept testing"
+      ],
+      correct: 3,
+      explanation: "Concept testing involves presenting a product concept to target consumers."
+    },
+    {
+      question: "10. The term EDLP means:",
+      options: [
+        "Early delivery life pricing",
+        "Even day low pricing",
+        "Explosive day life pricing",
+        "Everyday low pricing"
+      ],
+      correct: 3,
       explanation: "EDLP stands for Everyday low pricing."
     },
     {
-      // Q47
-      question: "47. ______ is called as consumers tend to process prices in a left-to-right manner rather than by rounding.",
+      question: "11. ______ is the most fundamental determinant of a person's wants and behaviour.",
       options: [
-        "Price Cues",
-        "Reference Price"
+        "Culture",
+        "Opinion leader",
+        "Age and stage in life cycle",
+        "None of the above"
       ],
       correct: 0,
-      explanation: "Consumers use price cues when reading prices sequentially."
+      explanation: "Culture is considered the most fundamental determinant of a person's wants and behaviour."
     },
     {
-      // Q48
-      question: "48. The ______ of product mix refers to how many variants are offered of each product in a line.",
+      question: "12. An organization develops ______ statements to share with managers, employees and, in many cases, the customers too.",
       options: [
-        "Width",
-        "Length"
-      ],
-      // Note: Typically, the term 'depth' is used for variants. Given the options, we assume 'Length' here.
-      correct: 1,
-      explanation: "Although 'depth' is the standard term for variants in a line, given the options we choose Length."
-    },
-    {
-      // Q49
-      question: "49. Consumer preferences for a product concept can be measured through:",
-      options: [
-        "Marketing Strategy",
-        "Conjoint Analysis"
-      ],
-      correct: 1,
-      explanation: "Conjoint analysis is used to measure consumer preferences."
-    },
-    {
-      // Q50
-      question: "50. A ______ is an elaborated version of the idea expressed in consumer terms.",
-      options: [
-        "Price Quality Inference",
-        "All of the above"
-      ],
-      // Note: In many contexts, the term 'Product Concept' is used. Here, based on available options, we select All of the above.
-      correct: 1,
-      explanation: "Based on the provided options, the answer is All of the above."
-    },
-    {
-      // Q51
-      question: "51. ______ means testing the product within the firm to check its performance in different applications.",
-      options: [
-        "Alpha testing",
-        "Beta testing",
-        "Market testing",
-        "Test marketing"
+        "Mission",
+        "Aim",
+        "Goal",
+        "Market"
       ],
       correct: 0,
-      explanation: "Alpha testing is conducted internally within the firm."
+      explanation: "Organizations develop mission statements to communicate purpose and direction."
     },
     {
-      // Q52
-      question: "52. ______ means gradually reducing a product's or business's cost while trying to maintain sales.",
+      question: "13. A business can be defined in terms of three dimensions: customer groups, customer's needs, and ______.",
       options: [
-        "Liquidating",
-        "Investing",
-        "Harvesting",
-        "Divesting"
+        "Marketing",
+        "Policies",
+        "Technology"
       ],
       correct: 2,
-      explanation: "Harvesting refers to reducing costs while trying to maintain sales."
+      explanation: "A business is often defined in terms of customer groups, customer needs, and the technology used to serve them."
     },
     {
-      // Q53
-      question: "53. Under Information Search in the Buying Decision Process, which of the following are examples of commercial sources?",
+      question: "14. The segmentation that calls for dividing the market into different groups on the basis of Personality Traits is known as:",
       options: [
-        "Family, friends, neighbours, acquaintances"
+        "Competencies",
+        "Geographical Segmentation",
+        "Lifestyle Segmentation"
       ],
-      // Note: Typically commercial sources are advertisements, websites, etc. Here only one option is given.
-      correct: 0,
-      explanation: "(Note: The provided option is more of a personal source; please verify the intended options.)"
+      correct: 2,
+      explanation: "Lifestyle segmentation groups consumers based on personality traits, values, and lifestyles."
     },
     {
-      // Q54
-      question: "54. ______ refers to the distinguishing psychological traits that lead to relatively consistent and enduring responses to environmental stimuli.",
+      question: "15. When buyers are divided into different groups on the basis of their personality traits and values, this is known as:",
       options: [
-        "Personality",
-        "Self-concept",
-        "Actual self-concept",
-        "Ideal self concept"
-      ],
-      correct: 0,
-      explanation: "Personality refers to these enduring psychological traits."
-    },
-    {
-      // Q55
-      question: "55. ______ is the most fundamental determinant of a person's wants and behavior.",
-      options: [
-        "Culture"
+        "Psychographic Segmentation",
+        "Behavioural Segmentation",
+        "Geographic Segmentation",
+        "None of the Above"
       ],
       correct: 0,
-      explanation: "Culture is widely recognized as the most fundamental determinant of behavior."
+      explanation: "Psychographic segmentation divides the market based on personality, values, attitudes, and lifestyles."
     },
     {
-      // Q56
-      question: "56. ______ is the study of how individuals, groups, and organizations select, buy, use and dispose of goods, services, ideas, or experiences to satisfy their needs and desires.",
+      question: "16. The total number of items that the company carries within its product lines refers to:",
       options: [
-        "Consumer Behaviour",
-        "Customer Behaviour",
-        "Customer Relationship",
-        "Consumer Relationship"
-      ],
-      correct: 0,
-      explanation: "Consumer Behaviour is the study of these processes."
-    },
-    {
-      // Q57
-      question: "57. Aspirational groups are those groups which a person ______.",
-      options: [
-        "Hopes to join",
-        "Rejects the values or behavior of the group",
-        "Interacts on a fairly continuous basis",
-        "Interacts on a formal basis"
-      ],
-      correct: 0,
-      explanation: "Aspirational groups are those that an individual aspires to join."
-    },
-    {
-      // Q58
-      question: "58. Which type of pricing method should be adopted by sellers who want to sell antique items?",
-      options: [
-        "Target return Pricing",
-        "Auction bid pricing",
-        "Going rate Pricing",
-        "Perceived value pricing"
+        "Width",
+        "Length",
+        "Depth",
+        "None of the Above"
       ],
       correct: 1,
-      explanation: "Auction bid pricing is commonly used for selling antiques."
+      explanation: "Length refers to the total number of items in the product mix."
     },
     {
-      // Q59
-      question: "59. The ______ of a product mix refers to the total number of items in a product mix.",
+      question: "17. ______ of product mix refers to how many different product lines the company carries.",
       options: [
-        "Consistency",
-        "Depth",
         "Width",
-        "Length"
+        "Positioning",
+        "Length",
+        "Consistency"
+      ],
+      correct: 0,
+      explanation: "Width refers to the number of different product lines a company carries."
+    },
+    {
+      question: "18. In which stage of the Product Life Cycle do sales grow slowly and profits are non-existent due to heavy expenses incurred?",
+      options: [
+        "Introduction",
+        "Growth",
+        "Maturity",
+        "None of the Above"
+      ],
+      correct: 0,
+      explanation: "In the Introduction stage, sales grow slowly and profits are minimal due to high launch costs."
+    },
+    {
+      question: "19. In which stage of new product development does a company evaluate the proposed product's business attractiveness by preparing sales, costs, and profit projections to determine whether these factors satisfy the company's objectives?",
+      options: [
+        "Concept development and testing",
+        "Commercialization",
+        "Business analysis",
+        "Marketing strategy development"
+      ],
+      correct: 2,
+      explanation: "In the Business analysis stage, the company evaluates the proposed product's attractiveness by preparing sales, cost, and profit projections."
+    },
+    {
+      question: "20. When a firm's product and a competitor's product are launched in the market at the same time, this event is known as:",
+      options: [
+        "First entry",
+        "Late Entry",
+        "Parallel Entry",
+        "No Entry"
+      ],
+      correct: 2,
+      explanation: "When both products are launched simultaneously, it is known as Parallel Entry."
+    },
+    // New Questions (41–45)
+    {
+      question: "41. For higher sale and profit a company's growth option includes:",
+      options: [
+        "Intensive Growth",
+        "Integrative Growth",
+        "Diversification Growth",
+        "All of the above"
       ],
       correct: 3,
-      explanation: "Length refers to the total number of items in the product mix."
+      explanation: "All of the above options are growth strategies a company might pursue."
+    },
+    {
+      question: "42. ______ strategy involves gaining market share with its current products in current markets.",
+      options: [
+        "Market Development",
+        "Market Penetration",
+        "Product Development",
+        "Diversification"
+      ],
+      correct: 1,
+      explanation: "Market Penetration focuses on increasing market share using current products in current markets."
+    },
+    {
+      question: "43. ______ is a direction or sequence of events that has some momentum and durability.",
+      options: [
+        "Fad",
+        "Fashion",
+        "Trend",
+        "Style"
+      ],
+      correct: 2,
+      explanation: "A trend indicates a direction or sequence of events that is durable over time."
+    },
+    {
+      question: "44. ______ is a single business or collection of related businesses that can be planned separately from the rest of the company.",
+      options: [
+        "Strategic Business Unit",
+        "Corporate Business Unit",
+        "Divisional Business Unit",
+        "None of the above"
+      ],
+      correct: 0,
+      explanation: "A Strategic Business Unit (SBU) is a segment of a company that can be planned and managed separately."
+    },
+    {
+      question: "45. In which pricing method does the company charge a fairly low price for a high quality offering?",
+      options: [
+        "Going Rate pricing",
+        "Auction Type pricing",
+        "Value Pricing",
+        "Mark-up Pricing"
+      ],
+      correct: 2,
+      explanation: "Value Pricing involves setting a price based on the perceived value of a high-quality offering."
     }
   ],
   "ESBM": [
