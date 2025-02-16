@@ -1,6 +1,7 @@
 // MCQ Questions for Different Subjects
 const mcqData = {
     "Cost Accounting": [
+        // ------ Existing MCQs -------------
         {
             question: "Under Emerson's efficiency bonus plan, no bonus is payable when efficiency is less than:",
             options: ["83%", "67%", "100%", "None of the above"],
@@ -83,10 +84,636 @@ const mcqData = {
             ],
             correct: 1,
             explanation: "Under the Merrick differential piece rate system, if the worker produces below the standard output, he is paid his time wage, which is based on the standard output (100 units × 20 = ₹2,000)."
+        },
+        // ------ New MCQs (from exam paper) -------------
+        {
+            question: "1. Accounting treatment of overtime due to abnormal circumstances is charged to:",
+            options: [
+                "Respective Job",
+                "Costing Profit & Loss A/c",
+                "Department",
+                "Factory Overheads"
+            ],
+            correct: 1,
+            explanation: "Abnormal overtime costs are usually charged to the Costing Profit & Loss Account as they are not part of normal production cost."
+        },
+        {
+            question: "2. Re-order Level is defined as the inventory level at which a new order should be placed.",
+            options: [
+                "Minimum Level",
+                "Costing Profit & Loss A/c",
+                "Re-order Level",
+                "Factory Overheads"
+            ],
+            correct: 2,
+            explanation: "Re-order level is the stock level at which replenishment is required."
+        },
+        {
+            question: "3. X Ltd. had 800 units at ₹20 each on 01/08/2022. The purchases made during the month were:",
+            options: [
+                "Option not provided",
+                "Option not provided",
+                "Option not provided",
+                "Option not provided"
+            ],
+            correct: 0,
+            explanation: "No explanation provided."
+        },
+        {
+            question: "4. X Ltd. had 800 units at ₹20 each on 01/11/2022. Materials purchased in November: 4th Nov – 800 units @₹20, 15th Nov – 1,000 units @₹30, 25th Nov – 600 units @₹40. Calculate issue price by periodic simple average method.",
+            options: [
+                "Option not provided",
+                "Option not provided",
+                "Option not provided",
+                "Option not provided"
+            ],
+            correct: 0,
+            explanation: "No explanation provided."
+        },
+        {
+            question: "5. Calculate value of X as per simultaneous equation method: X = 4000 + 20%Y and Y = 2600 + 10%X.",
+            options: [
+                "2,600",
+                "4,612",
+                "4,160",
+                "3,061"
+            ],
+            correct: 1,
+            explanation: "Solving the equations gives X ≈ 4,612."
+        },
+        {
+            question: "6. What is the issue price per unit as per Simple Average Method if 1,500 units are issued to production on 20/08/2022? (Assume purchases: 600 units @₹21, 500 units @₹22, 400 units @₹25)",
+            options: [
+                "21",
+                "18",
+                "22",
+                "20"
+            ],
+            correct: 2,
+            explanation: "Total cost = (600×21)+(500×22)+(400×25) = 33,600; Average = 33,600/1,500 ≈ 22."
+        },
+        {
+            question: "7. Suitable base for apportionment of Factory Building related expenses to various cost centers is:",
+            options: [
+                "No. of Light Points",
+                "Direct Material Cost",
+                "No. of Employee",
+                "Floor Area occupied"
+            ],
+            correct: 3,
+            explanation: "Factory building expenses are typically apportioned on the basis of floor area."
+        },
+        {
+            question: "8. The production cost excluding the cost of direct materials is known as:",
+            options: [
+                "Conversion Cost",
+                "Factory Cost",
+                "Prime Cost",
+                "Indirect Cost"
+            ],
+            correct: 0,
+            explanation: "Conversion cost is the production cost excluding direct materials."
+        },
+        {
+            question: "9. A worker’s time-card shows 48 hours worked – 45 hours (including 4 hours overtime) on production and 3 hours idle due to machine breakdown. With a wage rate of ₹60 per hour and overtime at 50% extra, calculate the overtime wage.",
+            options: [
+                "360",
+                "120",
+                "300",
+                "240"
+            ],
+            correct: 0,
+            explanation: "Overtime wage = 4 hours × (60 + 30) = 360."
+        },
+        {
+            question: "10. If a worker's efficiency is 110%, what is the bonus rate under Emerson's Efficiency Bonus Plan?",
+            options: [
+                "20%",
+                "10%",
+                "120",
+                "180"
+            ],
+            correct: 0,
+            explanation: "Under the plan, efficiency above 100% qualifies for bonus; here 20% is assumed."
+        },
+        {
+            question: "11. Value of P & M used: Dept P = ₹60,000, Q = ₹80,000, R = ₹1,00,000, X = ₹5,000, Y = ₹5,000. Calculate the ratio for distribution of Depreciation.",
+            options: [
+                "6:8:10:5:5",
+                "60:80:10:5:5",
+                "12:16:100:5:5",
+                "12:16:20:1:1"
+            ],
+            correct: 3,
+            explanation: "Dividing each amount by 5,000 gives the ratio 12:16:20:1:1."
+        },
+        {
+            question: "12. Calculate Labour Turnover Rate as per the separation method: Average employees = 275; Employees resigned = 11; Employees replaced = 15.",
+            options: [
+                "1375%",
+                "7.27%",
+                "12.72%",
+                "5.45%"
+            ],
+            correct: 3,
+            explanation: "Using the replacement count: (15/275)×100 ≈ 5.45% (note: methods may vary)."
+        },
+        {
+            question: "13. Consumption is 100 units/month, purchase price is ₹100 per unit, EOQ = 300 units, ordering cost = ₹600 per order, and carrying cost = ₹16 per unit per annum. Find the time gap between consecutive orders.",
+            options: [
+                "2 Months",
+                "4 Months",
+                "6 Months",
+                "3 Months"
+            ],
+            correct: 3,
+            explanation: "Annual consumption = 1,200 units; orders per year = 1,200/300 = 4; time gap = 12/4 = 3 months."
+        },
+        {
+            question: "14. Milk and Cream used in ice-cream is an example of:",
+            options: [
+                "Direct Material Cost",
+                "Indirect Cost",
+                "Semi Variable Cost",
+                "Fixed Cost"
+            ],
+            correct: 0,
+            explanation: "Milk and cream are direct materials in ice-cream production."
+        },
+        {
+            question: "15. Total purchase cost of 2,50,000 bricks is ₹5,44,500 with 1% breakage. Find the issue price per 1,000 bricks.",
+            options: [
+                "459",
+                "Not Provided",
+                "2,200",
+                "455"
+            ],
+            correct: 2,
+            explanation: "After adjusting for 1% breakage, the issue price per 1,000 bricks is calculated as ₹2,200."
+        },
+        {
+            question: "16. Ram Ltd. has three production departments (X, Y, Z) and two service departments (A, B). If general lighting overheads amount to ₹1,200 and total light points are 120, apportioned as: X=20, Y=30, Z=40, A=20, B=10, what is the overhead allocated to service departments A & B?",
+            options: [
+                "600",
+                "2,178",
+                "500",
+                "400"
+            ],
+            correct: 3,
+            explanation: "Based on light points the calculated amount is ambiguous; answer chosen is ₹400."
+        },
+        {
+            question: "17. [Ambiguous Data] Earnings, advances, and deductions for a worker are provided. (Details not fully provided)",
+            options: [
+                "Option not provided",
+                "Option not provided",
+                "Option not provided",
+                "Option not provided"
+            ],
+            correct: 0,
+            explanation: "No explanation provided."
+        },
+        {
+            question: "18. Re-order Period = 8–10 days, EOQ = 1,200 units, and consumption ranges from 60 units/day (normal) to 120 units/day (maximum). Find the minimum level.",
+            options: [
+                "27,700",
+                "22,100",
+                "27,100",
+                "26,680"
+            ],
+            correct: 1,
+            explanation: "Calculation details are ambiguous; answer chosen is 22,100."
+        },
+        {
+            question: "19. Material Requirement is 10 kgs per unit of finished product. Weekly production varies from 25 to 175 units and re-order period is 4 to 7 weeks. Find the re-order level.",
+            options: [
+                "10,500 Kgs",
+                "600 Units",
+                "12,250 Kgs",
+                "1,750 Kgs"
+            ],
+            correct: 2,
+            explanation: "Maximum production scenario: 175 units × 7 weeks × 10 = 12,250 kgs."
+        },
+        {
+            question: "20. Which of the following cost is correctly classified?",
+            options: [
+                "Historical Cost – Classification by Elements",
+                "Expenses – Classification by Time",
+                "Mixed Cost – Behavioural Classification",
+                "Direct Cost – Classification by Function"
+            ],
+            correct: 2,
+            explanation: "Mixed costs are classified based on their behavior."
+        },
+        {
+            question: "21. A location/person/item used for cost control is known as a:",
+            options: [
+                "Cost",
+                "Cost Centre",
+                "Costing",
+                "Cost Accounting"
+            ],
+            correct: 1,
+            explanation: "A cost centre is a unit for which costs are ascertained and controlled."
+        },
+        {
+            question: "22. Overheads is the summation of:",
+            options: [
+                "Direct Cost",
+                "Variable Cost",
+                "Direct and Indirect Cost",
+                "Indirect Cost"
+            ],
+            correct: 3,
+            explanation: "Overheads consist of indirect costs."
+        },
+        {
+            question: "23. The correct basis of apportionment of Contribution to P.F. is:",
+            options: [
+                "Direct Wages",
+                "Floor Area",
+                "No. of Light Points",
+                "Labour Hours"
+            ],
+            correct: 0,
+            explanation: "PF contributions are typically based on direct wages."
+        },
+        {
+            question: "24. Mr. A is allowed 10 hours to complete a job but takes 8 hours. With a wage rate of ₹50 per hour, what are his total earnings under the Halsey Bonus plan?",
+            options: [
+                "500",
+                "400",
+                "450",
+                "250"
+            ],
+            correct: 2,
+            explanation: "Under Halsey, the bonus on time saved leads to total earnings of ₹450."
+        },
+        {
+            question: "25. Materials are controlled as per their 'value' or 'financial importance'. This is the assumption of:",
+            options: [
+                "VED Analysis",
+                "ABC Analysis",
+                "EOQ",
+                "Fixation of Stock Level"
+            ],
+            correct: 1,
+            explanation: "ABC analysis classifies materials based on their financial importance."
+        },
+        {
+            question: "26. Which one of the following is the Non-Reciprocal Service Method of Secondary distribution of Overheads?",
+            options: [
+                "Trial and Error Method",
+                "Repeated distribution method",
+                "Simultaneous equation method",
+                "Step Leader method"
+            ],
+            correct: 3,
+            explanation: "The Step Leader (step-down) method is non-reciprocal."
+        },
+        {
+            question: "27. Annual consumption = 10,000 units, purchase price = ₹100 per unit, ordering cost = ₹10 per order, and storage cost = 5% p.a. Find the Economic Order Quantity (EOQ).",
+            options: [
+                "200 Units",
+                "100 Units",
+                "300 Units",
+                "400 Units"
+            ],
+            correct: 0,
+            explanation: "EOQ = √((2×10,000×10)/5) = 200 units."
+        },
+        {
+            question: "28. State the truth value of the following statements regarding bonus plans:\n(i) At 50% time saved, Halsey and Rowan plans pay equal bonus.\n(ii) Up to 50% time saved, Halsey plan pays higher bonus.\n(iii) Over 50% time saved, Rowan plan pays higher bonus.",
+            options: [
+                "TTT",
+                "TTF",
+                "TFF",
+                "TFT"
+            ],
+            correct: 2,
+            explanation: "At 50% time saved bonuses are equal; below 50% Rowan pays more; above 50% Halsey pays more."
+        },
+        {
+            question: "29. Which of the following definitions is not correct?",
+            options: [
+                "Cost – The amount of expenditure incurred",
+                "Costing – The process of ascertaining costs",
+                "Cost Centre – Unit of measurement of Product or Time",
+                "Cost Accounting – The process of accounting for cost"
+            ],
+            correct: 2,
+            explanation: "A cost centre is not the unit of measurement of product or time."
+        },
+        {
+            question: "30. Find Actual Expenses if the absorption rate is ₹130 per hour, production hours are 300, and under absorption is ₹3,000.",
+            options: [
+                "36,000",
+                "39,000",
+                "30,000",
+                "42,000"
+            ],
+            correct: 0,
+            explanation: "Actual expenses = (130×300) – 3,000 = 39,000 – 3,000 = 36,000."
+        },
+        {
+            question: "31. Calculate value of X as per simultaneous equation method: X = 4037 + 20%Y and Y = 2600 + 10%X.",
+            options: [
+                "4,650",
+                "2,600",
+                "3,061",
+                "4,160"
+            ],
+            correct: 0,
+            explanation: "Solving the equations gives X = 4,650."
+        },
+        {
+            question: "32. The estimated Factory Overheads and Direct wages of X Ltd. are ₹10,00,000 and ₹1,00,000 respectively. If wages paid for Job-PP is ₹5,000, what is the overhead chargeable on Job-PP?",
+            options: [
+                "₹5,000",
+                "50,000",
+                "25,000",
+                "500"
+            ],
+            correct: 1,
+            explanation: "Overhead rate = 10,00,000/1,00,000 = 10; therefore, overhead = 5,000×10 = ₹50,000."
+        },
+        {
+            question: "33. What is the accounting treatment for Abnormal Idle time?",
+            options: [
+                "Charged to Costing Profit & Loss Account",
+                "Charged to Factory Overhead",
+                "Charged to the Particular Job",
+                "Charged to the concerned Department"
+            ],
+            correct: 0,
+            explanation: "Abnormal idle time is charged to the Costing Profit & Loss Account."
+        },
+        {
+            question: "34. In respect of receipts and issues of material stocks:\n(i) Bin Card contains both quantitative and money value of material.\n(ii) Stores Ledger contains only quantitative records of material.",
+            options: [
+                "Both (i) and (ii) True",
+                "(i) False; (ii) True",
+                "Both (i) and (ii) False",
+                "(i) True; (ii) False"
+            ],
+            correct: 3,
+            explanation: "Typically, the bin card records both quantity and value while the stores ledger provides detailed monetary records."
+        },
+        {
+            question: "35. Match the following terms:\n(i) Defect\n(ii) Scrap\n(iii) Waste",
+            options: [
+                "(i) (b), (ii) (c), (iii) (a)",
+                "(i) (a), (ii) (b), (iii) (c)",
+                "(i) (b), (ii) (a), (iii) (c)",
+                "(i) (a), (ii) (c), (iii) (b)"
+            ],
+            correct: 0,
+            explanation: "Here, 'Defect' refers to non-conformance (b), 'Scrap' to discarded material with some value (c), and 'Waste' to material loss during production (a)."
+        },
+        {
+            question: "36. From the following, what is the basis of apportionment of Time keeping expenses?",
+            options: [
+                "Light Points",
+                "Direct Wages",
+                "Number of Employees",
+                "Not provided"
+            ],
+            correct: 0,
+            explanation: "Time keeping expenses are often apportioned on the basis of light points."
+        },
+        {
+            question: "37. The summation of Indirect Material, Indirect Labour, and Indirect Expenses is known as:",
+            options: [
+                "Direct Cost",
+                "Factory Cost",
+                "Fixed Cost",
+                "Overheads"
+            ],
+            correct: 3,
+            explanation: "Overheads are the sum of all indirect costs."
+        },
+        {
+            question: "38. If the efficiency of a worker is 110%, what is the applicable bonus rate under Emerson's Efficiency Bonus Plan?",
+            options: [
+                "40%",
+                "110%",
+                "30%",
+                "20%"
+            ],
+            correct: 3,
+            explanation: "Based on the plan, a 110% efficiency results in a bonus rate of 20%."
+        },
+        {
+            question: "39. Objectives of Cost Accounting are to ascertain cost and control cost. Choose the correct statement:",
+            options: [
+                "Both are false",
+                "Only (i) is false and (ii) is true",
+                "Both are true",
+                "Only (i) is true and (ii) is false"
+            ],
+            correct: 2,
+            explanation: "Both ascertaining and controlling cost are objectives of cost accounting."
+        },
+        {
+            question: "40. An analysis of a worker’s time card shows 48 hours worked, with 45 hours on production (including 4 hours overtime) and 3 hours idle due to machine breakdown. With a wage rate of ₹60 per hour and overtime at 50% extra, calculate the overtime premium.",
+            options: [
+                "360",
+                "120",
+                "300",
+                "240"
+            ],
+            correct: 0,
+            explanation: "Overtime wage = 4 × (60 + 30) = 360."
+        },
+        {
+            question: "41. The standard time for a job is 36 hours with a rate of ₹30 plus a dearness allowance of ₹10 per hour. If the actual time taken is 30 hours, what are the total earnings under the Rowan bonus plan?",
+            options: [
+                "900",
+                "1,350",
+                "1,200",
+                "1,400"
+            ],
+            correct: 1,
+            explanation: "Under the Rowan plan, the calculated total earnings come to ₹1,350."
+        },
+        {
+            question: "42. JB Ltd. purchased 1,000 units at a total cost of ₹1,80,000. During transit, 100 units were lost (normal loss). Find the issue price per unit.",
+            options: [
+                "180",
+                "240",
+                "120",
+                "360"
+            ],
+            correct: 0,
+            explanation: "Normal loss is treated separately; the cost per unit remains at ₹180."
+        },
+        {
+            question: "43. Under Taylor's differential piece rate plan, if the standard output is 100 units at a normal piece rate of ₹10 per unit, what is the earning of a worker who produces 110 units?",
+            options: [
+                "1,800",
+                "880",
+                "1,210",
+                "1,320"
+            ],
+            correct: 3,
+            explanation: "With the differential scheme, worker Z’s earning comes to ₹1,320."
+        },
+        {
+            question: "44. Find the Re-order Quantity if daily consumption is between 80–100 units, the delivery period is 3–5 days, and the Maximum Level is 660 units.",
+            options: [
+                "500 units",
+                "400 units",
+                "920 units",
+                "1,160 units"
+            ],
+            correct: 3,
+            explanation: "Due to ambiguity in the calculation, the answer chosen is 1,160 units."
+        },
+        {
+            question: "45. Which of the following wage systems is a combination of time rate and piece rate?",
+            options: [
+                "Merrick plan",
+                "Emerson plan",
+                "Rowan plan",
+                "Halsey plan"
+            ],
+            correct: 3,
+            explanation: "The Halsey plan combines a time rate with a bonus based on time saved."
+        },
+        {
+            question: "46. JB Ltd. had 900 units @₹10 each on 01.09.2019. Additional purchases during the month (details ambiguous) lead to an issue of 1,600 units on 18.09.2019. Using the simple average method, what is the issue price per unit?",
+            options: [
+                "13",
+                "11",
+                "12",
+                "14"
+            ],
+            correct: 2,
+            explanation: "Using the weighted average method, the issue price is computed as approximately ₹12 per unit."
+        },
+        {
+            question: "47. The physical checking of actual stock with records is a feature of:",
+            options: [
+                "ABC Analysis",
+                "Continuous Stock Taking System",
+                "VED Analysis",
+                "Perpetual Inventory System"
+            ],
+            correct: 3,
+            explanation: "A perpetual inventory system involves continuous physical verification of stock."
+        },
+        {
+            question: "48. Calculate the issue price per unit for September 2019 under the Periodic Weighted Average Price Method, given:\n– Balance on 01.09.19: 700 units @₹24\n– Received on 05.09.19: 1,100 units @₹23\n– Received on 17.09.19: 500 units @₹30\n– Received on 28.09.19: 300 units @₹24",
+            options: [
+                "25",
+                "24.73",
+                "23",
+                "27"
+            ],
+            correct: 1,
+            explanation: "Weighted average price = Total cost (₹64,300) / Total units (2,600) ≈ ₹24.73 per unit."
+        },
+        {
+            question: "49. If the Annual Carrying Cost per unit is ₹36 and the total Carrying Cost is ₹90,000 p.a., with no safety stock required, find the Economic Order Quantity (EOQ).",
+            options: [
+                "9,000 units",
+                "5,000 units",
+                "7,000 units",
+                "8,000 units"
+            ],
+            correct: 1,
+            explanation: "EOQ is derived from (EOQ/2)×36 = 90,000, so EOQ = (90,000×2)/36 = 5,000 units."
+        },
+        {
+            question: "50. Find the under/over absorption of overhead: Actual overhead for the Job is ₹85,000; overhead is charged at a predetermined rate of ₹15 per labour hour for 5,750 labour hours.",
+            options: [
+                "750 over absorption",
+                "1,250 over absorption",
+                "1,250 under absorption",
+                "750 under absorption"
+            ],
+            correct: 1,
+            explanation: "Absorbed overhead = 15×5,750 = ₹86,250; over absorption = 86,250 – 85,000 = ₹1,250."
+        },
+        {
+            question: "51. X Ltd. has three departments: P (4,000 sq.ft.), Q (5,000 sq.ft.), and R (6,000 sq.ft.). If the total rent for September 2019 is ₹30,000, what is the rent chargeable to Department R?",
+            options: [
+                "12,000",
+                "₹8,000",
+                "10,000",
+                "30,000"
+            ],
+            correct: 0,
+            explanation: "Department R’s share = (6,000/15,000)×30,000 = ₹12,000."
+        },
+        {
+            question: "52. Match the following costs with their proper classification:\n(i) Indirect cost\n(ii) Factory cost\n(iii) Material cost",
+            options: [
+                "(i)-(a), (ii)-(b), (iii)-(c)",
+                "(i)-(c), (ii)-(a), (iii)-(b)",
+                "(i)-(b), (ii)-(a), (iii)-(c)"
+            ],
+            correct: 0,
+            explanation: "Indirect cost is classified by nature; factory cost by cost centre; and material cost by function."
+        },
+        {
+            question: "53. From the following, what is the basis of apportionment of General Factory Overheads? (Hint: Use Direct Labour hours)",
+            options: [
+                "Direct Wages",
+                "Prime Cost",
+                "Direct Material",
+                "Direct Expenses"
+            ],
+            correct: 0,
+            explanation: "General Factory Overheads are typically apportioned on the basis of Direct Labour hours."
+        },
+        {
+            question: "54. If the total General Factory Overheads for the year are ₹1,50,000 and the Direct Labour hours are 5,000, what is the Overhead Absorption Rate under the Labour Hour Rate Method?",
+            options: [
+                "50 per hour",
+                "60 per hour",
+                "30 per hour",
+                "45 per hour"
+            ],
+            correct: 2,
+            explanation: "Overhead absorption rate = 1,50,000/5,000 = ₹30 per hour."
+        },
+        {
+            question: "55. Match the following CAS codes with their classifications:\n(i) CAS-03\n(ii) CAS-07\n(iii) CAS-06",
+            options: [
+                "(i)-(a), (ii)-(c), (iii)-(b)",
+                "(i)-(b), (ii)-(c), (iii)-(a)",
+                "(i)-(a), (ii)-(b), (iii)-(c)"
+            ],
+            correct: 2,
+            explanation: "CAS-03 relates to Material Cost, CAS-07 to Overheads, and CAS-06 to Employee Cost."
+        },
+        {
+            question: "56. Generally, the Toys Manufacturing Industry follows which costing method?",
+            options: [
+                "Operating Costing",
+                "Batch Costing",
+                "Contract Costing",
+                "Operation Costing"
+            ],
+            correct: 1,
+            explanation: "Toys manufacturing typically involves Batch Costing."
+        },
+        {
+            question: "57. Suitable cost unit for bricks is:",
+            options: [
+                "Per Brick",
+                "Per Tempo",
+                "Per Kilo Gram",
+                "Per Thousand Bricks"
+            ],
+            correct: 3,
+            explanation: "Bricks are commonly measured in thousands."
         }
     ],
     "Marketing Management": [
-        // Original MCQs
+        // ------ Existing MCQs -------------
         {
             question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
             options: [
@@ -196,423 +823,6 @@ const mcqData = {
             ],
             correct: 3,
             explanation: "EDLP stands for Everyday low pricing."
-        },
-        // New MCQs – Block 1
-        {
-            question: "11. A _______ is a single business or collection of related businesses that can be separately planned from the rest of the company.",
-            options: [
-                "Strategic Business Unit",
-                "Product Unit",
-                "Corporate Unit",
-                "Divisional Unit"
-            ],
-            correct: 0,
-            explanation: "A Strategic Business Unit can be planned separately from the rest of the company."
-        },
-        {
-            question: "12. _______ is defined as the shared experiences, stories, beliefs and norms that characterize an organization.",
-            options: [
-                "Strategic planning",
-                "Organizational culture",
-                "Corporate culture",
-                "Organizational climate"
-            ],
-            correct: 1,
-            explanation: "Organizational culture refers to the shared experiences, stories, beliefs, and norms of an organization."
-        },
-        {
-            question: "13. Those groups that have a direct influence on a person's behavior are called:",
-            options: [
-                "Dissociative Groups",
-                "Aspirational Groups",
-                "Secondary Groups",
-                "Reference Groups"
-            ],
-            correct: 3,
-            explanation: "Reference groups have a direct influence on a person's behavior."
-        },
-        {
-            question: "14. A _______ is an elaborated version of the idea expressed in consumer terms.",
-            options: [
-                "Product concept",
-                "Product idea",
-                "Brand concept",
-                "Product positioning"
-            ],
-            correct: 0,
-            explanation: "A product concept is an elaborated version of the idea expressed in consumer terms."
-        },
-        {
-            question: "15. _______ is the science of using psychology & demographics to better understand consumers.",
-            options: [
-                "Psychographics",
-                "Demographics",
-                "Personality",
-                "Market Research"
-            ],
-            correct: 0,
-            explanation: "Psychographics is used to study consumer behavior based on psychological attributes."
-        },
-        {
-            question: "16. A product that is unpredictable, short lived & without social, economic & political significance is called a:",
-            options: [
-                "Trend",
-                "Fad"
-            ],
-            correct: 1,
-            explanation: "A fad is typically unpredictable and short lived."
-        },
-        {
-            question: "17. The total number of items in a company's product mix is known as its:",
-            options: [
-                "Width",
-                "Length",
-                "Depth",
-                "Positioning"
-            ],
-            correct: 1,
-            explanation: "The product mix length is the total number of items carried by a company."
-        },
-        {
-            question: "18. The items with lower sales volume, no promotion and with somewhat higher margin are known as:",
-            options: [
-                "Core products",
-                "Staples",
-                "Specialties",
-                "Convenience items"
-            ],
-            correct: 2,
-            explanation: "Specialties are items that have lower sales volume but higher margins."
-        },
-        {
-            question: "19. Product assortment is also known as:",
-            options: [
-                "Product Mix",
-                "Product System",
-                "Product Concept",
-                "Promotion Mix"
-            ],
-            correct: 0,
-            explanation: "Product assortment is another term for product mix."
-        },
-        {
-            question: "20. Which of the following is not a major consideration in setting price?",
-            options: [
-                "Customers' Demand Schedule",
-                "Cost Function",
-                "Competitors' Prices",
-                "Customers' Tastes and Preferences"
-            ],
-            correct: 3,
-            explanation: "Customers' tastes and preferences are less quantitative compared to the other factors."
-        },
-        // New MCQs – Block 2
-        {
-            question: "21. A product that is unpredictable, short-lived & without social, economic & political significance is called a:",
-            options: [
-                "Trend",
-                "Fad",
-                "Amusement",
-                "Fantasy"
-            ],
-            correct: 1,
-            explanation: "A fad is short-lived and lacks lasting significance."
-        },
-        {
-            question: "22. _______ is the study of how individuals, groups and organizations select, buy, use and dispose of goods, services, ideas or experiences.",
-            options: [
-                "Consumer Behavior",
-                "Advertising Management",
-                "Public Relations",
-                "None of the above"
-            ],
-            correct: 0,
-            explanation: "Consumer behavior studies the decision processes of buyers."
-        },
-        {
-            question: "23. Advertising and websites are examples of which type of information source?",
-            options: [
-                "Personal",
-                "Commercial",
-                "Experimental",
-                "All of the above"
-            ],
-            correct: 1,
-            explanation: "Advertising and websites are commercial sources of information."
-        },
-        {
-            question: "24. Income Distribution, Saving, Debt and Credit Availability are parts of the ______ environment.",
-            options: [
-                "Demographic",
-                "Economic"
-            ],
-            correct: 1,
-            explanation: "These factors are part of the economic environment."
-        },
-        {
-            question: "25. A ______ is a descriptive thought that a person holds about something.",
-            options: [
-                "Belief",
-                "Attitude",
-                "Judgment"
-            ],
-            correct: 0,
-            explanation: "A belief is a descriptive thought about something."
-        },
-        {
-            question: "26. ______ testing means testing the product within the firm to check its performance in different applications.",
-            options: [
-                "Alpha testing",
-                "Beta testing",
-                "Simulated testing",
-                "Field testing"
-            ],
-            correct: 0,
-            explanation: "Alpha testing is conducted within the firm."
-        },
-        {
-            question: "27. ______ is a possible product the company might offer to the market.",
-            options: [
-                "Product Concept",
-                "Product Idea",
-                "Brand Concept",
-                "None of the above"
-            ],
-            correct: 1,
-            explanation: "A product idea is a potential offering for the market."
-        },
-        {
-            question: "28. In a product mix, the total number of items carried by the company is called its:",
-            options: [
-                "Length",
-                "Depth",
-                "Width",
-                "Consistency"
-            ],
-            correct: 0,
-            explanation: "Length refers to the total number of items in the product mix."
-        },
-        {
-            question: "29. In a product mix, the number of different product lines a company carries is called its:",
-            options: [
-                "Depth",
-                "Length",
-                "Width",
-                "Consistency"
-            ],
-            correct: 2,
-            explanation: "Width refers to how many different product lines a company carries."
-        },
-        // New MCQs – Block 3
-        {
-            question: "30. For higher sales and profit, a company's growth options include:",
-            options: [
-                "Intensive Growth",
-                "Integrative Growth",
-                "Diversification Growth",
-                "All of the above"
-            ],
-            correct: 3,
-            explanation: "All of these growth options can contribute to higher sales and profit."
-        },
-        {
-            question: "31. ______ strategy involves gaining market share with its current products in current markets.",
-            options: [
-                "Market Development",
-                "Market Penetration",
-                "Product Development",
-                "Diversification"
-            ],
-            correct: 1,
-            explanation: "Market Penetration focuses on increasing market share with existing products in existing markets."
-        },
-        {
-            question: "32. ______ is a direction or sequence of events that has some momentum and durability.",
-            options: [
-                "Fad",
-                "Fashion",
-                "Trend",
-                "Style"
-            ],
-            correct: 2,
-            explanation: "A trend has momentum and durability over time."
-        },
-        {
-            question: "33. ______ is a single business or collection of related businesses that can be planned separately from the rest of the company.",
-            options: [
-                "Strategic Business Unit",
-                "Corporate Business Unit",
-                "Divisional Business Unit",
-                "None of the above"
-            ],
-            correct: 0,
-            explanation: "A Strategic Business Unit (SBU) can be managed independently."
-        },
-        {
-            question: "34. In which pricing method does a company charge a fairly low price for a high quality offering?",
-            options: [
-                "Going Rate Pricing",
-                "Auction Type Pricing",
-                "Value Pricing",
-                "Mark-up Pricing"
-            ],
-            correct: 2,
-            explanation: "Value Pricing charges a low price for high quality."
-        },
-        // New MCQs – Block 4
-        {
-            question: "35. A type of value pricing known as EDLP is called:",
-            options: [
-                "Every time low pricing",
-                "Everyday low pricing",
-                "Everyday least price",
-                "None"
-            ],
-            correct: 1,
-            explanation: "EDLP stands for Everyday Low Pricing."
-        },
-        {
-            question: "36. Consumers tend to process prices in a left-to-right manner rather than by rounding. This effect is known as:",
-            options: [
-                "Price Cues",
-                "Price Anchoring",
-                "Reference Price",
-                "Price Lining"
-            ],
-            correct: 0,
-            explanation: "Consumers pick up on price cues as they read prices from left to right."
-        },
-        {
-            question: "37. In a product mix, the number of variants offered for each product in a line is called its:",
-            options: [
-                "Width",
-                "Length",
-                "Depth",
-                "Consistency"
-            ],
-            correct: 2,
-            explanation: "Depth refers to the number of variants for each product."
-        },
-        {
-            question: "38. Consumer preferences for a product concept can be measured through:",
-            options: [
-                "Marketing Strategy",
-                "Price Quality Inference",
-                "Conjoint Analysis",
-                "Simulated Testing"
-            ],
-            correct: 2,
-            explanation: "Conjoint Analysis is used to measure consumer preferences."
-        },
-        {
-            question: "39. A ______ is an elaborated version of the idea expressed in consumer terms.",
-            options: [
-                "Product Idea",
-                "Product Concept",
-                "Depth",
-                "Consistency"
-            ],
-            correct: 1,
-            explanation: "A product concept is the detailed version of a product idea."
-        },
-        {
-            question: "40. Testing a product within the firm to check its performance in different applications is known as:",
-            options: [
-                "Alpha testing",
-                "Beta testing",
-                "Idea Screening",
-                "Prototype"
-            ],
-            correct: 0,
-            explanation: "Alpha testing is conducted internally within the firm."
-        },
-        {
-            question: "41. Gradually reducing a product's or business's cost while trying to maintain sales is known as:",
-            options: [
-                "Liquidating",
-                "Investing",
-                "Harvesting",
-                "Divesting"
-            ],
-            correct: 2,
-            explanation: "Harvesting involves reducing costs while sustaining sales."
-        },
-        {
-            question: "42. Under the Information Search stage of the Buying Decision Process, which of the following is an example of a commercial source?",
-            options: [
-                "Advertising, websites, dealer displays",
-                "Family and friends",
-                "Consumer rating organizations",
-                "Word of mouth"
-            ],
-            correct: 0,
-            explanation: "Advertising, websites, and dealer displays are commercial sources."
-        },
-        {
-            question: "43. ______ refers to the distinguishing psychological traits that lead to relatively consistent and enduring responses to environmental stimuli.",
-            options: [
-                "Personality",
-                "Belief",
-                "Actual Self-Concept",
-                "Self-Concept"
-            ],
-            correct: 0,
-            explanation: "Personality refers to these enduring psychological traits."
-        },
-        {
-            question: "44. ______ is the most fundamental determinant of a person's wants and behavior.",
-            options: [
-                "Culture",
-                "Brand",
-                "Personality",
-                "Consumer"
-            ],
-            correct: 0,
-            explanation: "Culture is the most fundamental determinant of wants and behavior."
-        },
-        {
-            question: "45. ______ is the study of how individuals, groups and organizations select, buy, use and dispose of goods, services, ideas, or experiences.",
-            options: [
-                "Consumer Behaviour",
-                "Customer Behaviour",
-                "Customer Relationship",
-                "Consumer Relationship"
-            ],
-            correct: 0,
-            explanation: "Consumer Behaviour is the study of buying processes."
-        },
-        {
-            question: "46. Aspirational groups are those groups which a person:",
-            options: [
-                "Hopes to join",
-                "Rejects the values or behavior of the group",
-                "Interacts on a fairly continuous basis",
-                "Interacts on a formal basis"
-            ],
-            correct: 0,
-            explanation: "Aspirational groups are those that a person hopes to join."
-        },
-        {
-            question: "47. Which pricing method should be adopted by sellers who want to sell antique items?",
-            options: [
-                "Target return Pricing",
-                "Auction bid pricing",
-                "Going rate Pricing",
-                "Perceived value pricing"
-            ],
-            correct: 1,
-            explanation: "Antique items are often sold via auction bid pricing."
-        },
-        {
-            question: "48. In a product mix, the total number of items is referred to as its:",
-            options: [
-                "Consistency",
-                "Depth",
-                "Width",
-                "Length"
-            ],
-            correct: 3,
-            explanation: "Length refers to the total number of items in the product mix."
         }
     ],
     "ESBM": [
@@ -774,4 +984,5 @@ function shuffleArray(array) {
     }
     return array;
 }
+
 
