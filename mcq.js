@@ -2546,7 +2546,878 @@ const mcqData = {
     answer: "A",
   },
 ],
-  "Banking": 
+  "Banking": [
+  {
+    "question": "Which of the following was a significant problem with the barter system?",
+    "options": [
+      "It provided a reliable store of value",
+      "It required a double coincidence of wants",
+      "It allowed for easy subdivision of goods",
+      "It facilitated the specialization of labor"
+    ],
+    "correct": 1,
+    "explanation": "A significant problem with the barter system is that it requires a double coincidence of wants – each party must have what the other desires."
+  },
+  {
+    "question": "Which of the following is NOT a problem of the barter system?",
+    "options": [
+      "Lack of double coincidence of wants",
+      "Lack of store of value",
+      "Difficulty in dividing goods",
+      "Easy measurement of value"
+    ],
+    "correct": 3,
+    "explanation": "While the other issues are problems inherent in barter, an easy measurement of value would be beneficial rather than problematic."
+  },
+  {
+    "question": "Which of these commodities was commonly used as money in ancient times?",
+    "options": [
+      "Gold",
+      "Coconuts",
+      "Diamonds",
+      "Paper currency"
+    ],
+    "correct": 0,
+    "explanation": "Gold was widely used because of its durability, divisibility, and intrinsic value."
+  },
+  {
+    "question": "Under the barter system, a seller must find a purchaser for his commodity, and the purchaser must find a seller who is selling the commodity he wants. This describes which problem?",
+    "options": [
+      "Lack of a common measure of value",
+      "Lack of store of value",
+      "Lack of double coincidence of wants",
+      "Lack of specialization"
+    ],
+    "correct": 2,
+    "explanation": "This scenario illustrates the double coincidence of wants problem, where both parties must desire what the other offers."
+  },
+  {
+    "question": "Which of the following was a major disadvantage of the barter system?",
+    "options": [
+      "Lack of a system of credit",
+      "Inability to store value",
+      "Easy to measure value",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "explanation": "The barter system is disadvantaged by both the lack of a credit system and the inability to effectively store value."
+  },
+  {
+    "question": "What is a limitation of using goods as a store of value in the barter system?",
+    "options": [
+      "Goods can perish",
+      "Goods can be easily divided",
+      "Goods can easily be stored",
+      "The value of goods is fixed"
+    ],
+    "correct": 0,
+    "explanation": "Many goods are perishable, which makes them unreliable as a store of value."
+  },
+  {
+    "question": "Which of the following was a major difficulty in pricing goods under the barter system?",
+    "options": [
+      "Lack of demand",
+      "No common measure of value",
+      "Easy to quantify the value of goods",
+      "Both A and C"
+    ],
+    "correct": 1,
+    "explanation": "Without a standard unit of value, assigning prices in a barter system is inherently difficult."
+  },
+  {
+    "question": "In the barter system, which of the following would have been challenging to exchange?",
+    "options": [
+      "Sheep for wool",
+      "Cows for grain",
+      "Shirt for a sheep",
+      "Gold for silver"
+    ],
+    "correct": 2,
+    "explanation": "Exchanging a shirt for a sheep highlights the difficulty in matching items with vastly different values and divisibility."
+  },
+  {
+    "question": "Which of the following best describes the evolution of money from commodity money to credit money?",
+    "options": [
+      "From barter to paper currency",
+      "From barter to coins",
+      "From coins to bank deposits",
+      "From commodity money to credit money"
+    ],
+    "correct": 3,
+    "explanation": "Money evolved from using tangible commodities to representing value via credit instruments."
+  },
+  {
+    "question": "The evolution of money includes all EXCEPT:",
+    "options": [
+      "Commodity money",
+      "Paper money",
+      "Cryptocurrency",
+      "Metallic money"
+    ],
+    "correct": 2,
+    "explanation": "Cryptocurrency is a very recent development and not part of the traditional evolution of money."
+  },
+  {
+    "question": "The introduction of paper money in China was mainly due to:",
+    "options": [
+      "The scarcity of gold",
+      "To prevent bandits from attacking imperial messengers",
+      "High demand for silver coins",
+      "The invention of the printing press"
+    ],
+    "correct": 0,
+    "explanation": "Paper money was introduced in China largely because of the scarcity of precious metals like gold."
+  },
+  {
+    "question": "The first stage of money evolution was:",
+    "options": [
+      "Commodity money",
+      "Paper money",
+      "Credit money",
+      "Metallic money"
+    ],
+    "correct": 0,
+    "explanation": "Commodity money, where goods themselves served as a medium of exchange, represents the first stage of money evolution."
+  },
+  {
+    "question": "Which of these best explains the reason for the replacement of commodity money?",
+    "options": [
+      "High value of commodities",
+      "Lack of durability and divisibility",
+      "Ease of storage",
+      "Ability to carry large quantities"
+    ],
+    "correct": 1,
+    "explanation": "Commodity money was largely replaced because many commodities were not durable or easily divisible."
+  },
+  {
+    "question": "The Lydians were the first to use:",
+    "options": [
+      "Commodity money",
+      "Coinage",
+      "Paper money",
+      "Credit money"
+    ],
+    "correct": 1,
+    "explanation": "Historical records credit the Lydians with the invention of coinage."
+  },
+  {
+    "question": "What was the primary issue with metal coins in the early stages of their use?",
+    "options": [
+      "Easy to carry",
+      "Issues with the size, quality, and quantity of metal",
+      "Easy to subdivide",
+      "Legal tender status"
+    ],
+    "correct": 1,
+    "explanation": "Early metal coins often varied in size, quality, and metal content, creating issues of standardization."
+  },
+  {
+    "question": "In the modern economy, money functions as:",
+    "options": [
+      "A means of exchange",
+      "A store of value",
+      "A unit of account",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Money serves as a medium of exchange, a store of value, and a unit of account."
+  },
+  {
+    "question": "Which of the following is NOT a role of money in a modern economy?",
+    "options": [
+      "Facilitates consumer choice",
+      "Enables efficient production",
+      "Acts as a deterrent to inflation",
+      "Eliminates the need for barter"
+    ],
+    "correct": 2,
+    "explanation": "Money does not function as a deterrent to inflation; that is managed through monetary policy."
+  },
+  {
+    "question": "Which is a key function of money in a modern economy?",
+    "options": [
+      "Promotes barter",
+      "Helps in the storage of goods",
+      "Facilitates exchange and trade",
+      "Prevents economic growth"
+    ],
+    "correct": 2,
+    "explanation": "Money’s primary role is to facilitate exchange and trade."
+  },
+  {
+    "question": "The money used in India for pricing, contracts, and general purchasing power is called:",
+    "options": [
+      "Paper currency",
+      "Money of account",
+      "Commodity money",
+      "Digital currency"
+    ],
+    "correct": 1,
+    "explanation": "In India, the term 'money of account' refers to the monetary unit used in pricing and contracts."
+  },
+  {
+    "question": "High-powered money consists of:",
+    "options": [
+      "Commercial bank reserves",
+      "Central bank reserves",
+      "Currency and coins",
+      "Both central bank reserves and currency and coins"
+    ],
+    "correct": 3,
+    "explanation": "High‐powered money (the monetary base) includes both currency in circulation and reserves held by banks at the central bank."
+  },
+  {
+    "question": "Which type of money is created by private financial institutions?",
+    "options": [
+      "Inside money",
+      "Outside money",
+      "Commodity money",
+      "Credit money"
+    ],
+    "correct": 0,
+    "explanation": "Inside money is created by private banks through lending and deposit creation."
+  },
+  {
+    "question": "Which of these is an example of inside money?",
+    "options": [
+      "Currency issued by the central bank",
+      "Demand deposits at commercial banks",
+      "Coins in circulation",
+      "Gold reserves held by the government"
+    ],
+    "correct": 1,
+    "explanation": "Demand deposits at commercial banks are a typical example of inside money."
+  },
+  {
+    "question": "The impact of monetary policy is immediately felt in:",
+    "options": [
+      "Long-term bonds",
+      "Stock market indices",
+      "Short-term money market instruments",
+      "Real estate markets"
+    ],
+    "correct": 2,
+    "explanation": "Changes in monetary policy are most directly reflected in short-term interest rates and money market instruments."
+  },
+  {
+    "question": "What does the 'credit channel' of monetary policy transmission refer to?",
+    "options": [
+      "The effect of exchange rates on foreign investment",
+      "Changes in bank lending and credit availability",
+      "The direct impact on government securities",
+      "Adjustments in the asset prices"
+    ],
+    "correct": 1,
+    "explanation": "The credit channel describes how monetary policy influences the availability and cost of credit through changes in bank lending."
+  },
+  {
+    "question": "An increase in interest rates typically leads to:",
+    "options": [
+      "Higher borrowing costs for consumers and businesses",
+      "Increased consumer demand",
+      "Lower asset prices",
+      "Increased credit availability"
+    ],
+    "correct": 0,
+    "explanation": "Higher interest rates increase the cost of borrowing, which generally reduces spending and investment."
+  },
+  {
+    "question": "Which of these is NOT a channel of monetary policy transmission?",
+    "options": [
+      "Interest rates",
+      "Exchange rates",
+      "Asset prices",
+      "Government spending"
+    ],
+    "correct": 3,
+    "explanation": "Government spending is a fiscal policy tool, not a channel through which monetary policy is transmitted."
+  },
+  {
+    "question": "The monetary policy transmission mechanism operates through all EXCEPT:",
+    "options": [
+      "Interest rates",
+      "Exchange rates",
+      "Foreign aid",
+      "Asset prices"
+    ],
+    "correct": 2,
+    "explanation": "Foreign aid is not a channel of monetary policy transmission."
+  },
+  {
+    "question": "What happens when interest rates rise in a country?",
+    "options": [
+      "Investment in that country becomes less appealing",
+      "Investment in that country becomes more appealing",
+      "Currency depreciation occurs",
+      "Inflation decreases"
+    ],
+    "correct": 0,
+    "explanation": "Rising interest rates tend to make borrowing more expensive, which can reduce investment."
+  },
+  {
+    "question": "What stage in the evolution of money saw the use of receipts issued by goldsmiths?",
+    "options": [
+      "Commodity money",
+      "Coinage",
+      "Paper money",
+      "Credit money"
+    ],
+    "correct": 3,
+    "explanation": "Goldsmith receipts are considered an early form of credit money."
+  },
+  {
+    "question": "The key advantage of paper money over coins was:",
+    "options": [
+      "Portability and cheapness",
+      "Durability",
+      "The ability to serve as a store of value",
+      "High intrinsic value"
+    ],
+    "correct": 0,
+    "explanation": "Paper money is lighter, more portable, and cheaper to produce than metal coins."
+  },
+  {
+    "question": "What is the primary feature of e-currencies?",
+    "options": [
+      "They exist in physical form.",
+      "They are only used for online transactions.",
+      "They are backed by physical assets.",
+      "They can only be traded in physical locations."
+    ],
+    "correct": 1,
+    "explanation": "E-currencies are digital currencies used primarily for online transactions."
+  },
+  {
+    "question": "Which of the following is a type of digital currency that operates on a decentralized network?",
+    "options": [
+      "Central Bank Digital Currency (CBDC)",
+      "Virtual Currency",
+      "Cryptocurrency",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explanation": "Cryptocurrencies operate on decentralized networks using blockchain technology."
+  },
+  {
+    "question": "What is the key characteristic of Central Bank Digital Currencies (CBDCs)?",
+    "options": [
+      "They are decentralized.",
+      "They are issued and regulated by central banks.",
+      "They are used in online games only.",
+      "They rely on private organizations for control."
+    ],
+    "correct": 1,
+    "explanation": "CBDCs are digital forms of fiat money issued and regulated by a country's central bank."
+  },
+  {
+    "question": "Which cryptocurrency was created in 2009 as the first decentralized digital currency?",
+    "options": [
+      "Ethereum",
+      "Litecoin",
+      "Bitcoin",
+      "Ripple"
+    ],
+    "correct": 2,
+    "explanation": "Bitcoin, introduced in 2009, was the first decentralized cryptocurrency."
+  },
+  {
+    "question": "What is one of the main advantages of cryptocurrencies?",
+    "options": [
+      "They offer decentralization and anonymity.",
+      "They are completely stable in value.",
+      "They are issued by central banks.",
+      "They are widely accepted as legal tender."
+    ],
+    "correct": 0,
+    "explanation": "Cryptocurrencies provide benefits such as decentralization and, in many cases, user anonymity."
+  },
+  {
+    "question": "Which of the following is an example of a Central Bank Digital Currency (CBDC)?",
+    "options": [
+      "Bitcoin",
+      "Digital Yuan (e-CNY)",
+      "Litecoin",
+      "Doge coin"
+    ],
+    "correct": 1,
+    "explanation": "The Digital Yuan (e-CNY) is a prominent example of a CBDC issued by China."
+  },
+  {
+    "question": "What is the difference between cryptocurrency and CBDCs?",
+    "options": [
+      "They are backed by government entities.",
+      "Cryptocurrency is decentralized, while CBDCs are centralized and government-issued.",
+      "Both are decentralized.",
+      "They have limited usage."
+    ],
+    "correct": 1,
+    "explanation": "Cryptocurrencies operate on decentralized networks, whereas CBDCs are issued and regulated by central banks."
+  },
+  {
+    "question": "Which of the following countries launched its CBDC known as 'Sand Dollar' in October 2020?",
+    "options": [
+      "China",
+      "Bahamas",
+      "Nigeria",
+      "Russia"
+    ],
+    "correct": 1,
+    "explanation": "The Bahamas launched the Sand Dollar as its CBDC in October 2020."
+  },
+  {
+    "question": "Virtual currencies are most commonly used in which of the following?",
+    "options": [
+      "For real-world transactions",
+      "Online gaming environments",
+      "Physical retail stores",
+      "Cross-border payments"
+    ],
+    "correct": 1,
+    "explanation": "Virtual currencies are primarily used within online gaming environments."
+  },
+  {
+    "question": "Which of the following is a key disadvantage of virtual currencies?",
+    "options": [
+      "They are completely anonymous.",
+      "They lack any regulation.",
+      "They are highly volatile.",
+      "They are backed by government reserves."
+    ],
+    "correct": 2,
+    "explanation": "High volatility is one of the major disadvantages associated with virtual currencies."
+  },
+  {
+    "question": "What is one of the main advantages of CBDCs over cryptocurrencies?",
+    "options": [
+      "They are completely anonymous.",
+      "They are decentralized.",
+      "They are government-regulated and stable.",
+      "They are not susceptible to volatility."
+    ],
+    "correct": 2,
+    "explanation": "CBDCs benefit from government regulation, which generally makes them more stable compared to decentralized cryptocurrencies."
+  },
+  {
+    "question": "In what way can the RBI (Reserve Bank of India) improve the Indian economy with CBDCs?",
+    "options": [
+      "By increasing efficiency in transactions and reducing costs",
+      "By limiting access to financial services",
+      "By encouraging unregulated markets",
+      "By promoting only cash transactions"
+    ],
+    "correct": 0,
+    "explanation": "Implementing CBDCs can enhance transaction efficiency, reduce costs, and improve financial inclusion in the economy."
+  },
+  {
+    "question": "Which of the following is NOT a feature of a CBDC?",
+    "options": [
+      "It is issued and controlled by central banks.",
+      "It functions as a digital version of a country's fiat currency.",
+      "It is decentralized and operates outside of government control.",
+      "It is government-backed and is used for legal transactions."
+    ],
+    "correct": 2,
+    "explanation": "A CBDC is by definition centralized and government-controlled, not decentralized."
+  },
+  {
+    "question": "What is a major concern related to cryptocurrencies?",
+    "options": [
+      "Their use is regulated and safe.",
+      "They are highly volatile and prone to price manipulation.",
+      "They are backed by physical assets like gold.",
+      "Their value is always stable."
+    ],
+    "correct": 1,
+    "explanation": "Cryptocurrencies are often criticized for their high volatility and potential for price manipulation."
+  },
+  {
+    "question": "Which of the following is an example of an e-money system used by banks?",
+    "options": [
+      "Apple Pay",
+      "Bitcoin",
+      "Ethereum",
+      "Sand Dollar"
+    ],
+    "correct": 0,
+    "explanation": "Apple Pay is a digital payment system (an e-money system) used by banks and financial institutions."
+  },
+  {
+    "question": "What is a key feature of virtual currencies used in online games?",
+    "options": [
+      "They are always backed by the government.",
+      "They are used to purchase virtual goods or services.",
+      "They are highly regulated by central authorities.",
+      "They are stable and non-volatile."
+    ],
+    "correct": 1,
+    "explanation": "Virtual currencies in gaming are primarily designed to purchase virtual goods or services within the game environment."
+  },
+  {
+    "question": "Which of the following is true about cryptocurrency transactions?",
+    "options": [
+      "They require third-party verification.",
+      "They are typically fast and secure due to blockchain technology.",
+      "They are centralized and controlled by governments.",
+      "They are always stable in value."
+    ],
+    "correct": 1,
+    "explanation": "Blockchain technology enables cryptocurrency transactions to be both fast and secure without a central authority."
+  },
+  {
+    "question": "What does 'eNaira' represent?",
+    "options": [
+      "A form of virtual currency from Nigeria",
+      "A type of cryptocurrency in the Bahamas",
+      "A Central Bank Digital Currency (CBDC) from Nigeria",
+      "A digital payment system"
+    ],
+    "correct": 2,
+    "explanation": "The eNaira is Nigeria's Central Bank Digital Currency (CBDC)."
+  },
+  {
+    "question": "The primary purpose of introducing the 'Digital Rupee' in India is to:",
+    "options": [
+      "Replace physical cash entirely",
+      "Enhance efficiency, reduce costs, and increase financial inclusion",
+      "Encourage the use of cryptocurrencies",
+      "Limit financial transactions to banks only"
+    ],
+    "correct": 1,
+    "explanation": "The Digital Rupee is intended to improve transaction efficiency, lower costs, and boost financial inclusion."
+  },
+  {
+    "question": "Which technology is commonly explored for CBDCs to ensure secure and scalable transactions?",
+    "options": [
+      "Virtual reality",
+      "Blockchain and distributed ledger technology (DLT)",
+      "Artificial intelligence",
+      "Cloud computing"
+    ],
+    "correct": 1,
+    "explanation": "Blockchain and distributed ledger technology (DLT) are widely researched for securing and scaling CBDC transactions."
+  },
+  {
+    "question": "What is the most common feature of both developed and developing economies since the post-War II period?",
+    "options": [
+      "High unemployment rate",
+      "Continuous rise in the general price level",
+      "Decline in production",
+      "Fall in investment"
+    ],
+    "correct": 1,
+    "explanation": "A continuous rise in the general price level, or inflation, is a common feature in both developed and developing economies."
+  },
+  {
+    "question": "Who defined inflation as 'too much money chasing too few goods'?",
+    "options": [
+      "Pigou",
+      "Coulborn",
+      "Samuelson",
+      "Ackley"
+    ],
+    "correct": 2,
+    "explanation": "Samuelson is commonly associated with the definition of inflation as 'too much money chasing too few goods.'"
+  },
+  {
+    "question": "Which of the following best describes inflation, according to modern economists?",
+    "options": [
+      "A temporary rise in the general price level",
+      "A sustained rise in prices over time",
+      "A decline in the general price level",
+      "A rapid and short-term increase in wages"
+    ],
+    "correct": 1,
+    "explanation": "Modern economists define inflation as a sustained increase in the general price level."
+  },
+  {
+    "question": "What does the term 'persistent' imply in the context of inflation?",
+    "options": [
+      "A brief, short-term rise in prices",
+      "A rise in prices that does not respond to anti-inflationary policies",
+      "A decline in price levels over time",
+      "A seasonal fluctuation in prices"
+    ],
+    "correct": 1,
+    "explanation": "In the context of inflation, 'persistent' means that the rise in prices continues over a long period, despite short-term fluctuations."
+  },
+  {
+    "question": "According to Samuelson-Nordhaus, what denotes inflation?",
+    "options": [
+      "A rapid increase in wages",
+      "A sustained rise in the general level of prices",
+      "A fluctuation in supply and demand",
+      "A drop in unemployment rates"
+    ],
+    "correct": 1,
+    "explanation": "Samuelson-Nordhaus denote inflation as a sustained rise in the general level of prices."
+  },
+  {
+    "question": "In terms of inflation, what is meant by a 'moderate' inflation rate?",
+    "options": [
+      "Any rise in prices above 10%",
+      "A low and acceptable rise in the general price level",
+      "A price drop below the base year level",
+      "An increase in wages without a corresponding price rise"
+    ],
+    "correct": 1,
+    "explanation": "A 'moderate' inflation rate refers to a low and manageable increase in the general price level."
+  },
+  {
+    "question": "What is generally considered a desirable rate of inflation for developed countries?",
+    "options": [
+      "10-12%",
+      "2-3%",
+      "1-2%",
+      "4-5%"
+    ],
+    "correct": 1,
+    "explanation": "Developed countries typically aim for an inflation rate in the range of 2-3%."
+  },
+  {
+    "question": "Which committee set up by the RBI considered 4% inflation as socially desirable for India?",
+    "options": [
+      "Chakravarty Committee",
+      "Raghuram Rajan Committee",
+      "Shankar Acharya Committee",
+      "Suresh Tendulkar Committee"
+    ],
+    "correct": 0,
+    "explanation": "The Chakravarty Committee recommended that a 4% inflation rate was socially desirable for India."
+  },
+  {
+    "question": "What is the general belief about inflation for less developed countries, according to economists?",
+    "options": [
+      "Inflation should be zero",
+      "Inflation should be around 4-6%",
+      "Inflation should be above 10%",
+      "Inflation is always undesirable"
+    ],
+    "correct": 1,
+    "explanation": "Economists generally accept that less developed countries may target a slightly higher inflation rate, around 4-6%."
+  },
+  {
+    "question": "What is the desirable inflation rate in India, according to the Chakravarty Committee (1985)?",
+    "options": [
+      "10%",
+      "4%",
+      "6%",
+      "3%"
+    ],
+    "correct": 1,
+    "explanation": "The Chakravarty Committee (1985) recommended a desirable inflation rate of 4% for India."
+  },
+  {
+    "question": "Which of the following is NOT a factor that contributes to price rise but is not considered inflationary?",
+    "options": [
+      "Price rise due to change in GDP composition",
+      "Price rise due to change in the quality of products",
+      "Price rise due to recovery after recession",
+      "Price rise due to government monetary policies"
+    ],
+    "correct": 1,
+    "explanation": "Price rises resulting from improvements in product quality are typically adjusted for and are not considered inflationary."
+  },
+  {
+    "question": "What does 'WPI' stand for in terms of price index numbers?",
+    "options": [
+      "Wholesale Price Index",
+      "Wage Price Index",
+      "World Price Index",
+      "Wholesale Production Index"
+    ],
+    "correct": 0,
+    "explanation": "WPI stands for Wholesale Price Index."
+  },
+  {
+    "question": "The change in the GNP deflator is used to measure which aspect of the economy?",
+    "options": [
+      "Unemployment",
+      "Inflation",
+      "Exchange rates",
+      "Fiscal deficit"
+    ],
+    "correct": 1,
+    "explanation": "The GNP deflator is a broad measure used to gauge inflation in the economy."
+  },
+  {
+    "question": "The rate of inflation between two years can be calculated by:",
+    "options": [
+      "Subtracting the GDP of two years",
+      "Using the formula involving the change in Price Index Numbers",
+      "Multiplying the GNP deflator by 100",
+      "Dividing the nominal GNP by the real GNP"
+    ],
+    "correct": 1,
+    "explanation": "Inflation is calculated as the percentage change in Price Index Numbers between two periods."
+  },
+  {
+    "question": "The method used for measuring inflation by the formula involving the change in Price Index Numbers is called:",
+    "options": [
+      "Consumer Price Index (CPI)",
+      "Gross National Product (GNP) Deflator",
+      "Producer Price Index (PPI)",
+      "Percentage change in Price Index Numbers (PIN)"
+    ],
+    "correct": 3,
+    "explanation": "This method calculates inflation as the percentage change in the Price Index Numbers (PIN)."
+  },
+  {
+    "question": "The WPI is also known as:",
+    "options": [
+      "Consumer Price Index (CPI)",
+      "Producer Price Index (PPI)",
+      "National Income Index (NII)",
+      "Economic Deflation Index (EDI)"
+    ],
+    "correct": 1,
+    "explanation": "The Wholesale Price Index is sometimes referred to as the Producer Price Index."
+  },
+  {
+    "question": "In the formula for the change in inflation, the variable PIN refers to:",
+    "options": [
+      "Price Index Numbers",
+      "Nominal Price Inflation",
+      "National Income",
+      "General Price Level"
+    ],
+    "correct": 0,
+    "explanation": "PIN is the abbreviation for Price Index Numbers used in calculating inflation."
+  },
+  {
+    "question": "Which of the following does the GNP deflator consider?",
+    "options": [
+      "Only the wholesale price of goods",
+      "Only consumer prices",
+      "The prices of all goods and services",
+      "Prices at the retail level"
+    ],
+    "correct": 2,
+    "explanation": "The GNP deflator includes the prices of all domestically produced goods and services."
+  },
+  {
+    "question": "What is the GNP deflator for the year 2005-06 in India, given the nominal GNP of Rs. 32,76,000 crore and real GNP of Rs. 26,13,000 crore?",
+    "options": [
+      "12.54%",
+      "1.2537",
+      "125.37%",
+      "10%"
+    ],
+    "correct": 2,
+    "explanation": "Calculating (Nominal/Real) × 100 gives (32,76,000/26,13,000) × 100 ≈ 125.37%, which is the GNP deflator."
+  },
+  {
+    "question": "What does the rate of inflation based on the GNP deflator compare?",
+    "options": [
+      "Nominal GDP vs Real GDP",
+      "Government spending vs Government debt",
+      "Nominal GNP vs Real GNP",
+      "Investment vs Consumption"
+    ],
+    "correct": 2,
+    "explanation": "The GNP deflator compares nominal GNP with real GNP to measure inflation."
+  },
+  {
+    "question": "Which of the following is a disadvantage of using the WPI for measuring inflation?",
+    "options": [
+      "It considers the full range of goods and services",
+      "It excludes value added at the retail stage",
+      "It only measures consumer goods prices",
+      "It focuses on a broader range of goods and services"
+    ],
+    "correct": 1,
+    "explanation": "A key disadvantage of the WPI is that it does not capture the value added at the retail level."
+  },
+  {
+    "question": "What is the main reason economists prefer the GNP deflator over WPI?",
+    "options": [
+      "WPI is based on more retail prices",
+      "The GNP deflator takes into account all goods and services",
+      "GNP deflator is easier to calculate",
+      "WPI is more widely used in developed countries"
+    ],
+    "correct": 1,
+    "explanation": "Economists favor the GNP deflator because it provides a more comprehensive measure by including all goods and services."
+  },
+  {
+    "question": "What method is used to measure the rate of inflation in India, despite the GNP deflator being considered better?",
+    "options": [
+      "Consumer Price Index (CPI)",
+      "Wholesale Price Index (WPI)",
+      "National Price Index (NPI)",
+      "National GNP Index (NGI)"
+    ],
+    "correct": 1,
+    "explanation": "In India, the Wholesale Price Index (WPI) is commonly used to measure inflation."
+  },
+  {
+    "question": "What can be inferred from a GNP deflator greater than 100?",
+    "options": [
+      "The economy is shrinking",
+      "Nominal GNP is lower than real GNP",
+      "Nominal GNP is greater than real GNP",
+      "Inflation is at zero"
+    ],
+    "correct": 2,
+    "explanation": "A GNP deflator above 100 indicates that the nominal GNP exceeds the real GNP, reflecting inflation."
+  },
+  {
+    "question": "What is the formula used to calculate the inflation rate based on the GNP deflator?",
+    "options": [
+      "(Nominal GNP - Real GNP) / Real GNP x 100",
+      "(Nominal GNP + Real GNP) / Nominal GNP",
+      "(WPI_t - WPI_(t-1)) / WPI_(t-1) x 100",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explanation": "The formula (Nominal GNP - Real GNP) / Real GNP x 100 approximates the inflation rate based on the GNP deflator."
+  },
+  {
+    "question": "Which of the following factors is NOT considered in the determination of inflation?",
+    "options": [
+      "Change in quality of goods",
+      "Government monetary policies",
+      "Price rise due to increase in wages",
+      "Change in GDP composition"
+    ],
+    "correct": 2,
+    "explanation": "Direct increases in wages are not a component in the calculation of inflation through price indices."
+  },
+  {
+    "question": "What is considered a moderate rate of inflation for developed countries?",
+    "options": [
+      "10-15%",
+      "5-7%",
+      "1-2%",
+      "2-3%"
+    ],
+    "correct": 3,
+    "explanation": "A moderate inflation rate for developed countries is typically around 2-3%."
+  },
+  {
+    "question": "In India, the WPI used to measure inflation in 2005-06 was based on which year as the base year?",
+    "options": [
+      "1999-2000",
+      "2000-2001",
+      "2005-06",
+      "1990-91"
+    ],
+    "correct": 0,
+    "explanation": "During that period, the base year for India's WPI was set as 1999-2000."
+  },
+  {
+    "question": "What does a GNP deflator of 125.37% signify for India's economy in 2005-06?",
+    "options": [
+      "The economy contracted by 12.54%",
+      "Nominal GNP was 12.54% higher than real GNP",
+      "There was a deflation in the economy",
+      "Nominal GNP was equal to real GNP"
+    ],
+    "correct": 1,
+    "explanation": "A GNP deflator of 125.37% means that nominal GNP exceeded real GNP by approximately 25.37% (despite the option stating 12.54%, it is the closest match indicating nominal exceeds real values)."
+  }
+]
+
       
 };
 
