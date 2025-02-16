@@ -15,6 +15,7 @@ const mcqData = {
         }
     ],
     "Marketing Management": [
+        // Original MCQs
         {
             question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
             options: [
@@ -49,7 +50,7 @@ const mcqData = {
             explanation: "Reference groups influence a person's attitudes or behaviors."
         },
         {
-            question: "4. Arrange the following stages of New Product Development in an appropriate sequence: (a) Test Marketing, (B) Concept Development, (c) Business Analysis, (d) Idea Screening.",
+            question: "4. Arrange the following stages of New Product Development in an appropriate sequence: (a) Test Marketing, (b) Concept Development, (c) Business Analysis, (d) Idea Screening.",
             options: [
                 "b-d-a-b",
                 "a-b-c-d",
@@ -124,6 +125,423 @@ const mcqData = {
             ],
             correct: 3,
             explanation: "EDLP stands for Everyday low pricing."
+        },
+        // New MCQs – Block 1
+        {
+            question: "11. A _______ is a single business or collection of related businesses that can be separately planned from the rest of the company.",
+            options: [
+                "Strategic Business Unit",
+                "Product Unit",
+                "Corporate Unit",
+                "Divisional Unit"
+            ],
+            correct: 0,
+            explanation: "A Strategic Business Unit can be planned separately from the rest of the company."
+        },
+        {
+            question: "12. _______ is defined as the shared experiences, stories, beliefs and norms that characterize an organization.",
+            options: [
+                "Strategic planning",
+                "Organizational culture",
+                "Corporate culture",
+                "Organizational climate"
+            ],
+            correct: 1,
+            explanation: "Organizational culture refers to the shared experiences, stories, beliefs, and norms of an organization."
+        },
+        {
+            question: "13. Those groups that have a direct influence on a person's behavior are called:",
+            options: [
+                "Dissociative Groups",
+                "Aspirational Groups",
+                "Secondary Groups",
+                "Reference Groups"
+            ],
+            correct: 3,
+            explanation: "Reference groups have a direct influence on a person's behavior."
+        },
+        {
+            question: "14. A _______ is an elaborated version of the idea expressed in consumer terms.",
+            options: [
+                "Product concept",
+                "Product idea",
+                "Brand concept",
+                "Product positioning"
+            ],
+            correct: 0,
+            explanation: "A product concept is an elaborated version of the idea expressed in consumer terms."
+        },
+        {
+            question: "15. _______ is the science of using psychology & demographics to better understand consumers.",
+            options: [
+                "Psychographics",
+                "Demographics",
+                "Personality",
+                "Market Research"
+            ],
+            correct: 0,
+            explanation: "Psychographics is used to study consumer behavior based on psychological attributes."
+        },
+        {
+            question: "16. A product that is unpredictable, short lived & without social, economic & political significance is called a:",
+            options: [
+                "Trend",
+                "Fad"
+            ],
+            correct: 1,
+            explanation: "A fad is typically unpredictable and short lived."
+        },
+        {
+            question: "17. The total number of items in a company's product mix is known as its:",
+            options: [
+                "Width",
+                "Length",
+                "Depth",
+                "Positioning"
+            ],
+            correct: 1,
+            explanation: "The product mix length is the total number of items carried by a company."
+        },
+        {
+            question: "18. The items with lower sales volume, no promotion and with somewhat higher margin are known as:",
+            options: [
+                "Core products",
+                "Staples",
+                "Specialties",
+                "Convenience items"
+            ],
+            correct: 2,
+            explanation: "Specialties are items that have lower sales volume but higher margins."
+        },
+        {
+            question: "19. Product assortment is also known as:",
+            options: [
+                "Product Mix",
+                "Product System",
+                "Product Concept",
+                "Promotion Mix"
+            ],
+            correct: 0,
+            explanation: "Product assortment is another term for product mix."
+        },
+        {
+            question: "20. Which of the following is not a major consideration in setting price?",
+            options: [
+                "Customers' Demand Schedule",
+                "Cost Function",
+                "Competitors' Prices",
+                "Customers' Tastes and Preferences"
+            ],
+            correct: 3,
+            explanation: "Customers' tastes and preferences are less quantitative compared to the other factors."
+        },
+        // New MCQs – Block 2
+        {
+            question: "21. A product that is unpredictable, short-lived & without social, economic & political significance is called a:",
+            options: [
+                "Trend",
+                "Fad",
+                "Amusement",
+                "Fantasy"
+            ],
+            correct: 1,
+            explanation: "A fad is short-lived and lacks lasting significance."
+        },
+        {
+            question: "22. _______ is the study of how individuals, groups and organizations select, buy, use and dispose of goods, services, ideas or experiences.",
+            options: [
+                "Consumer Behavior",
+                "Advertising Management",
+                "Public Relations",
+                "None of the above"
+            ],
+            correct: 0,
+            explanation: "Consumer behavior studies the decision processes of buyers."
+        },
+        {
+            question: "23. Advertising and websites are examples of which type of information source?",
+            options: [
+                "Personal",
+                "Commercial",
+                "Experimental",
+                "All of the above"
+            ],
+            correct: 1,
+            explanation: "Advertising and websites are commercial sources of information."
+        },
+        {
+            question: "24. Income Distribution, Saving, Debt and Credit Availability are parts of the ______ environment.",
+            options: [
+                "Demographic",
+                "Economic"
+            ],
+            correct: 1,
+            explanation: "These factors are part of the economic environment."
+        },
+        {
+            question: "25. A ______ is a descriptive thought that a person holds about something.",
+            options: [
+                "Belief",
+                "Attitude",
+                "Judgment"
+            ],
+            correct: 0,
+            explanation: "A belief is a descriptive thought about something."
+        },
+        {
+            question: "26. ______ testing means testing the product within the firm to check its performance in different applications.",
+            options: [
+                "Alpha testing",
+                "Beta testing",
+                "Simulated testing",
+                "Field testing"
+            ],
+            correct: 0,
+            explanation: "Alpha testing is conducted within the firm."
+        },
+        {
+            question: "27. ______ is a possible product the company might offer to the market.",
+            options: [
+                "Product Concept",
+                "Product Idea",
+                "Brand Concept",
+                "None of the above"
+            ],
+            correct: 1,
+            explanation: "A product idea is a potential offering for the market."
+        },
+        {
+            question: "28. In a product mix, the total number of items carried by the company is called its:",
+            options: [
+                "Length",
+                "Depth",
+                "Width",
+                "Consistency"
+            ],
+            correct: 0,
+            explanation: "Length refers to the total number of items in the product mix."
+        },
+        {
+            question: "29. In a product mix, the number of different product lines a company carries is called its:",
+            options: [
+                "Depth",
+                "Length",
+                "Width",
+                "Consistency"
+            ],
+            correct: 2,
+            explanation: "Width refers to how many different product lines a company carries."
+        },
+        // New MCQs – Block 3
+        {
+            question: "30. For higher sales and profit, a company's growth options include:",
+            options: [
+                "Intensive Growth",
+                "Integrative Growth",
+                "Diversification Growth",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All of these growth options can contribute to higher sales and profit."
+        },
+        {
+            question: "31. ______ strategy involves gaining market share with its current products in current markets.",
+            options: [
+                "Market Development",
+                "Market Penetration",
+                "Product Development",
+                "Diversification"
+            ],
+            correct: 1,
+            explanation: "Market Penetration focuses on increasing market share with existing products in existing markets."
+        },
+        {
+            question: "32. ______ is a direction or sequence of events that has some momentum and durability.",
+            options: [
+                "Fad",
+                "Fashion",
+                "Trend",
+                "Style"
+            ],
+            correct: 2,
+            explanation: "A trend has momentum and durability over time."
+        },
+        {
+            question: "33. ______ is a single business or collection of related businesses that can be planned separately from the rest of the company.",
+            options: [
+                "Strategic Business Unit",
+                "Corporate Business Unit",
+                "Divisional Business Unit",
+                "None of the above"
+            ],
+            correct: 0,
+            explanation: "A Strategic Business Unit (SBU) can be managed independently."
+        },
+        {
+            question: "34. In which pricing method does a company charge a fairly low price for a high quality offering?",
+            options: [
+                "Going Rate Pricing",
+                "Auction Type Pricing",
+                "Value Pricing",
+                "Mark-up Pricing"
+            ],
+            correct: 2,
+            explanation: "Value Pricing charges a low price for high quality."
+        },
+        // New MCQs – Block 4
+        {
+            question: "35. A type of value pricing known as EDLP is called:",
+            options: [
+                "Every time low pricing",
+                "Everyday low pricing",
+                "Everyday least price",
+                "None"
+            ],
+            correct: 1,
+            explanation: "EDLP stands for Everyday Low Pricing."
+        },
+        {
+            question: "36. Consumers tend to process prices in a left-to-right manner rather than by rounding. This effect is known as:",
+            options: [
+                "Price Cues",
+                "Price Anchoring",
+                "Reference Price",
+                "Price Lining"
+            ],
+            correct: 0,
+            explanation: "Consumers pick up on price cues as they read prices from left to right."
+        },
+        {
+            question: "37. In a product mix, the number of variants offered for each product in a line is called its:",
+            options: [
+                "Width",
+                "Length",
+                "Depth",
+                "Consistency"
+            ],
+            correct: 2,
+            explanation: "Depth refers to the number of variants for each product."
+        },
+        {
+            question: "38. Consumer preferences for a product concept can be measured through:",
+            options: [
+                "Marketing Strategy",
+                "Price Quality Inference",
+                "Conjoint Analysis",
+                "Simulated Testing"
+            ],
+            correct: 2,
+            explanation: "Conjoint Analysis is used to measure consumer preferences."
+        },
+        {
+            question: "39. A ______ is an elaborated version of the idea expressed in consumer terms.",
+            options: [
+                "Product Idea",
+                "Product Concept",
+                "Depth",
+                "Consistency"
+            ],
+            correct: 1,
+            explanation: "A product concept is the detailed version of a product idea."
+        },
+        {
+            question: "40. Testing a product within the firm to check its performance in different applications is known as:",
+            options: [
+                "Alpha testing",
+                "Beta testing",
+                "Idea Screening",
+                "Prototype"
+            ],
+            correct: 0,
+            explanation: "Alpha testing is conducted internally within the firm."
+        },
+        {
+            question: "41. Gradually reducing a product's or business's cost while trying to maintain sales is known as:",
+            options: [
+                "Liquidating",
+                "Investing",
+                "Harvesting",
+                "Divesting"
+            ],
+            correct: 2,
+            explanation: "Harvesting involves reducing costs while sustaining sales."
+        },
+        {
+            question: "42. Under the Information Search stage of the Buying Decision Process, which of the following is an example of a commercial source?",
+            options: [
+                "Advertising, websites, dealer displays",
+                "Family and friends",
+                "Consumer rating organizations",
+                "Word of mouth"
+            ],
+            correct: 0,
+            explanation: "Advertising, websites, and dealer displays are commercial sources."
+        },
+        {
+            question: "43. ______ refers to the distinguishing psychological traits that lead to relatively consistent and enduring responses to environmental stimuli.",
+            options: [
+                "Personality",
+                "Belief",
+                "Actual Self-Concept",
+                "Self-Concept"
+            ],
+            correct: 0,
+            explanation: "Personality refers to these enduring psychological traits."
+        },
+        {
+            question: "44. ______ is the most fundamental determinant of a person's wants and behavior.",
+            options: [
+                "Culture",
+                "Brand",
+                "Personality",
+                "Consumer"
+            ],
+            correct: 0,
+            explanation: "Culture is the most fundamental determinant of wants and behavior."
+        },
+        {
+            question: "45. ______ is the study of how individuals, groups and organizations select, buy, use and dispose of goods, services, ideas, or experiences.",
+            options: [
+                "Consumer Behaviour",
+                "Customer Behaviour",
+                "Customer Relationship",
+                "Consumer Relationship"
+            ],
+            correct: 0,
+            explanation: "Consumer Behaviour is the study of buying processes."
+        },
+        {
+            question: "46. Aspirational groups are those groups which a person:",
+            options: [
+                "Hopes to join",
+                "Rejects the values or behavior of the group",
+                "Interacts on a fairly continuous basis",
+                "Interacts on a formal basis"
+            ],
+            correct: 0,
+            explanation: "Aspirational groups are those that a person hopes to join."
+        },
+        {
+            question: "47. Which pricing method should be adopted by sellers who want to sell antique items?",
+            options: [
+                "Target return Pricing",
+                "Auction bid pricing",
+                "Going rate Pricing",
+                "Perceived value pricing"
+            ],
+            correct: 1,
+            explanation: "Antique items are often sold via auction bid pricing."
+        },
+        {
+            question: "48. In a product mix, the total number of items is referred to as its:",
+            options: [
+                "Consistency",
+                "Depth",
+                "Width",
+                "Length"
+            ],
+            correct: 3,
+            explanation: "Length refers to the total number of items in the product mix."
         }
     ],
     "ESBM": [
@@ -175,10 +593,6 @@ const mcqData = {
         }
     ]
 };
-
-let currentSubject = "";
-let currentQuestionIndex = 0;
-let currentQuestionData = {}; // Holds the current question's data
 
 // Function to Start the Test
 function startTest(subject) {
