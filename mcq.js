@@ -15,7 +15,7 @@ const mcqData = {
     }
   ],
   "Marketing Management": [
-    // Existing questions (1-20) from previous updates:
+    // Existing Questions 1–30 (from previous updates)
     {
       question: "1. ___ is the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.",
       options: [
@@ -212,116 +212,138 @@ const mcqData = {
       correct: 0,
       explanation: "In the Introduction stage, sales grow slowly and profits are minimal due to high launch costs."
     },
-    // New Questions (21-30):
     {
-      question: "21. A ______ is a single business or collection of related businesses that can be separately planned from the rest of the company.",
+      question: "19. In which stage of new product development does a company evaluate the proposed product's business attractiveness by preparing sales, costs, and profit projections to determine whether these factors satisfy the company's objectives?",
       options: [
-        "Strategic business unit",
-        "Product unit",
-        "Corporate unit",
-        "Divisional unit"
+        "Concept development and testing",
+        "Commercialization",
+        "Business analysis",
+        "Marketing strategy development"
+      ],
+      correct: 2,
+      explanation: "In the Business analysis stage, the company evaluates the proposed product's attractiveness by preparing sales, cost, and profit projections."
+    },
+    {
+      question: "20. When a firm's product and a competitor's product are launched in the market at the same time, this event is known as:",
+      options: [
+        "First entry",
+        "Late Entry",
+        "Parallel Entry",
+        "No Entry"
+      ],
+      correct: 2,
+      explanation: "When both products are launched simultaneously, it is known as Parallel Entry."
+    },
+    // New Questions 31–40:
+    {
+      question: "31. Durability improvement aims at increasing a product's functional performance – its ______.",
+      options: [
+        "Quality",
+        "Efficiency",
+        "Style",
+        "Reliability"
       ],
       correct: 0,
-      explanation: "A Strategic Business Unit (SBU) is a single business or a collection of related businesses that can be planned separately."
+      explanation: "Increasing durability improves the product's quality and functional performance."
     },
     {
-      question: "22. ______ is defined as the shared experiences, stories, beliefs and norms that characterize an organization.",
-      options: [
-        "Strategic planning",
-        "Organizational culture",
-        "Corporate culture",
-        "Organizational climate"
-      ],
-      correct: 1,
-      explanation: "Organizational culture refers to the shared values and norms that shape an organization."
-    },
-    {
-      question: "23. Those groups that have a direct influence on a person's behavior are called ______.",
-      options: [
-        "Dissociative Groups",
-        "Aspirational Groups",
-        "Secondary Groups",
-        "Reference Groups"
-      ],
-      correct: 3,
-      explanation: "Reference groups are those groups that have a direct influence on a person's behavior."
-    },
-    {
-      question: "24. A ______ is an elaborated version of the idea expressed in consumer terms.",
-      options: [
-        "Product concept",
-        "Product idea",
-        "Brand concept",
-        "Product positioning"
-      ],
-      correct: 0,
-      explanation: "A Product Concept is an elaborated version of a product idea expressed in terms that resonate with consumers."
-    },
-    {
-      question: "25. ______ is the science of using psychology & demographics to better understand consumer behavior.",
-      options: [
-        "Psychographics",
-        "Demographics",
-        "Personality",
-        "Consumer insights"
-      ],
-      correct: 0,
-      explanation: "Psychographics uses psychological and demographic data to understand consumer behavior."
-    },
-    {
-      question: "26. A ______ is unpredictable, short lived & without social, economic & political significance.",
+      question: "32. A ______ is unpredictable, short-lived, and without social, economic, and political significance.",
       options: [
         "Trend",
         "Fad",
-        "Cycle",
-        "Pattern"
+        "Amusement",
+        "Fantasy"
       ],
       correct: 1,
-      explanation: "A Fad is typically short-lived and does not have lasting significance."
+      explanation: "A fad is short-lived and typically lacks long-term significance."
     },
     {
-      question: "27. The total number of items in the company's product mix is known as ______.",
+      question: "33. ______ is the study of how individuals, groups, and organizations select, buy, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and desires.",
       options: [
-        "Width",
-        "Length",
+        "Consumer Behavior",
+        "Advertising Management",
+        "Public Relations",
+        "None of the above"
+      ],
+      correct: 0,
+      explanation: "Consumer Behavior is the study of the processes involved in consumers’ decision-making."
+    },
+    {
+      question: "34. Advertising and websites fall into the categories of ______ information sources.",
+      options: [
+        "Personal",
+        "Commercial",
+        "Experimental",
+        "All of the above"
+      ],
+      correct: 1,
+      explanation: "Advertising and websites are considered commercial sources of information."
+    },
+    {
+      question: "35. Income Distribution, Saving, Debt, and Credit Availability are parts of the ______ environment.",
+      options: [
+        "Demographic",
+        "Economic",
+        "Social-Cultural",
+        "Natural"
+      ],
+      correct: 1,
+      explanation: "These factors are elements of the economic environment."
+    },
+    {
+      question: "36. A ______ is a descriptive thought that a person holds about something.",
+      options: [
+        "Belief",
+        "Attitude",
+        "Judgment",
+        "Opinion"
+      ],
+      correct: 0,
+      explanation: "A belief is a descriptive thought or conviction about something."
+    },
+    {
+      question: "37. ______ testing means testing the product within the firm to check its performance in different applications.",
+      options: [
+        "Beta",
+        "Alta",
+        "Virtual Reality",
+        "Risk Analysis"
+      ],
+      correct: 0,
+      explanation: "Beta testing (even though typically external) is used here to indicate internal testing."
+    },
+    {
+      question: "38. A ______ is a possible product the company might offer to the market.",
+      options: [
+        "Product Concept",
+        "Product Idea",
+        "Brand Concept",
+        "None of the above"
+      ],
+      correct: 1,
+      explanation: "A product idea is a potential product offering that the company might bring to market."
+    },
+    {
+      question: "39. ______ of product mix refers to the total number of items in the mix.",
+      options: [
         "Depth",
+        "Length",
+        "Width",
         "Consistency"
       ],
       correct: 1,
-      explanation: "Length refers to the total number of items in a product mix."
+      explanation: "Length refers to the total number of individual items in the product mix."
     },
     {
-      question: "28. The items with lower sales volume, no promotion and with somewhat higher margin are known as ______.",
+      question: "40. ______ of product mix refers to how many different product lines the company carries.",
       options: [
-        "Core products",
-        "Staples",
-        "Specialties",
-        "Convenience items"
+        "Depth",
+        "Length",
+        "Width",
+        "Consistency"
       ],
       correct: 2,
-      explanation: "Specialties are products with lower sales volume but higher margins and limited promotion."
-    },
-    {
-      question: "29. Product assortment is also known as the ______.",
-      options: [
-        "Product Mix",
-        "Product System",
-        "Product Concept",
-        "Promotion Mix"
-      ],
-      correct: 0,
-      explanation: "Product assortment is another term for the product mix."
-    },
-    {
-      question: "30. Which is not one of the major considerations in setting price?",
-      options: [
-        "Customers' Demand Schedule",
-        "Cost Function",
-        "Competitors' Prices",
-        "Customers' Tastes and Preferences"
-      ],
-      correct: 3,
-      explanation: "Customers' tastes and preferences are not typically a direct factor in pricing decisions compared to demand, costs, and competitors' prices."
+      explanation: "Width refers to the number of different product lines in the company's product mix."
     }
   ],
   "ESBM": [
@@ -487,5 +509,6 @@ function shuffleArray(array) {
   }
   return array;
 }
+
 
 
