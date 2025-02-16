@@ -134,6 +134,7 @@ const mcqData = {
 
 let currentSubject = "";
 let currentQuestionIndex = 0;
+let currentQuestionData = {}; // Holds the current question's data
 
 // Function to Start the Test
 function startTest(subject) {
@@ -162,13 +163,13 @@ function startTest(subject) {
 
 // Function to Load a Question
 function loadQuestion() {
-    let questionData = mcqData[currentSubject][currentQuestionIndex];
+    currentQuestionData = mcqData[currentSubject][currentQuestionIndex];
 
     // Shuffle options while keeping track of the correct answer
-    let shuffledOptions = shuffleArray([...questionData.options]);
-    let correctIndex = shuffledOptions.indexOf(questionData.options[questionData.correct]);
+    let shuffledOptions = shuffleArray([...currentQuestionData.options]);
+    let correctIndex = shuffledOptions.indexOf(currentQuestionData.options[currentQuestionData.correct]);
 
-    document.getElementById("question").innerText = questionData.question;
+    document.getElementById("question").innerText = currentQuestionData.question;
     
     let optionsDiv = document.getElementById("options");
     optionsDiv.innerHTML = ""; // Clear previous options
@@ -188,15 +189,18 @@ function loadQuestion() {
 // Function to Check the Answer
 function checkAnswer(selectedIndex, correctIndex, btn) {
     let allButtons = document.querySelectorAll(".option-btn");
+    let explanationText = "";
 
     if (selectedIndex === correctIndex) {
         btn.classList.add("correct");
-        document.getElementById("explanation").innerText = "✅ Correct!";
+        explanationText = "✅ Correct! " + currentQuestionData.explanation;
     } else {
         btn.classList.add("wrong");
         allButtons[correctIndex].classList.add("correct");
-        document.getElementById("explanation").innerText = "❌ Incorrect!";
+        explanationText = "❌ Incorrect! " + currentQuestionData.explanation;
     }
+
+    document.getElementById("explanation").innerText = explanationText;
 
     // Disable all options after selection
     allButtons.forEach(button => button.onclick = null);
