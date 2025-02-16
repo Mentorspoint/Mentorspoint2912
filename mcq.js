@@ -2546,7 +2546,8 @@ const mcqData = {
     answer: "A",
   },
 ],
-
+  "Banking": 
+      
 };
 
 // Function to Start the Test
