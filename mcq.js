@@ -4101,5 +4101,32 @@ function shuffleArray(array) {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]]; // Swap elements
   }
+
+    // Display performance analytics at the end of the test
+function showPerformanceAnalytics() {
+    const totalQuestions = mcqData[currentSubject].length;
+    const percentage = ((score / totalQuestions) * 100).toFixed(2);
+    let performanceMessage = "";
+
+    if (percentage >= 80) {
+        performanceMessage = "🌟 Excellent work!";
+    } else if (percentage >= 50) {
+        performanceMessage = "✅ Good job!";
+    } else {
+        performanceMessage = "⚠️ Needs Improvement.";
+    }
+
+    // Display performance analytics
+    document.getElementById("mcq-test").innerHTML = `
+      <h2>Test Completed!</h2>
+      <p>Total Questions: ${totalQuestions}</p>
+      <p>Correct Answers: ${score}</p>
+      <p>Score: ${percentage}%</p>
+      <p>${performanceMessage}</p>
+      <button onclick="goHome()" class="btn">🏠 Return to Home</button>
+      <button onclick="retryTest()" class="btn">🔄 Retry Test</button>
+    `;
+}
+
   return array;
 }
