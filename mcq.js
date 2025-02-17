@@ -3989,8 +3989,8 @@ function startTest(subject) {
   currentSubject = subject;
   currentQuestionIndex = 0;
 
-  // Shuffle questions before starting
-  mcqData[currentSubject] = shuffleArray(mcqData[currentSubject]);
+ // Shuffle questions and then select only the first 25
+mcqData[currentSubject] = shuffleArray(mcqData[currentSubject]).slice(0, 25);
 
   // Reset the test section (Clear any previous result)
   document.getElementById("mcq-test").innerHTML = `
