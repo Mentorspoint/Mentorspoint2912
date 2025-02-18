@@ -4034,6 +4034,14 @@ function loadQuestion() {
     document.getElementById("prev-btn").style.display = currentQuestionIndex > 0 ? "block" : "none";
 }
 
+// Function to Move to Previous Question
+function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        loadQuestion();
+    }
+}
+
 // Function to Check the Answer
 function checkAnswer(selectedIndex, correctIndex, btn) {
     let allButtons = document.querySelectorAll(".option-btn");
