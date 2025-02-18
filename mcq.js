@@ -3986,147 +3986,151 @@ const mcqData = {
 
 // Function to Start the Test
 function startTest(subject) {
-  currentSubject = subject;
-  currentQuestionIndex = 0;
+    currentSubject = subject;
+    currentQuestionIndex = 0;
+    score = 0; // Initialize score
+    userAnswers = []; // Store user's answers
 
- // Shuffle questions and then select only the first 25
-mcqData[currentSubject] = shuffleArray(mcqData[currentSubject]).slice(0, 25);
+    // Shuffle questions and then select only the first 25
+    mcqData[currentSubject] = shuffleArray(mcqData[currentSubject]).slice(0, 25);
 
-  // Reset the test section (Clear any previous result)
-  document.getElementById("mcq-test").innerHTML = `
-      <h2 id="subject-title"></h2>
-      <p id="question"></p>
-      <div id="options"></div>
-      <button id="prev-btn" onclick="prevQuestion()" style="display: none;">Previous</button>
-      <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
-      <p id="explanation"></p>
-  `;
+    // Reset the test section (Clear any previous result)
+    document.getElementById("mcq-test").innerHTML = `
+        <h2 id="subject-title"></h2>
+        <p id="question"></p>
+        <div id="options"></div>
+        <button id="prev-btn" onclick="prevQuestion()" style="display: none;">Previous</button>
+        <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+        <p id="explanation"></p>
+    `;
 
-  // Hide subject selection and show MCQ test
-  document.getElementById("subject-selection").style.display = "none";
-  document.getElementById("mcq-test").style.display = "block";
-  document.getElementById("subject-title").innerText = subject.toUpperCase() + " Test";
+    document.getElementById("subject-selection").style.display = "none";
+    document.getElementById("mcq-test").style.display = "block";
+    document.getElementById("subject-title").innerText = subject.toUpperCase() + " Test";
 
-  loadQuestion();
+    loadQuestion();
 }
 
 // Function to Load a Question
 function loadQuestion() {
-  currentQuestionData = mcqData[currentSubject][currentQuestionIndex];
+    currentQuestionData = mcqData[currentSubject][currentQuestionIndex];
+    let shuffledOptions = shuffleArray([...currentQuestionData.options]);
+    let correctIndex = shuffledOptions.indexOf(currentQuestionData.options[currentQuestionData.correct]);
 
-  // Shuffle options while keeping track of the correct answer
-  let shuffledOptions = shuffleArray([...currentQuestionData.options]);
-  let correctIndex = shuffledOptions.indexOf(currentQuestionData.options[currentQuestionData.correct]);
+    document.getElementById("question").innerText = currentQuestionData.question;
+    let optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
 
-  document.getElementById("question").innerText = currentQuestionData.question;
-  
-  let optionsDiv = document.getElementById("options");
-  optionsDiv.innerHTML = ""; // Clear previous options
+    shuffledOptions.forEach((option, index) => {
+        let btn = document.createElement("button");
+        btn.innerText = option;
+        btn.classList.add("option-btn");
+        btn.onclick = () => checkAnswer(index, correctIndex, btn);
+        optionsDiv.appendChild(btn);
+    });
 
-  shuffledOptions.forEach((option, index) => {
-      let btn = document.createElement("button");
-      btn.innerText = option;
-      btn.classList.add("option-btn");
-      btn.onclick = () => checkAnswer(index, correctIndex, btn);
-      optionsDiv.appendChild(btn);
-  });
-
-  document.getElementById("explanation").innerText = "";
-  document.getElementById("next-btn").style.display = "none"; // Hide Next button initially
-  document.getElementById("prev-btn").style.display = currentQuestionIndex > 0 ? "block" : "none"; // Show Previous button if not on first question
+    document.getElementById("explanation").innerText = "";
+    document.getElementById("next-btn").style.display = "none";
+    document.getElementById("prev-btn").style.display = currentQuestionIndex > 0 ? "block" : "none";
 }
 
 // Function to Check the Answer
 function checkAnswer(selectedIndex, correctIndex, btn) {
-  let allButtons = document.querySelectorAll(".option-btn");
-  let explanationText = "";
+    let allButtons = document.querySelectorAll(".option-btn");
+    let explanationText = "";
 
-  if (selectedIndex === correctIndex) {
-      btn.classList.add("correct");
-      explanationText = "✅ Correct! " + currentQuestionData.explanation;
-  } else {
-      btn.classList.add("wrong");
-      allButtons[correctIndex].classList.add("correct");
-      explanationText = "❌ Incorrect! " + currentQuestionData.explanation;
-  }
+    if (selectedIndex === correctIndex) {
+        btn.classList.add("correct");
+        explanationText = "✅ Correct! " + currentQuestionData.explanation;
+        score++;
+    } else {
+        btn.classList.add("wrong");
+        allButtons[correctIndex].classList.add("correct");
+        explanationText = "❌ Incorrect! " + currentQuestionData.explanation;
+    }
 
-  document.getElementById("explanation").innerText = explanationText;
+    userAnswers.push({
+        question: currentQuestionData.question,
+        selected: currentQuestionData.options[selectedIndex],
+        correct: currentQuestionData.options[correctIndex],
+        explanation: currentQuestionData.explanation
+    });
 
-  // Disable all options after selection
-  allButtons.forEach(button => button.onclick = null);
-
-  // Show Next button
-  document.getElementById("next-btn").style.display = "block";
+    document.getElementById("explanation").innerText = explanationText;
+    allButtons.forEach(button => button.onclick = null);
+    document.getElementById("next-btn").style.display = "block";
 }
 
 // Function to Move to Next Question
 function nextQuestion() {
-  currentQuestionIndex++;
+    currentQuestionIndex++;
 
-  if (currentQuestionIndex < mcqData[currentSubject].length) {
-      loadQuestion();
-  } else {
-      // When the test is completed, show results and buttons
-      document.getElementById("mcq-test").innerHTML = `
-          <h2>Test Completed!</h2>
-          <p>Well done! You have finished the ${currentSubject} test.</p>
-          <button onclick="goHome()" class="btn">🏠 Return to Home</button>
-          <button onclick="retryTest()" class="btn">🔄 Retry Test</button>
-      `;
-  }
+    if (currentQuestionIndex < mcqData[currentSubject].length) {
+        loadQuestion();
+    } else {
+        showPerformanceAnalytics();
+    }
 }
 
-// Function to Move to Previous Question
-function prevQuestion() {
-  if (currentQuestionIndex > 0) {
-      currentQuestionIndex--;
-      loadQuestion();
-  }
-}
-
-// Function to return to home
-function goHome() {
-  window.location.href = "index.html";  // Change this if your home page URL is different
-}
-
-// Function to retry test (reload subject selection)
-function retryTest() {
-  document.getElementById("mcq-test").style.display = "none";
-  document.getElementById("subject-selection").style.display = "block";
-}
-
-// Function to shuffle an array (Fisher-Yates algorithm)
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
-  }
-
-    // Display performance analytics at the end of the test
+// Function to Show Performance Analytics
 function showPerformanceAnalytics() {
     const totalQuestions = mcqData[currentSubject].length;
     const percentage = ((score / totalQuestions) * 100).toFixed(2);
-    let performanceMessage = "";
+    let performanceMessage = percentage >= 80 ? "🌟 Excellent work!" : percentage >= 50 ? "✅ Good job!" : "⚠️ Needs Improvement.";
 
-    if (percentage >= 80) {
-        performanceMessage = "🌟 Excellent work!";
-    } else if (percentage >= 50) {
-        performanceMessage = "✅ Good job!";
-    } else {
-        performanceMessage = "⚠️ Needs Improvement.";
-    }
-
-    // Display performance analytics
     document.getElementById("mcq-test").innerHTML = `
       <h2>Test Completed!</h2>
       <p>Total Questions: ${totalQuestions}</p>
       <p>Correct Answers: ${score}</p>
       <p>Score: ${percentage}%</p>
       <p>${performanceMessage}</p>
+      <button onclick="recheckAnswers()" class="btn">🔍 Recheck Answers</button>
       <button onclick="goHome()" class="btn">🏠 Return to Home</button>
       <button onclick="retryTest()" class="btn">🔄 Retry Test</button>
     `;
 }
 
-  return array;
+// Function to Recheck Answers
+function recheckAnswers() {
+    let recheckHTML = `<h2>Review Your Answers</h2>`;
+
+    userAnswers.forEach((item, index) => {
+        recheckHTML += `
+        <div class="review-item">
+            <p><strong>Q${index + 1}: ${item.question}</strong></p>
+            <p>Your Answer: <span class="${item.selected === item.correct ? 'correct' : 'wrong'}">${item.selected}</span></p>
+            <p>Correct Answer: <span class="correct">${item.correct}</span></p>
+            <p>Explanation: ${item.explanation}</p>
+        </div>`;
+    });
+
+    recheckHTML += `<button onclick="viewPDF()" class="btn">📄 View PDF</button>`;
+    recheckHTML += `<button onclick="goHome()" class="btn">🏠 Return to Home</button>`;
+    document.getElementById("mcq-test").innerHTML = recheckHTML;
 }
+
+// Function to View PDF (Placeholder)
+function viewPDF() {
+    window.open('path-to-your-pdf.pdf', '_blank');
+}
+
+// Function to return to home
+function goHome() {
+    window.location.href = "index.html";
+}
+
+// Function to retry test
+function retryTest() {
+    document.getElementById("mcq-test").style.display = "none";
+    document.getElementById("subject-selection").style.display = "block";
+}
+
+// Function to shuffle an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
