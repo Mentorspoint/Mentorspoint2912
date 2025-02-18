@@ -3990,6 +3990,7 @@ function startTest(subject) {
     currentQuestionIndex = 0;
     score = 0; // Initialize score
     userAnswers = []; // Store user's answers
+    questionOrder = {}; // Store shuffled order of options
 
     // Shuffle questions and then select only the first 25
     mcqData[currentSubject] = shuffleArray(mcqData[currentSubject]).slice(0, 25);
@@ -4014,8 +4015,13 @@ function startTest(subject) {
 // Function to Load a Question
 function loadQuestion() {
     currentQuestionData = mcqData[currentSubject][currentQuestionIndex];
-    let shuffledOptions = shuffleArray([...currentQuestionData.options]);
-    let correctIndex = shuffledOptions.indexOf(currentQuestionData.options[currentQuestionData.correct]);
+    
+    // Maintain consistent option order for each question
+    if (!questionOrder[currentQuestionIndex]) {
+        questionOrder[currentQuestionIndex] = [...currentQuestionData.options];
+    }
+    let shuffledOptions = questionOrder[currentQuestionIndex];
+    let correctIndex = currentQuestionData.correct;
 
     document.getElementById("question").innerText = currentQuestionData.question;
     let optionsDiv = document.getElementById("options");
@@ -4026,12 +4032,26 @@ function loadQuestion() {
         btn.innerText = option;
         btn.classList.add("option-btn");
         btn.onclick = () => checkAnswer(index, correctIndex, btn);
+
+        // Pre-select user's previous answer if it exists
+        if (userAnswers[currentQuestionIndex] && userAnswers[currentQuestionIndex].selected === option) {
+            btn.classList.add(userAnswers[currentQuestionIndex].selected === userAnswers[currentQuestionIndex].correct ? "correct" : "wrong");
+        }
+
         optionsDiv.appendChild(btn);
     });
 
-    document.getElementById("explanation").innerText = "";
+    document.getElementById("explanation").innerText = userAnswers[currentQuestionIndex]?.explanation || "";
     document.getElementById("next-btn").style.display = "none";
     document.getElementById("prev-btn").style.display = currentQuestionIndex > 0 ? "block" : "none";
+}
+
+// Function to Move to Previous Question
+function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        loadQuestion();
+    }
 }
 
 // Function to Check the Answer
@@ -4049,12 +4069,12 @@ function checkAnswer(selectedIndex, correctIndex, btn) {
         explanationText = "❌ Incorrect! " + currentQuestionData.explanation;
     }
 
-    userAnswers.push({
+    userAnswers[currentQuestionIndex] = {
         question: currentQuestionData.question,
         selected: currentQuestionData.options[selectedIndex],
         correct: currentQuestionData.options[correctIndex],
         explanation: currentQuestionData.explanation
-    });
+    };
 
     document.getElementById("explanation").innerText = explanationText;
     allButtons.forEach(button => button.onclick = null);
@@ -4089,48 +4109,3 @@ function showPerformanceAnalytics() {
       <button onclick="retryTest()" class="btn">🔄 Retry Test</button>
     `;
 }
-
-// Function to Recheck Answers
-function recheckAnswers() {
-    let recheckHTML = `<h2>Review Your Answers</h2>`;
-
-    userAnswers.forEach((item, index) => {
-        recheckHTML += `
-        <div class="review-item">
-            <p><strong>Q${index + 1}: ${item.question}</strong></p>
-            <p>Your Answer: <span class="${item.selected === item.correct ? 'correct' : 'wrong'}">${item.selected}</span></p>
-            <p>Correct Answer: <span class="correct">${item.correct}</span></p>
-            <p>Explanation: ${item.explanation}</p>
-        </div>`;
-    });
-
-    recheckHTML += `<button onclick="viewPDF()" class="btn">📄 View PDF</button>`;
-    recheckHTML += `<button onclick="goHome()" class="btn">🏠 Return to Home</button>`;
-    document.getElementById("mcq-test").innerHTML = recheckHTML;
-}
-
-// Function to View PDF (Placeholder)
-function viewPDF() {
-    window.open('path-to-your-pdf.pdf', '_blank');
-}
-
-// Function to return to home
-function goHome() {
-    window.location.href = "index.html";
-}
-
-// Function to retry test
-function retryTest() {
-    document.getElementById("mcq-test").style.display = "none";
-    document.getElementById("subject-selection").style.display = "block";
-}
-
-// Function to shuffle an array
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-}
-
