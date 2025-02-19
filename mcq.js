@@ -1091,12 +1091,12 @@ const mcqData = {
     "explanation": "The correct matching is: Critical-Risks (ii), Financial (iv), Operations (iii), Marketing (i), Harvest Strategy (v)."
   },
   {
-    "question": "25. In the method of generating new ideas where no criticism is allowed by anyone in the group, which technique is being used?",
+    "question": "25. In the method of generating new ideas where no criticism is allowed by anyone in the group- no negative comments?",
     "options": [
       "Problem Inventory Analysis",
-      "–––",
+      "Focus Group",
       "Brainstorming",
-      "–––"
+      "Incubation"
     ],
     "correct": 2,
     "explanation": "A key rule in brainstorming is that criticism is not allowed during idea generation."
@@ -1170,7 +1170,7 @@ const mcqData = {
   {
     "question": "5. Which method of generating new ideas encourages freewheeling and is characterized by unfiltered idea generation?",
     "options": [
-      "–––",
+      "Problem Inventory Analysis",
       "Brainstorming",
       "Gordon Method",
       "Focus Group"
