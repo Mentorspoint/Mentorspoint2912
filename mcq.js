@@ -3688,10 +3688,12 @@ const mcqData = {
     question: "Which of the following is an example of mixed income?",
     options: [
       "Rent from land",
+      "Profits from a sole proprietorship",
+      "Wages of factory workers",
       "Dividends from a corporation"
     ],
-    correct: null,
-    explanation: "The options provided are incomplete; typically, mixed income refers to earnings of self‐employed individuals, which is not clearly represented here."
+    correct: 1,
+    explanation: " Profits from a sole proprietorship is an example of mixed income."
   },
   {
     question: "Under the factor income method, which of the following is included in national income?",
