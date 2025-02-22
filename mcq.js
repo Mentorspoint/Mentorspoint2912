@@ -823,8 +823,448 @@ const mcqData = {
             ],
             correct: 3,
             explanation: "EDLP stands for Everyday low pricing."
-        }
+        },
+  {
+    "question": "In method ___, standard Mark-up is added to the product cost.",
+    "options": [
+      "Perceived value pricing",
+      "Mark-up pricing",
+      "Target returns pricing",
+      "Value pricing"
     ],
+    "correct": 1,
+    "explanation": "Mark-up pricing involves adding a standard markup to the cost of the product."
+  },
+  {
+    "question": "During examining products customers often employ ____ observed price to an internal reference price they remember or an external frame of reference such as a posted 'regular retail price'.",
+    "options": [
+      "Non-reference Pricing",
+      "Reference Pricing",
+      "Product-quality Pricing",
+      "Going rate Pricing"
+    ],
+    "correct": 1,
+    "explanation": "Reference pricing is when consumers compare observed prices to internal or external reference prices."
+  },
+  {
+    "question": "In ___ stage of PLC the sales of the product fade away.",
+    "options": [
+      "Introduction",
+      "Decline",
+      "Growth",
+      "Maturity"
+    ],
+    "correct": 1,
+    "explanation": "In the decline stage of the Product Life Cycle (PLC), sales of the product decrease."
+  },
+  {
+    "question": "___ is a basic & distinctive mode of expression.",
+    "options": [
+      "Fiesta",
+      "Style",
+      "Fashion",
+      "Fad"
+    ],
+    "correct": 1,
+    "explanation": "Style is a basic and distinctive mode of expression."
+  },
+  {
+    "question": "___ product are consumer product and services that customer usually by frequently immediately and with minimal comparison and buying efforts.",
+    "options": [
+      "Unsought",
+      "Convenience",
+      "Speciality",
+      "Shopping"
+    ],
+    "correct": 1,
+    "explanation": "Convenience products are purchased frequently with minimal effort."
+  },
+  {
+    "question": "In __ a company invites a broad communities of people, customers, employees, independent scientists and researchers and even the public at large into the new product innovation process.",
+    "options": [
+      "Crowd funding",
+      "Crowd sourcing",
+      "Venture capital",
+      "Brainstorming"
+    ],
+    "correct": 1,
+    "explanation": "Crowdsourcing involves inviting a broad community into the innovation process."
+  },
+  {
+    "question": "A detailed version of new product Idea stated in meaningful consumer terms is ___",
+    "options": [
+      "Product idea",
+      "Product concept",
+      "Production concept",
+      "Ideal screening"
+    ],
+    "correct": 1,
+    "explanation": "A product concept is a detailed version of a new product idea stated in consumer terms."
+  },
+  {
+    "question": "The Family of ___ consists of parents and siblings",
+    "options": [
+      "Non-influencer",
+      "Orientation",
+      "Non-orientation",
+      "Procreation"
+    ],
+    "correct": 1,
+    "explanation": "The family of orientation consists of parents and siblings."
+  },
+  {
+    "question": "The consumer buying process starts with the ___ stage.",
+    "options": [
+      "Problem recognition",
+      "Information search",
+      "Evaluation of alternatives",
+      "Purchase decision"
+    ],
+    "correct": 0,
+    "explanation": "The consumer buying process begins with problem recognition."
+  },
+  {
+    "question": "___ is the study of how individuals, groups, and organizations select, buy, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and wants.",
+    "options": [
+      "Consumer behaviour",
+      "Mind-mapping",
+      "Perception",
+      "Target marketing"
+    ],
+    "correct": 0,
+    "explanation": "Consumer behavior studies how individuals and organizations buy and use goods and services."
+  },
+  {
+    "question": "In ___ effective segmentation criteria the segments can be effectively reached and served",
+    "options": [
+      "Accessible",
+      "Measurable",
+      "Substantial",
+      "Actionable"
+    ],
+    "correct": 0,
+    "explanation": "Accessible segmentation means segments can be effectively reached and served."
+  },
+  {
+    "question": "___ segmentation divides the market into geographical unit such as Nations, States, religions, countries, cities or neighbourhoods",
+    "options": [
+      "Geographic",
+      "Behavioural",
+      "Demographic",
+      "Psychographic"
+    ],
+    "correct": 0,
+    "explanation": "Geographic segmentation divides markets based on geographical units."
+  },
+  {
+    "question": "The company first considers whether it could gain more Market Share, with its Current Products in Current Market using Market ___ strategy.",
+    "options": [
+      "Penetration",
+      "Skimming",
+      "Development",
+      "Diversification"
+    ],
+    "correct": 0,
+    "explanation": "Market penetration involves increasing market share with current products in current markets."
+  },
+  {
+    "question": "___ is the study of human populations in terms of size, density, location, age, gender, race, occupation and other statistics",
+    "options": [
+      "Demography",
+      "Economy",
+      "Personality",
+      "Culture"
+    ],
+    "correct": 0,
+    "explanation": "Demography is the study of human populations and their characteristics."
+  },
+  {
+    "question": "A company's ___ consists of the actors and forces outside marketing that affect marketing management's ability to develop and maintain successful transaction with its target customers",
+    "options": [
+      "Marketing environment",
+      "Marketing management",
+      "Cultural Forces",
+      "Production management"
+    ],
+    "correct": 0,
+    "explanation": "The marketing environment consists of external actors and forces that affect marketing management."
+  },
+  {
+    "question": "In ___ method, firm basis its price largely on competitors price.",
+    "options": [
+      "Going rate pricing",
+      "Target returns pricing",
+      "Perceived value pricing",
+      "Value pricing"
+    ],
+    "correct": 0,
+    "explanation": "Going-rate pricing bases prices largely on competitors' prices."
+  },
+  {
+    "question": "When the market is highly price sensitive and a low price stimulate the market growth. Companies usually go for __ pricing strategy.",
+    "options": [
+      "Market penetration",
+      "Survival",
+      "Product cost Leadership",
+      "Market skimming"
+    ],
+    "correct": 0,
+    "explanation": "Market penetration is used when the market is price-sensitive and low prices stimulate growth."
+  },
+  {
+    "question": "__ element of marketing mix help in producing the revenue.",
+    "options": [
+      "Price",
+      "Place",
+      "Product",
+      "Promotion"
+    ],
+    "correct": 0,
+    "explanation": "Price is the element of the marketing mix that generates revenue."
+  },
+  {
+    "question": "The ___ stage starts when a new product is first launched.",
+    "options": [
+      "Introduction",
+      "Growth",
+      "Maturity",
+      "Decline"
+    ],
+    "correct": 0,
+    "explanation": "The introduction stage begins when a new product is launched."
+  },
+  {
+    "question": "Furniture, Refrigerator, Microwave, oven, etc., are examples of __",
+    "options": [
+      "Convenience Goods",
+      "Unsought Goods",
+      "Speciality Goods",
+      "Shopping Goods"
+    ],
+    "correct": 3,
+    "explanation": "Furniture and appliances are examples of shopping goods, which require comparison."
+  },
+  {
+    "question": "____ is the form of the product that consist of activities, benefits or satisfaction offered for sale that are essentially intangible and do not result in ownership of anything.",
+    "options": [
+      "Product",
+      "Ideas",
+      "Goods",
+      "Services"
+    ],
+    "correct": 3,
+    "explanation": "Services are intangible activities or benefits offered for sale."
+  },
+  {
+    "question": "The starts with the systematic search for new product ideas",
+    "options": [
+      "Marketing Strategy",
+      "Idea screening",
+      "Concept development",
+      "Idea generation"
+    ],
+    "correct": 3,
+    "explanation": "Idea generation is the first step in the new product development process."
+  },
+  {
+    "question": "____ refers to a set of distinguishing human psychological traits that lead to relatively consistent and enduring responses to environmental stimuli Including buying behaviour.",
+    "options": [
+      "Lifestyle",
+      "Image",
+      "Psychological transformation",
+      "Personality"
+    ],
+    "correct": 3,
+    "explanation": "Personality refers to psychological traits that influence behavior, including buying behavior."
+  },
+  {
+    "question": "A person's consist of all all the groups that have a direct or indirect influence on his or her attitude or behaviour",
+    "options": [
+      "Social class",
+      "Personality and self concept",
+      "Reference group",
+      "Subculture"
+    ],
+    "correct": 2,
+    "explanation": "Reference groups are groups that influence a person's attitudes and behavior."
+  },
+  {
+    "question": "__ is the act of fixing the focus of the product of a in the mind of the target customer.",
+    "options": [
+      "Targeting",
+      "Demographic",
+      "Positioning",
+      "Psychographic"
+    ],
+    "correct": 2,
+    "explanation": "Positioning is the act of establishing a product's image in the target customer's mind."
+  },
+  {
+    "question": "In ___ segmentation marketers divide buyers into groups of basis of their knowledge of, attitude towards, use of, or response to a product.",
+    "options": [
+      "Geographic",
+      "Psychographic",
+      "Behavioural",
+      "Demographic"
+    ],
+    "correct": 2,
+    "explanation": "Behavioral segmentation divides buyers based on their product knowledge, attitude, use, or response."
+  },
+  {
+    "question": "In __ the seller engages in the mass production and mass promotion of one product for all buyer.",
+    "options": [
+      "Target marketing",
+      "Product differentiation",
+      "Mass marketing",
+      "Product segmentation"
+    ],
+    "correct": 2,
+    "explanation": "Mass marketing involves mass production and promotion of one product for all buyers."
+  },
+  {
+    "question": "Backward, forward or horizontal integration with in the industry is the type of growth.",
+    "options": [
+      "Intensive",
+      "External",
+      "Integrative",
+      "Internal"
+    ],
+    "correct": 2,
+    "explanation": "Integrative growth involves integration within the industry."
+  },
+  {
+    "question": "The marketing environment consist of __ environment and __ environment.",
+    "options": [
+      "Product, macro",
+      "Micro, promotion",
+      "Micro, Macro",
+      "Price, micro"
+    ],
+    "correct": 2,
+    "explanation": "The marketing environment consists of the microenvironment and the macroenvironment."
+  },
+  {
+    "question": "Fixed cost is also known as___cost",
+    "options": [
+      "Overhead",
+      "Target",
+      "Tangible",
+      "Total"
+    ],
+    "correct": 0,
+    "explanation": "Fixed costs are also known as overhead costs."
+  },
+  {
+    "question": "___ types of auction are called as descending bids.",
+    "options": [
+      "English",
+      "Dutch",
+      "Sealed bid",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explanation": "Dutch auctions are characterized by descending bids."
+  },
+  {
+    "question": "The group to which consumer wishes to join are called as __ groups",
+    "options": [
+      "Dissociative",
+      "Action",
+      "Aspirational",
+      "Reverse"
+    ],
+    "correct": 2,
+    "explanation": "Aspirational groups are those a consumer desires to join."
+  },
+  {
+    "question": "In ___ segmentation buyers are divided into different groups on the basis of personality, lifestyle or values",
+    "options": [
+      "Geographic",
+      "Demographic",
+      "Psychographic",
+      "Behavioural"
+    ],
+    "correct": 2,
+    "explanation": "Psychographic segmentation divides buyers based on personality, lifestyle, or values."
+  },
+  {
+    "question": "__ Environment creates new technologies, creating new products and market opportunities.",
+    "options": [
+      "Natural",
+      "Economic",
+      "Technology",
+      "Political"
+    ],
+    "correct": 2,
+    "explanation": "The technological environment drives innovation and creates new product and market opportunities."
+  },
+  {
+    "question": "Market definition of a business; describe the business as ___ satisfying process.",
+    "options": [
+      "Need",
+      "Customer",
+      "Value",
+      "Competitor"
+    ],
+    "correct": 0,
+    "explanation": "The market definition of a business describes it as a need-satisfying process."
+  },
+  {
+    "question": "When the buyers in the market are divided on the basis of their knowledge of, attitude toward, use of, or response to the product, it is called __ Segmentation.",
+    "options": [
+      "Geographic",
+      "Demographic",
+      "Psychographic",
+      "Behavioural"
+    ],
+    "correct": 3,
+    "explanation": "Behavioral segmentation divides buyers based on their relationship with the product."
+  },
+  {
+    "question": "___ is the art of fixing the locus of the product offer in the minds of the target customer",
+    "options": [
+      "Targetting",
+      "Positioning",
+      "Segmenting",
+      "Packaging"
+    ],
+    "correct": 1,
+    "explanation": "Positioning focuses on establishing the product's place in the customer's mind."
+  },
+  {
+    "question": "___ is a crocked perception of marketing and a short sighted view of business.",
+    "options": [
+      "Product concept",
+      "Value marketing",
+      "Marketing Myopia",
+      "Marketing glimpse"
+    ],
+    "correct": 2,
+    "explanation": "Marketing myopia is a narrow-minded view of marketing and business."
+  },
+  {
+    "question": "More market share, with it's current product in current market is market",
+    "options": [
+      "Skimming",
+      "Penetration",
+      "Development",
+      "Diversification"
+    ],
+    "correct": 1,
+    "explanation": "Market penetration aims to increase market share with existing products in the current market."
+  },
+  {
+    "question": "Family of __ consists of parents and sibling",
+    "options": [
+      "Procreation",
+      "Orientation",
+      "Rijuvenation",
+      "Identification"
+    ],
+    "correct": 1,
+    "explanation": "The family of orientation consists of parents and siblings."
+  }
+],
     "ESBM": [
   {
     "question": "1. A segment of a business plan provides investors with a timetable for various activities to be accomplished.",
