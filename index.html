@@ -15,10 +15,12 @@
             <img src="assets/logo.jpg" alt="MentorsPoint Logo" class="logo">
             <h1>MentorsPoint</h1>
         </div>
-        <nav>
+        
+        <!-- Login & Sign-Up Buttons -->
+        <div class="auth-buttons">
             <a href="login.html" class="btn">Login</a>
-            <a href="signup.html" class="btn">Sign Up</a>
-        </nav>
+            <a href="signup.html" class="btn signup-btn">Sign Up</a>
+        </div>
     </header>
     
 
@@ -31,24 +33,24 @@
         <section class="buttons">
             <a href="#" class="card" id="videoBtn">
                 <h3>🎥 Video Library</h3>
-                <p>Browse and watch educational videos.</p>
+                <p>Videos lectures coming soon here.</p>
             </a>
 
             <a href="pdf.html" class="card" id="pdfBtn">
                 <h3>📚 PDFs & Notes</h3>
-                <p>Download study materials & MCQs.</p>
+                <p>Download study materials & IMP.</p>
             </a>
 
             <a href="mcq.html" class="card" id="mcqBtn">
                 <h3>📝 MCQ Practice</h3>
-                <p>Take practice & final tests.</p>
+                <p>MCQ Practise test with Answers.</p>
             </a>
 
-
-            <a href="https://whatsapp.com/channel/0029Vb50R3rHltY0fII7w20H" target="_blank" class="card" id="whatsappBtn">
-                <h3>💬 Join WhatsApp</h3>
-                <p>Connect with our learning community.</p>
+            <a href="#" onclick="checkWhatsApp()" class="card" id="whatsappBtn">
+               <h3>💬 Join WhatsApp</h3>
+               <p>Connect with our learning channel.</p>
             </a>
+<<<<<<< Updated upstream
             
             <a href="https://studio.d-id.com/agents/share?id=agt_F8gG9CEb&utm_source=copy&key=WVhWMGFEQjhOamRqTlRobE9UUm1aRGRrTUdRellXTm1Oamc1WWpCbU9rY3hXbUprTmt0b2FEWjRkMnhtY1d0ZlkyaElSdz09" 
    target="_blank" 
@@ -57,7 +59,23 @@
     <h3>🤖 Chatbot</h3>
     <p>Get instant answers to your queries.</p>
 </a>
+=======
+>>>>>>> Stashed changes
 
+            <script>
+            function checkWhatsApp() {
+                let whatsappChannelLink = "https://whatsapp.com/channel/0029Vb50R3rHltY0fII7w20H";
+                window.open(whatsappChannelLink, "_blank");
+            }
+            </script>
+
+            <a href="https://studio.d-id.com/agents/share?id=agt_F8gG9CEb&utm_source=copy&key=WVhWMGFEQjhOamRqTlRobE9UUm1aRGRrTUdRellXTm1Oamc1WWpCbU9rY3hXbUprTmt0b2FEWjRkMnhtY1d0ZlkyaElSdz09" 
+               target="_blank" 
+               class="card" 
+               id="chatbotBtn">
+                <h3>🤖 Chatbot</h3>
+                <p>Get instant answers to your queries.</p>
+            </a>
         </section>          
     </main>
 

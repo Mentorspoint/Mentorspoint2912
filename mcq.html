@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCQ Practice Test - MentorsPoint</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="mcq.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCQ Practice Test</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="mcq.js"></script>
 </head>
 <body>
-
-    <header>
-        <h1>MCQ Practice Test</h1>
-        <a href="index.html" class="btn">🏠 Home</a>
-    </header>
-
-    <main>
-        <div id="quiz-container">
-            <h2 id="question">Loading...</h2>
-            <div id="options"></div>
-            <button id="next-btn" onclick="nextQuestion()">Next</button>
-            <p id="feedback"></p>
-        </div>
-    </main>
-
+  <header>
+    <h1>MCQ Practice Test</h1>
+  </header>
+  <main>
+    <!-- Subject Selection -->
+    <section id="subject-selection">
+      <h2>SELECT A SUBJECT</h2>
+      <button onclick="startTest('Cost Accounting')">Cost Accounting</button>
+      <button onclick="startTest('Marketing Management')">Marketing Management</button>
+      <button onclick="startTest('ESBM')">ESBM</button>
+      <button onclick="startTest('Income Tax')">Income Tax</button>
+      <button onclick="startTest('Banking')">Banking</button>
+      <button onclick="startTest('Fundamentals of Macro Economics')">Fundamentals of Macro Economics</button>
+    </section>
+    <!-- MCQ Test Section (Initially Hidden) -->
+    <section id="mcq-test" style="display: none;">
+      <h2 id="subject-title"></h2>
+      <p id="question"></p>
+      <div id="options"></div>
+      <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+      <p id="explanation"></p>
+    </section>
+  </main>
 </body>
 </html>

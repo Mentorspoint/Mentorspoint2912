@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #0a1f44, #122c5b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Mouse Trail Effect - Blue */
+.trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #00aaff;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: fadeOut 0.5s linear forwards;
+}
+
+/* Fades out the blue trail smoothly */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+/* Sign-Up Form */
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+.signup-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 170, 255, 0.5);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 2px solid #00aaff;
+    transition: 0.3s;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: 0;
+    font-size: 14px;
+    color: #00aaff;
+}
+
+.input-box input:focus {
+    border-bottom: 2px solid #00aaff;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #00aaff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #33bbff;
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.register-link a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
