@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Lectures | MentorsPoint</title>
+    <link rel="stylesheet" href="video.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>📚 Video Lectures</h1>
+    </header>
+
+    <main>
+        <!-- Video Gallery -->
+        <section class="video-gallery">
+            <h2>Select a Video</h2>
+            <div class="video-thumbnails">
+                <div class="video-item" data-src="assets/videos/video1.mp4">
+                    <canvas class="video-thumbnail"></canvas>
+                    <p>Introduction to Economics</p>
+                </div>
+                <div class="video-item" data-src="assets/videos/video2.mp4">
+                    <canvas class="video-thumbnail"></canvas>
+                    <p>Inflation and Its Effects</p>
+                </div>
+                <div class="video-item" data-src="assets/videos/video3.mp4">
+                    <canvas class="video-thumbnail"></canvas>
+                    <p>Entrepreneurship Basics</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Player -->
+        <section class="video-player">
+            <video id="mainVideo" controls>
+                <source src="assets/videos/video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="controls">
+                <button id="playPause">▶️</button>
+                <input type="range" id="progress" value="0">
+                <button id="mute">🔇</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 MentorsPoint | Video Lectures</p>
+    </footer>
+
+</body>
+</html>

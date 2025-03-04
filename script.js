@@ -3,9 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "https://chat.whatsapp.com/YOUR_GROUP_LINK";  // Replace with actual link
     });
 
-    document.getElementById("videoBtn").addEventListener("click", function () {
-        alert("Video Library will be available soon!");
-    });
+
 // Sample MCQs for different subjects
 const questions = {
     math: [
@@ -118,25 +116,176 @@ function nextQuestion() {
 }
 
 });
-document.addEventListener('DOMContentLoaded', () => {
-    const body = document.querySelector('body');
+document.addEventListener("DOMContentLoaded", function () {
+    const videoItems = document.querySelectorAll(".video-item");
+    const mainVideo = document.getElementById("mainVideo");
+    const playPauseBtn = document.getElementById("playPause");
+    const progressBar = document.getElementById("progress");
+    const muteBtn = document.getElementById("mute");
 
-    document.addEventListener('mousemove', (e) => {
-        let trail = document.createElement('div');
-        trail.classList.add('trail');
-        trail.style.left = `${e.clientX}px`;
-        trail.style.top = `${e.clientY}px`;
-        body.appendChild(trail);
-
-        // Remove the trail after animation
-        setTimeout(() => {
-            trail.remove();
-        }, 500);
+    // Play selected video
+    videoItems.forEach(item => {
+        item.addEventListener("click", function () {
+            let videoSrc = this.getAttribute("data-src");
+            mainVideo.src = videoSrc;
+            mainVideo.play();
+            playPauseBtn.textContent = "⏸";
+        });
     });
 
-    // Show alert when login button is clicked
-    document.querySelector('.login-form').addEventListener('submit', function(e) {
-        e.preventDefault(); // Prevent form submission
-        alert("🚀 This feature is coming soon!");
+    // Play/Pause button
+    playPauseBtn.addEventListener("click", function () {
+        if (mainVideo.paused) {
+            mainVideo.play();
+            playPauseBtn.textContent = "⏸";
+        } else {
+            mainVideo.pause();
+            playPauseBtn.textContent = "▶️";
+        }
+    });
+
+    // Update progress bar
+    mainVideo.addEventListener("timeupdate", function () {
+        let progressValue = (mainVideo.currentTime / mainVideo.duration) * 100;
+        progressBar.value = progressValue;
+    });
+
+    // Seek video
+    progressBar.addEventListener("input", function () {
+        mainVideo.currentTime = (progressBar.value / 100) * mainVideo.duration;
+    });
+
+    // Mute/Unmute
+    muteBtn.addEventListener("click", function () {
+        if (mainVideo.muted) {
+            mainVideo.muted = false;
+            muteBtn.textContent = "🔇";
+        } else {
+            mainVideo.muted = true;
+            muteBtn.textContent = "🔊";
+        }
+    });
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const videoItems = document.querySelectorAll(".video-item");
+    const mainVideo = document.getElementById("mainVideo");
+    const playPauseBtn = document.getElementById("playPause");
+    const progressBar = document.getElementById("progress");
+    const muteBtn = document.getElementById("mute");
+
+    // Play selected video
+    videoItems.forEach(item => {
+        item.addEventListener("click", function () {
+            let videoSrc = this.getAttribute("data-src");
+            mainVideo.src = videoSrc;
+            mainVideo.play();
+            playPauseBtn.textContent = "⏸";
+        });
+    });
+
+    // Play/Pause button
+    playPauseBtn.addEventListener("click", function () {
+        if (mainVideo.paused) {
+            mainVideo.play();
+            playPauseBtn.textContent = "⏸";
+        } else {
+            mainVideo.pause();
+            playPauseBtn.textContent = "▶️";
+        }
+    });
+
+    // Update progress bar
+    mainVideo.addEventListener("timeupdate", function () {
+        let progressValue = (mainVideo.currentTime / mainVideo.duration) * 100;
+        progressBar.value = progressValue;
+    });
+
+    // Seek video
+    progressBar.addEventListener("input", function () {
+        mainVideo.currentTime = (progressBar.value / 100) * mainVideo.duration;
+    });
+
+    // Mute/Unmute
+    muteBtn.addEventListener("click", function () {
+        if (mainVideo.muted) {
+            mainVideo.muted = false;
+            muteBtn.textContent = "🔇";
+        } else {
+            mainVideo.muted = true;
+            muteBtn.textContent = "🔊";
+        }
+    });
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const videoItems = document.querySelectorAll(".video-item");
+    const mainVideo = document.getElementById("mainVideo");
+    const playPauseBtn = document.getElementById("playPause");
+    const progressBar = document.getElementById("progress");
+    const muteBtn = document.getElementById("mute");
+
+    // Generate thumbnails
+    videoItems.forEach(item => {
+        let videoSrc = item.getAttribute("data-src");
+        let canvas = item.querySelector(".video-thumbnail");
+        let ctx = canvas.getContext("2d");
+        let video = document.createElement("video");
+
+        video.src = videoSrc;
+        video.currentTime = 5; // Capture thumbnail at 5 seconds
+        video.muted = true; // Mute to prevent autoplay issues
+
+        video.addEventListener("loadeddata", function () {
+            canvas.width = 200; // Set canvas width
+            canvas.height = 112; // Set aspect ratio (16:9)
+
+            video.play(); // Start playing to capture frame
+            setTimeout(() => {
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+                video.pause(); // Stop video after capturing
+            }, 500); // Delay to ensure frame is loaded
+        });
+    });
+
+    // Play selected video
+    videoItems.forEach(item => {
+        item.addEventListener("click", function () {
+            let videoSrc = this.getAttribute("data-src");
+            mainVideo.src = videoSrc;
+            mainVideo.play();
+            playPauseBtn.textContent = "⏸";
+        });
+    });
+
+    // Play/Pause button
+    playPauseBtn.addEventListener("click", function () {
+        if (mainVideo.paused) {
+            mainVideo.play();
+            playPauseBtn.textContent = "⏸";
+        } else {
+            mainVideo.pause();
+            playPauseBtn.textContent = "▶️";
+        }
+    });
+
+    // Update progress bar
+    mainVideo.addEventListener("timeupdate", function () {
+        let progressValue = (mainVideo.currentTime / mainVideo.duration) * 100;
+        progressBar.value = progressValue;
+    });
+
+    // Seek video
+    progressBar.addEventListener("input", function () {
+        mainVideo.currentTime = (progressBar.value / 100) * mainVideo.duration;
+    });
+
+    // Mute/Unmute
+    muteBtn.addEventListener("click", function () {
+        if (mainVideo.muted) {
+            mainVideo.muted = false;
+            muteBtn.textContent = "🔇";
+        } else {
+            mainVideo.muted = true;
+            muteBtn.textContent = "🔊";
+        }
     });
 });
