@@ -17,18 +17,6 @@ body {
     position: relative;
 }
 
-/* Mouse Trail Effect - Blue */
-.trail {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #00aaff;
-    border-radius: 50%;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    animation: fadeOut 0.5s linear forwards;
-}
-
 /* Fades out the blue trail smoothly */
 @keyframes fadeOut {
     0% {
