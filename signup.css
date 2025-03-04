@@ -16,19 +16,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-
-/* Fades out the blue trail smoothly */
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(2);
-    }
-}
-
 /* Sign-Up Form */
 .container {
     position: relative;
