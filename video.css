@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0a1f44;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px;
+    background: #122c5b;
+    box-shadow: 0px 4px 10px rgba(0, 170, 255, 0.3);
+}
+
+.video-gallery h2 {
+    margin: 20px 0;
+}
+
+.video-thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.video-item:hover {
+    background: rgba(0, 170, 255, 0.2);
+}
+
+.video-item img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.video-player {
+    margin: 30px auto;
+    width: 80%;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: #007BFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #33bbff;
+}
+
+input[type="range"] {
+    width: 60%;
+}
