@@ -4839,19 +4839,26 @@ const mcqData = {
     
 };
 
+// Global variables
+let currentSubject = "";
+let currentQuestionIndex = 0;
+let score = 0;
+let userAnswers = [];
+
 // Function to Start the Test
 function startTest(subject) {
   currentSubject = subject;
   currentQuestionIndex = 0;
-  score = 0; // Initialize score
-  userAnswers = []; // Store user's answers
+  score = 0; // Reset score
+  userAnswers = []; // Reset user answers
 
-  // Shuffle questions and then select only the first 25
+  // Shuffle questions and select only the first 25
   mcqData[currentSubject] = shuffleArray(mcqData[currentSubject]).slice(0, 25);
 
   // Reset the test section (Clear any previous result)
   document.getElementById("mcq-test").innerHTML = `
       <h2 id="subject-title"></h2>
+      <p id="question-counter"></p> <!-- Question Counter -->
       <p id="question"></p>
       <div id="options"></div>
       <button id="prev-btn" onclick="prevQuestion()" style="display: none;">Previous</button>
@@ -4871,6 +4878,9 @@ function loadQuestion() {
   currentQuestionData = mcqData[currentSubject][currentQuestionIndex];
   let shuffledOptions = shuffleArray([...currentQuestionData.options]);
   let correctIndex = shuffledOptions.indexOf(currentQuestionData.options[currentQuestionData.correct]);
+
+  // Update question counter
+  document.getElementById("question-counter").innerText = `Question ${currentQuestionIndex + 1} of 25`;
 
   document.getElementById("question").innerText = currentQuestionData.question;
   let optionsDiv = document.getElementById("options");
@@ -4969,6 +4979,7 @@ function recheckAnswers() {
 
   recheckHTML += `<button onclick="viewPDF()" class="btn">📄 View PDF</button>`;
   recheckHTML += `<button onclick="goHome()" class="btn">🏠 Return to Home</button>`;
+  recheckHTML += `<button onclick="retryTest()" class="btn">🔄 Retry Test</button>`;
   document.getElementById("mcq-test").innerHTML = recheckHTML;
 }
 
@@ -4979,13 +4990,13 @@ function viewPDF() {
 
 // Function to return to home
 function goHome() {
-  window.location.href = "index.html";
+  document.getElementById("mcq-test").style.display = "none";
+  document.getElementById("subject-selection").style.display = "block";
 }
 
 // Function to retry test
 function retryTest() {
-  document.getElementById("mcq-test").style.display = "none";
-  document.getElementById("subject-selection").style.display = "block";
+  startTest(currentSubject);
 }
 
 // Function to shuffle an array

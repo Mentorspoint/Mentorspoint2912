@@ -3,48 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Lectures | MentorsPoint</title>
+    <title>Video Library | MentorsPoint</title>
     <link rel="stylesheet" href="video.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
 
     <header>
-        <h1>📚 Video Lectures</h1>
+        <h1>🎓 MentorsPoint Video Library</h1>
     </header>
 
-    <main>
-        <!-- Video Gallery -->
-        <section class="video-gallery">
-            <h2>Select a Video</h2>
-            <div class="video-thumbnails">
-                <div class="video-item" data-src="assets/videos/video1.mp4">
-                    <canvas class="video-thumbnail"></canvas>
-                    <p>Introduction to Economics</p>
+    <main class="video-library">
+        <h2>📚 Choose Your Lecture</h2>
+        <div class="video-grid">
+            <a href="video-player.html?video=video1.mp4&title=Introduction to Economics" class="video-item">
+                <img src="thumbnails/video1.jpg" alt="Thumbnail">
+                <div class="video-info">
+                    <h3>Introduction to Economics</h3>
+                    <p>12:30 mins</p>
                 </div>
-                <div class="video-item" data-src="assets/videos/video2.mp4">
-                    <canvas class="video-thumbnail"></canvas>
-                    <p>Inflation and Its Effects</p>
+            </a>
+            <a href="video-player.html?video=video2.mp4&title=Inflation and Its Effects" class="video-item">
+                <img src="thumbnails/video2.jpg" alt="Thumbnail">
+                <div class="video-info">
+                    <h3>Inflation and Its Effects</h3>
+                    <p>10:45 mins</p>
                 </div>
-                <div class="video-item" data-src="assets/videos/video3.mp4">
-                    <canvas class="video-thumbnail"></canvas>
-                    <p>Entrepreneurship Basics</p>
+            </a>
+            <a href="video-player.html?video=video3.mp4&title=Entrepreneurship Basics" class="video-item">
+                <img src="thumbnails/video3.jpg" alt="Thumbnail">
+                <div class="video-info">
+                    <h3>Entrepreneurship Basics</h3>
+                    <p>15:20 mins</p>
                 </div>
-            </div>
-        </section>
-
-        <!-- Video Player -->
-        <section class="video-player">
-            <video id="mainVideo" controls>
-                <source src="assets/videos/video1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="controls">
-                <button id="playPause">▶️</button>
-                <input type="range" id="progress" value="0">
-                <button id="mute">🔇</button>
-            </div>
-        </section>
+            </a>
+        </div>
     </main>
 
     <footer>

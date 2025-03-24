@@ -115,177 +115,44 @@ function nextQuestion() {
     }
 }
 
-});
 document.addEventListener("DOMContentLoaded", function () {
-    const videoItems = document.querySelectorAll(".video-item");
-    const mainVideo = document.getElementById("mainVideo");
-    const playPauseBtn = document.getElementById("playPause");
-    const progressBar = document.getElementById("progress");
-    const muteBtn = document.getElementById("mute");
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoFile = urlParams.get("video");
+    const videoTitle = urlParams.get("title");
 
-    // Play selected video
-    videoItems.forEach(item => {
-        item.addEventListener("click", function () {
-            let videoSrc = this.getAttribute("data-src");
-            mainVideo.src = videoSrc;
-            mainVideo.play();
-            playPauseBtn.textContent = "⏸";
-        });
-    });
+    if (videoFile) {
+        document.getElementById("videoSource").src = "videos/" + videoFile;
+        document.getElementById("mainVideo").load();
+        document.getElementById("videoTitle").innerText = videoTitle;
+    }
 
-    // Play/Pause button
-    playPauseBtn.addEventListener("click", function () {
-        if (mainVideo.paused) {
-            mainVideo.play();
-            playPauseBtn.textContent = "⏸";
-        } else {
-            mainVideo.pause();
-            playPauseBtn.textContent = "▶️";
-        }
-    });
+    // Dummy Summary Data
+    const summaries = {
+        "Introduction to Economics": "Economics is the study of scarcity and how people use resources...",
+        "Inflation and Its Effects": "Inflation affects the purchasing power of money over time...",
+        "Entrepreneurship Basics": "Entrepreneurship involves identifying and starting new businesses..."
+    };
 
-    // Update progress bar
-    mainVideo.addEventListener("timeupdate", function () {
-        let progressValue = (mainVideo.currentTime / mainVideo.duration) * 100;
-        progressBar.value = progressValue;
-    });
-
-    // Seek video
-    progressBar.addEventListener("input", function () {
-        mainVideo.currentTime = (progressBar.value / 100) * mainVideo.duration;
-    });
-
-    // Mute/Unmute
-    muteBtn.addEventListener("click", function () {
-        if (mainVideo.muted) {
-            mainVideo.muted = false;
-            muteBtn.textContent = "🔇";
-        } else {
-            mainVideo.muted = true;
-            muteBtn.textContent = "🔊";
-        }
-    });
+    document.getElementById("summary-text").innerText = summaries[videoTitle] || "Summary not available.";
 });
+})
+
 document.addEventListener("DOMContentLoaded", function () {
-    const videoItems = document.querySelectorAll(".video-item");
-    const mainVideo = document.getElementById("mainVideo");
-    const playPauseBtn = document.getElementById("playPause");
-    const progressBar = document.getElementById("progress");
-    const muteBtn = document.getElementById("mute");
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoFile = urlParams.get("video");
+    const videoTitle = urlParams.get("title");
 
-    // Play selected video
-    videoItems.forEach(item => {
-        item.addEventListener("click", function () {
-            let videoSrc = this.getAttribute("data-src");
-            mainVideo.src = videoSrc;
-            mainVideo.play();
-            playPauseBtn.textContent = "⏸";
-        });
-    });
+    if (videoFile) {
+        document.getElementById("videoSource").src = "videos/" + videoFile;
+        document.getElementById("mainVideo").load();
+        document.getElementById("videoTitle").innerText = videoTitle;
+    }
 
-    // Play/Pause button
-    playPauseBtn.addEventListener("click", function () {
-        if (mainVideo.paused) {
-            mainVideo.play();
-            playPauseBtn.textContent = "⏸";
-        } else {
-            mainVideo.pause();
-            playPauseBtn.textContent = "▶️";
-        }
-    });
+    const summaries = {
+        "Introduction to Economics": "Economics is the study of scarcity and how people use resources...",
+        "Inflation and Its Effects": "Inflation affects the purchasing power of money over time...",
+        "Entrepreneurship Basics": "Entrepreneurship involves identifying and starting new businesses..."
+    };
 
-    // Update progress bar
-    mainVideo.addEventListener("timeupdate", function () {
-        let progressValue = (mainVideo.currentTime / mainVideo.duration) * 100;
-        progressBar.value = progressValue;
-    });
-
-    // Seek video
-    progressBar.addEventListener("input", function () {
-        mainVideo.currentTime = (progressBar.value / 100) * mainVideo.duration;
-    });
-
-    // Mute/Unmute
-    muteBtn.addEventListener("click", function () {
-        if (mainVideo.muted) {
-            mainVideo.muted = false;
-            muteBtn.textContent = "🔇";
-        } else {
-            mainVideo.muted = true;
-            muteBtn.textContent = "🔊";
-        }
-    });
-});
-document.addEventListener("DOMContentLoaded", function () {
-    const videoItems = document.querySelectorAll(".video-item");
-    const mainVideo = document.getElementById("mainVideo");
-    const playPauseBtn = document.getElementById("playPause");
-    const progressBar = document.getElementById("progress");
-    const muteBtn = document.getElementById("mute");
-
-    // Generate thumbnails
-    videoItems.forEach(item => {
-        let videoSrc = item.getAttribute("data-src");
-        let canvas = item.querySelector(".video-thumbnail");
-        let ctx = canvas.getContext("2d");
-        let video = document.createElement("video");
-
-        video.src = videoSrc;
-        video.currentTime = 5; // Capture thumbnail at 5 seconds
-        video.muted = true; // Mute to prevent autoplay issues
-
-        video.addEventListener("loadeddata", function () {
-            canvas.width = 200; // Set canvas width
-            canvas.height = 112; // Set aspect ratio (16:9)
-
-            video.play(); // Start playing to capture frame
-            setTimeout(() => {
-                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-                video.pause(); // Stop video after capturing
-            }, 500); // Delay to ensure frame is loaded
-        });
-    });
-
-    // Play selected video
-    videoItems.forEach(item => {
-        item.addEventListener("click", function () {
-            let videoSrc = this.getAttribute("data-src");
-            mainVideo.src = videoSrc;
-            mainVideo.play();
-            playPauseBtn.textContent = "⏸";
-        });
-    });
-
-    // Play/Pause button
-    playPauseBtn.addEventListener("click", function () {
-        if (mainVideo.paused) {
-            mainVideo.play();
-            playPauseBtn.textContent = "⏸";
-        } else {
-            mainVideo.pause();
-            playPauseBtn.textContent = "▶️";
-        }
-    });
-
-    // Update progress bar
-    mainVideo.addEventListener("timeupdate", function () {
-        let progressValue = (mainVideo.currentTime / mainVideo.duration) * 100;
-        progressBar.value = progressValue;
-    });
-
-    // Seek video
-    progressBar.addEventListener("input", function () {
-        mainVideo.currentTime = (progressBar.value / 100) * mainVideo.duration;
-    });
-
-    // Mute/Unmute
-    muteBtn.addEventListener("click", function () {
-        if (mainVideo.muted) {
-            mainVideo.muted = false;
-            muteBtn.textContent = "🔇";
-        } else {
-            mainVideo.muted = true;
-            muteBtn.textContent = "🔊";
-        }
-    });
+    document.getElementById("summary-text").innerText = summaries[videoTitle] || "Summary not available.";
 });
