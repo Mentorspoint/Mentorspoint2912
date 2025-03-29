@@ -8,8 +8,15 @@
 </head>
 <body class="pdf-page">
 
-    <!-- Back to Home Button -->
-    <a href="index.html" class="btn">⬅️ Back to Home</a>
+    <div id="navbar-container"></div>
+
+    <script>
+        fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+        });
+    </script>
 
     <h1 class="page-title">📚 Study Material (S.Y. B.Com)</h1>
 

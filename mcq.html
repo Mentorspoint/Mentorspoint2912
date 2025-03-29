@@ -8,6 +8,17 @@
   <script defer src="mcq.js"></script>
 </head>
 <body>
+
+  <div id="navbar-container"></div>
+
+  <script>
+      fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('navbar-container').innerHTML = data;
+      });
+  </script>
+
   <header>
     <h1>MCQ Practice Test</h1>
   </header>

@@ -8,6 +8,16 @@
 </head>
 <body>
 
+    <div id="navbar-container"></div>
+
+    <script>
+        fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+        });
+    </script>
+
     <header>
         <h1>🎓 MentorsPoint Video Library</h1>
     </header>
