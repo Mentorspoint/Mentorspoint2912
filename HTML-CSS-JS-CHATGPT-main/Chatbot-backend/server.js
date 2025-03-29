@@ -7,8 +7,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const HF_API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill";
-const HF_API_KEY = process.env.HF_API_KEY; // Ensure this is set in .env
 
 app.post("/chatbot", async (req, res) => {
     try {
