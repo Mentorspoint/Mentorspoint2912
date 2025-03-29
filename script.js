@@ -1,158 +1,71 @@
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("whatsappBtn").addEventListener("click", function () {
-        window.location.href = "https://chat.whatsapp.com/YOUR_GROUP_LINK";  // Replace with actual link
-    });
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Material - S.Y. B.Com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pdf-page">
 
+    <div id="navbar-container"></div>
 
-// Sample MCQs for different subjects
-const questions = {
-    math: [
-        { 
-            question: "What is 2 + 2?", 
-            options: ["3", "4", "5", "6"], 
-            answer: "4",
-            explanation: "2 + 2 = 4, which is a basic arithmetic rule."
-        },
-        { 
-            question: "What is 5 × 6?", 
-            options: ["30", "25", "20", "35"], 
-            answer: "30",
-            explanation: "Multiplication of 5 and 6 results in 30."
-        }
-    ],
-    science: [
-        { 
-            question: "What is the chemical symbol for water?", 
-            options: ["H2O", "CO2", "O2", "NaCl"], 
-            answer: "H2O",
-            explanation: "Water is chemically represented as H2O."
-        }
-    ],
-    history: [
-        { 
-            question: "Who was the first President of the United States?", 
-            options: ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"], 
-            answer: "George Washington",
-            explanation: "George Washington was the first U.S. President."
-        }
-    ]
-};
+    <script>
+        fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+        });
+    </script>
 
-// Variables
-let currentQuestionIndex = 0;
-let selectedSubject = "";
-let currentQuestions = [];
+    <h1 class="page-title">📚 Study Material (S.Y. B.Com)</h1>
 
-// Function to Start Test
-function startTest(subject) {
-    selectedSubject = subject;
-    currentQuestions = questions[subject]; // Load subject's questions
-    currentQuestionIndex = 0;
+    <div class="pdf-container">
+        <!-- Accounting Section -->
+        <div class="pdf-box">
+            <h2>📘 Accounting</h2>
+            <a href="https://drive.google.com/file/d/174DbXuLqjv4T6qN_02L4x_8Yidq3Ip6v/view?usp=drive_link" target="_blank" class="pdf-link">Cost Accounts - Unit 1, Ch 1</a>
+            <a href="https://drive.google.com/file/d/1CKchbkqdC9QX6uHqCLvbAZp4yftj_Fh4/view?usp=sharing" target="_blank" class="pdf-link">Cost Accounts - Unit 1, Ch 2</a>
+            <a href="https://drive.google.com/file/d/1KYE7xMPElLSV8c8HMrnqzh5JZrrLKeQB/view?usp=sharing" target="_blank" class="pdf-link">Cost Accounting - Unit 2 (labour cost)</a>
+            <a href="https://drive.google.com/file/d/11e40Kew_fkGX14muqv7MHoyuqRBX4yoi/view?usp=sharing" target="_blank" class="pdf-link">Cost Accounting - Unit 2 (overheads)</a>
+        </div>
 
-    // Hide subject selection & show MCQ test section
-    document.getElementById("subject-selection").style.display = "none";
-    document.getElementById("mcq-test").style.display = "block";
-    
-    // Set Subject Title
-    document.getElementById("subject-title").innerText = 
-        subject.charAt(0).toUpperCase() + subject.slice(1) + " Test";
+        <!-- Economics Section -->
+        <div class="pdf-box">
+            <h2>📗 Economics</h2>
+            <a href="pdfs/study material/macro economics unit 1.pdf" target="_blank" class="pdf-link">Macroeconomics - Unit 1</a>
+        </div>
 
-    // Load First Question
-    loadQuestion();
-}
+        <!-- ESBM Section -->
+        <div class="pdf-box">
+            <h2>📕 ESBM</h2>
+            <a href="pdfs/study material/EBSM 1.pdf" target="_blank" class="pdf-link">ESBM - Unit 1 & 2</a>
+        </div>
 
-// Function to Load Question
-function loadQuestion() {
-    let questionObj = currentQuestions[currentQuestionIndex];
-    document.getElementById("question").innerText = questionObj.question;
-    
-    let optionsContainer = document.getElementById("options");
-    optionsContainer.innerHTML = ""; // Clear previous options
+        <!-- INCOME TAX Section -->
+        <div class="pdf-box">
+            <h2>📙 INCOME TAX</h2>
+            <a href="https://drive.google.com/file/d/1zR-mEso5giWOEtUFaVqjMEwnuc9q0oZE/view?usp=sharing" target="_blank" class="pdf-link">Income Tax Unit 3</a>
+        </div>
 
-    questionObj.options.forEach(option => {
-        let button = document.createElement("button");
-        button.innerText = option;
-        button.classList.add("option-btn");
-        button.onclick = () => checkAnswer(option, questionObj.answer);
-        optionsContainer.appendChild(button);
-    });
+        <!-- Marketing Management Section -->
+        <div class="pdf-box">
+            <h2>📘 Marketing Management</h2>
+            <a href="pdfs/study material/marketin management unit 1 (2).pdf" target="_blank" class="pdf-link">Marketing Management - Unit 1 & 2</a>
+        </div>
 
-    // Hide Explanation and Next button initially
-    document.getElementById("explanation").innerText = "";
-    document.getElementById("next-btn").style.display = "none";
-}
+        <!-- Banking Section -->
+        <div class="pdf-box">
+            <h2>📗 Banking</h2>
+            <a href="https://drive.google.com/file/d/1rX-EBDYo6y8R8KCwNSJgm0BUUFGYpE1E/view?usp=sharing" target="_blank" class="pdf-link">Banking - Unit 1</a>
+        </div>
 
-// Function to Check Answer
-function checkAnswer(selectedOption, correctAnswer) {
-    let buttons = document.querySelectorAll(".option-btn");
-    buttons.forEach(btn => {
-        if (btn.innerText === correctAnswer) {
-            btn.classList.add("correct");
-        } else if (btn.innerText === selectedOption) {
-            btn.classList.add("wrong");
-        }
-        btn.disabled = true; // Disable all options after selection
-    });
+        <!-- MCQ Section -->
+        <div class="pdf-box">
+            <h2>📝 MCQs</h2>
+            <a href="https://docs.google.com/document/d/1EXAMPLE7" target="_blank" class="pdf-link">MCQs will come soon here</a>
+        </div>
+    </div>
 
-    // Show Explanation
-    document.getElementById("explanation").innerText = 
-        "Explanation: " + questions[selectedSubject][currentQuestionIndex].explanation;
-
-    // Show Next button if there are more questions
-    if (currentQuestionIndex < currentQuestions.length - 1) {
-        document.getElementById("next-btn").style.display = "block";
-    }
-}
-
-// Function to Load Next Question
-function nextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < currentQuestions.length) {
-        loadQuestion();
-    } else {
-        document.getElementById("mcq-test").innerHTML = 
-            `<h2>Test Completed!</h2><p>You have completed the ${selectedSubject} test.</p>`;
-    }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const videoFile = urlParams.get("video");
-    const videoTitle = urlParams.get("title");
-
-    if (videoFile) {
-        document.getElementById("videoSource").src = "videos/" + videoFile;
-        document.getElementById("mainVideo").load();
-        document.getElementById("videoTitle").innerText = videoTitle;
-    }
-
-    // Dummy Summary Data
-    const summaries = {
-        "Introduction to Economics": "Economics is the study of scarcity and how people use resources...",
-        "Inflation and Its Effects": "Inflation affects the purchasing power of money over time...",
-        "Entrepreneurship Basics": "Entrepreneurship involves identifying and starting new businesses..."
-    };
-
-    document.getElementById("summary-text").innerText = summaries[videoTitle] || "Summary not available.";
-});
-})
-
-document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const videoFile = urlParams.get("video");
-    const videoTitle = urlParams.get("title");
-
-    if (videoFile) {
-        document.getElementById("videoSource").src = "videos/" + videoFile;
-        document.getElementById("mainVideo").load();
-        document.getElementById("videoTitle").innerText = videoTitle;
-    }
-
-    const summaries = {
-        "Introduction to Economics": "Economics is the study of scarcity and how people use resources...",
-        "Inflation and Its Effects": "Inflation affects the purchasing power of money over time...",
-        "Entrepreneurship Basics": "Entrepreneurship involves identifying and starting new businesses..."
-    };
-
-    document.getElementById("summary-text").innerText = summaries[videoTitle] || "Summary not available.";
-});
+</body>
+</html>
