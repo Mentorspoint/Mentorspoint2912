@@ -1,7 +1,9 @@
 <header>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <div class="logo">MentorsPoint</div>
     <nav>
-        <ul>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="video.html">Videos</a></li>
             <li><a href="pdf.html">PDFs</a></li>
@@ -9,10 +11,6 @@
             <li><a href="HTML-CSS-JS-CHATGPT-main/index.html">Chatbot</a></li>
             <li><a href="login.html">Login</a></li>
         </ul>
+        <div class="menu-toggle">☰</div>
     </nav>
-    <script>
-        document.querySelector('.menu-toggle').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('show');
-        });
-    </script>    
 </header>

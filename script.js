@@ -155,4 +155,19 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     document.getElementById("summary-text").innerText = summaries[videoTitle] || "Summary not available.";
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+
+    document.getElementById("menu-button").addEventListener("click", function() {
+        let dropdown = document.getElementById("dropdown");
+        dropdown.classList.toggle("hidden");
+    });
+    
+});
 });
