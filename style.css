@@ -28,11 +28,11 @@ header {
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: 800;
-    color: white;
-    letter-spacing: 1px;
-}
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff; /* or your desired color */
+  }  
 
 /* ===== Navigation Styling ===== */
 nav ul {
@@ -731,3 +731,4 @@ body {
             display: block;
         }
     }
+    
