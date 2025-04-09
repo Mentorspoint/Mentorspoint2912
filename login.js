@@ -1,22 +1,51 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const body = document.querySelector('body');
+    const loginForm = document.getElementById('loginForm');
+    const loginBtn = document.getElementById('loginBtn');
+    const formMessages = document.getElementById('formMessages');
 
-    document.addEventListener('mousemove', (e) => {
-        let trail = document.createElement('div');
-        trail.classList.add('trail');
-        trail.style.left = `${e.clientX}px`;
-        trail.style.top = `${e.clientY}px`;
-        body.appendChild(trail);
+    loginForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        formMessages.innerHTML = '';
 
-        // Remove the trail after animation
-        setTimeout(() => {
-            trail.remove();
-        }, 500);
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        if (!email || !password) {
+            showMessage('Please fill in all fields', 'error');
+            return;
+        }
+
+        loginBtn.disabled = true;
+
+        try {
+            const response = await fetch('http://localhost:5001/api/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, password })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) throw new Error(data.error);
+
+            localStorage.setItem('authToken', data.token);
+            localStorage.setItem('userEmail', data.email);
+
+            showMessage('Login successful! Redirecting...', 'success');
+            setTimeout(() => window.location.href = 'dashboard.html', 1500);
+
+        } catch (error) {
+            showMessage(error.message, 'error');
+        } finally {
+            loginBtn.disabled = false;
+        }
     });
 
-    // Show alert when login button is clicked
-    document.querySelector('.login-form').addEventListener('submit', function(e) {
-        e.preventDefault(); // Prevent form submission
-        alert("🚀 This feature is coming soon!");
-    });
+    function showMessage(msg, type) {
+        const div = document.createElement('div');
+        div.className = `${type}-message`;
+        div.textContent = msg;
+        formMessages.appendChild(div);
+        if (type === 'error') setTimeout(() => div.remove(), 5000);
+    }
 });

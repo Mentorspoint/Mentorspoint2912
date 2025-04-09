@@ -134,6 +134,52 @@ h2 {
     text-decoration: underline;
 }
 
+/* Add these new styles to your existing CSS */
+.error-message {
+    color: #ff6b6b;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.input-box.error input {
+    border-bottom: 2px solid #ff6b6b !important;
+}
+
+.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.success-message {
+    background: rgba(46, 213, 115, 0.2);
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+    border: 1px solid #2ed573;
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {

@@ -134,6 +134,71 @@ h2 {
     text-decoration: underline;
 }
 
+/* Add these new styles to your existing CSS */
+#formMessages {
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.1);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ff6b6b;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.success-message {
+    color: #2ed573;
+    background: rgba(46, 213, 115, 0.1);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #2ed573;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.forgot-password {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forgot-password a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {

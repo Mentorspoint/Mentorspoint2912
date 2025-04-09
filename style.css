@@ -34,6 +34,26 @@ header {
     color: #ffffff; /* or your desired color */
   }  
 
+/* ===== Center Heading ===== */
+.heading-wrapper {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .center-heading {
+    font-size: 3rem;
+    color: white;
+    margin: 30px auto 0 auto;
+  }
+  
+  .underline {
+    width: 80px;
+    height: 6px;
+    background-color: rgb(0, 52, 135);
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
 /* ===== Navigation Styling ===== */
 nav ul {
     list-style: none;
@@ -731,4 +751,227 @@ body {
             display: block;
         }
     }
-    
+
+/* Section */
+.faculty-section {
+    background-color: #001f3f; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Heading */
+  .faculty-heading {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    color: #ffffff
+  }
+  
+  .faculty-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #00BFFF;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Description */
+  .faculty-description {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    font-size: 1rem;
+    color: #cfd8dc;
+  }
+  
+  /* Card Container */
+  .faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  /* Individual Cards */
+  .faculty-card {
+    background-color: #03396c;
+    border-radius: 15px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .faculty-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Image Styling */
+  .faculty-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 4px solid #00bfff;
+  }
+  
+  /* Name and Department */
+  .faculty-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  .faculty-card h4 {
+    margin: 0 0 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00BFFF;
+  }
+  
+  /* Description Text */
+  .faculty-card p {
+    font-size: 0.9rem;
+    color: #cfd8dc;
+  }
+  
+  /* Courses Section */
+.courses-section {
+    background: #0080ff; /* light blue background */
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .courses-heading {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    color: #ffffff; /* blue heading */
+    position: relative;
+    display: inline-block;
+  }
+  
+  .courses-heading::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 60px;
+    background: rgb(0, 52, 135);
+    margin: 8px auto 0;
+    border-radius: 2px;
+  }
+  
+  .courses-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .course-card {
+    background: #ffffff;
+    color: #333;
+    padding: 30px 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px rgba(0, 123, 255, 0.15);
+    width: 300px;
+    border: 5px solid #004b9c;
+  }
+  
+  .course-card:hover {
+    background: #005dc0;
+    color: #ffffff;
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(0, 123, 255, 0.4);
+  }
+  
+  .course-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    font-size: 1rem;
+  }
+  
+  .contact-section {
+    position: relative;
+    background: rgb(0, 98, 255);
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .contact-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-container {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .contact-heading {
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .contact-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #00bcd4;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  .contact-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  #contactForm button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px;
+    font-size: 1.1rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #contactForm button:hover {
+    background-color: #0097a7;
+  }
+  
