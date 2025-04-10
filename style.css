@@ -975,3 +975,44 @@ body {
     background-color: #0097a7;
   }
   
+  /* Social media */
+  #social-media {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    padding: 40px 0;
+    border-radius: 12px;
+    margin-top: 50px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    color: white;
+  }
+  
+  #social-media h3 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #social-media a {
+    display: inline-block;
+    margin: 0 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #social-media a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  #social-media a:hover {
+    transform: scale(1.15);
+  }
+  
+  #social-media a img:hover {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.4);
+  }
+  
+  
