@@ -1,9 +1,0 @@
-title: MentorsPoint
-theme: jekyll-theme-primer
-exclude:
-  - node_modules
-  - Chatbot-backend
-  - README.md
-  - package.json
-  - package-lock.json
-  - .github
